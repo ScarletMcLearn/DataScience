@@ -1,0 +1,75 @@
+1520837377768	geckodriver	INFO	geckodriver 0.19.1
+1520837377777	geckodriver	INFO	Listening on 127.0.0.1:33827
+1520837378909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tHgMEceO8Kx4"
+1520837380748	Marionette	INFO	Enabled via --marionette
+1520837384404	Marionette	INFO	Listening on port 41195
+1520837384519	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520837384679	Marionette	DEBUG	Register listener.js for window 2147483649
+[Parent 2222, Gecko_IOThread] WARNING: pipe error (88): Connection reset by peer: file /build/firefox-3UIrRa/firefox-57.0+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520837454273	geckodriver	INFO	geckodriver 0.19.1
+1520837454275	geckodriver	INFO	Listening on 127.0.0.1:42835
+1520837455396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TMrJt1HdoS3D"
+1520837456209	Marionette	INFO	Enabled via --marionette
+1520837458534	Marionette	INFO	Listening on port 39781
+1520837458654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520837458774	Marionette	DEBUG	Register listener.js for window 2147483649
+1520837458902	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520837470159	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520837470159	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.brainyquote.com/st/js/2680526/bq_first.js, line 5: ReferenceError: jQuery is not defined
+JavaScript error: https://www.brainyquote.com/topics/age, line 136: TypeError: BQErrorLog is undefined
+JavaScript error: https://www.brainyquote.com/topics/age, line 286: TypeError: BQErrorLog is undefined
+JavaScript error: https://www.brainyquote.com/topics/age, line 290: TypeError: BQGAMgr is not a constructor
+JavaScript error: https://www.brainyquote.com/topics/age, line 333: TypeError: BQCookieNotice is undefined
+JavaScript error: https://www.brainyquote.com/topics/age, line 359: ReferenceError: $ is not defined
+JavaScript error: https://www.brainyquote.com/topics/age, line 1515: TypeError: BQNewMsnry is undefined
+JavaScript error: https://www.brainyquote.com/topics/age, line 1767: TypeError: BQCopyPaste is not a constructor
+JavaScript error: https://www.brainyquote.com/st/js/2680526/angular_framework.js, line 15: Error: [$injector:modulerr] Failed to instantiate module bqApp due to:
+[$injector:modulerr] Failed to instantiate module bqServices due to:
+[$injector:nomod] Module 'bqServices' is not available! You either misspelled the module name or forgot to load it. If registering a module ensure that you specify the dependencies as the second argument.
+http://errors.angularjs.org/1.4.2/$injector/nomod?p0=bqServices
+minErr/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:15:264
+module/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:49:477
+ensure@https://www.brainyquote.com/st/js/2680526/angular_framework.js:48:470
+module@https://www.brainyquote.com/st/js/2680526/angular_framework.js:49:427
+loadModules/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:102:51
+forEach@https://www.brainyquote.com/st/js/2680526/angular_framework.js:18:336
+loadModules@https://www.brainyquote.com/st/js/2680526/angular_framework.js:101:245
+loadModules/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:102:100
+forEach@https://www.brainyquote.com/st/js/2680526/angular_framework.js:18:336
+loadModules@https://www.brainyquote.com/st/js/2680526/angular_framework.js:101:245
+createInjector@https://www.brainyquote.com/st/js/2680526/angular_framework.js:98:144
+doBootstrap@https://www.brainyquote.com/st/js/2680526/angular_framework.js:41:435
+bootstrap@https://www.brainyquote.com/st/js/2680526/angular_framework.js:42:489
+angularInit@https://www.brainyquote.com/st/js/2680526/angular_framework.js:40:206
+@https://www.brainyquote.com/st/js/2680526/angular_framework.js:552:35
+trigger@https://www.brainyquote.com/st/js/2680526/angular_framework.js:74:155
+eventHandler@https://www.brainyquote.com/st/js/2680526/angular_framework.js:83:187
+
+http://errors.angularjs.org/1.4.2/$injector/modulerr?p0=bqServices&p1=%5B%24injector%3Anomod%5D%20Module%20'bqServices'%20is%20not%20available!%20You%20either%20misspelled%20the%20module%20name%20or%20forgot%20to%20load%20it.%20If%20registering%20a%20module%20ensure%20that%20you%20specify%20the%20dependencies%20as%20the%20second%20argument.%0Ahttp%3A%2F%2Ferrors.angularjs.org%2F1.4.2%2F%24injector%2Fnomod%3Fp0%3DbqServices%0AminErr%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A15%3A264%0Amodule%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A49%3A477%0Aensure%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A48%3A470%0Amodule%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A49%3A427%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A102%3A51%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A102%3A100%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AcreateInjector%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A98%3A144%0AdoBootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A41%3A435%0Abootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A42%3A489%0AangularInit%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A40%3A206%0A%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A552%3A35%0Atrigger%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A74%3A155%0AeventHandler%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A83%3A187%0A
+minErr/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:15:264
+loadModules/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:103:35
+forEach@https://www.brainyquote.com/st/js/2680526/angular_framework.js:18:336
+loadModules@https://www.brainyquote.com/st/js/2680526/angular_framework.js:101:245
+loadModules/<@https://www.brainyquote.com/st/js/2680526/angular_framework.js:102:100
+forEach@https://www.brainyquote.com/st/js/2680526/angular_framework.js:18:336
+loadModules@https://www.brainyquote.com/st/js/2680526/angular_framework.js:101:245
+createInjector@https://www.brainyquote.com/st/js/2680526/angular_framework.js:98:144
+doBootstrap@https://www.brainyquote.com/st/js/2680526/angular_framework.js:41:435
+bootstrap@https://www.brainyquote.com/st/js/2680526/angular_framework.js:42:489
+angularInit@https://www.brainyquote.com/st/js/2680526/angular_framework.js:40:206
+@https://www.brainyquote.com/st/js/2680526/angular_framework.js:552:35
+trigger@https://www.brainyquote.com/st/js/2680526/angular_framework.js:74:155
+eventHandler@https://www.brainyquote.com/st/js/2680526/angular_framework.js:83:187
+
+http://errors.angularjs.org/1.4.2/$injector/modulerr?p0=bqApp&p1=%5B%24injector%3Amodulerr%5D%20Failed%20to%20instantiate%20module%20bqServices%20due%20to%3A%0A%5B%24injector%3Anomod%5D%20Module%20'bqServices'%20is%20not%20available!%20You%20either%20misspelled%20the%20module%20name%20or%20forgot%20to%20load%20it.%20If%20registering%20a%20module%20ensure%20that%20you%20specify%20the%20dependencies%20as%20the%20second%20argument.%0Ahttp%3A%2F%2Ferrors.angularjs.org%2F1.4.2%2F%24injector%2Fnomod%3Fp0%3DbqServices%0AminErr%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A15%3A264%0Amodule%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A49%3A477%0Aensure%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A48%3A470%0Amodule%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A49%3A427%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A102%3A51%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A102%3A100%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AcreateInjector%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A98%3A144%0AdoBootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A41%3A435%0Abootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A42%3A489%0AangularInit%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A40%3A206%0A%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A552%3A35%0Atrigger%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A74%3A155%0AeventHandler%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A83%3A187%0A%0Ahttp%3A%2F%2Ferrors.angularjs.org%2F1.4.2%2F%24injector%2Fmodulerr%3Fp0%3DbqServices%26p1%3D%255B%2524injector%253Anomod%255D%2520Module%2520'bqServices'%2520is%2520not%2520available!%2520You%2520either%2520misspelled%2520the%2520module%2520name%2520or%2520forgot%2520to%2520load%2520it.%2520If%2520registering%2520a%2520module%2520ensure%2520that%2520you%2520specify%2520the%2520dependencies%2520as%2520the%2520second%2520argument.%250Ahttp%253A%252F%252Ferrors.angularjs.org%252F1.4.2%252F%2524injector%252Fnomod%253Fp0%253DbqServices%250AminErr%252F%253C%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A15%253A264%250Amodule%252F%253C%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A49%253A477%250Aensure%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A48%253A470%250Amodule%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A49%253A427%250AloadModules%252F%253C%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A102%253A51%250AforEach%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A18%253A336%250AloadModules%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A101%253A245%250AloadModules%252F%253C%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A102%253A100%250AforEach%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A18%253A336%250AloadModules%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A101%253A245%250AcreateInjector%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A98%253A144%250AdoBootstrap%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A41%253A435%250Abootstrap%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A42%253A489%250AangularInit%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A40%253A206%250A%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A552%253A35%250Atrigger%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A74%253A155%250AeventHandler%2540https%253A%252F%252Fwww.brainyquote.com%252Fst%252Fjs%252F2680526%252Fangular_framework.js%253A83%253A187%250A%0AminErr%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A15%3A264%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A103%3A35%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AloadModules%2F%3C%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A102%3A100%0AforEach%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A18%3A336%0AloadModules%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A101%3A245%0AcreateInjector%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A98%3A144%0AdoBootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A41%3A435%0Abootstrap%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A42%3A489%0AangularInit%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A40%3A206%0A%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A552%3A35%0Atrigger%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A74%3A155%0AeventHandler%40https%3A%2F%2Fwww.brainyquote.com%2Fst%2Fjs%2F2680526%2Fangular_framework.js%3A83%3A187%0A
+1520837560295	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.brainyquote.com/topics/age"
+1520837568505	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.brainyquote.com/topics/age"
+1520838086026	geckodriver	INFO	geckodriver 0.19.1
+1520838086033	geckodriver	INFO	Listening on 127.0.0.1:56987
+1520838087141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KgqyniOImzP5"
+1520838087783	Marionette	INFO	Enabled via --marionette
+1520838089819	Marionette	INFO	Listening on port 45771
+1520838089892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520838090009	Marionette	DEBUG	Register listener.js for window 2147483649
