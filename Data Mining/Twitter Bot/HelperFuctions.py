@@ -188,3 +188,27 @@ def pickle_loader(fn):
     print('Completed Loading.\n\n')
     return b
         
+    
+    
+    
+import requests
+import os
+
+def tweet_post(message, url=None):
+    if (url):
+        filename = 'temp.jpg'
+        request = requests.get(url, stream=True)
+        if request.status_code == 200:
+            with open(filename, 'wb') as image:
+                for chunk in request:
+                    image.write(chunk)
+
+            api.PostUpdate(media=filename, status=message)
+            os.remove(filename)
+            print("Done.")
+        else:
+            print("Unable to download image.")
+    
+    else:
+        api.PostUpdate(status=message)
+        print("Done.")
