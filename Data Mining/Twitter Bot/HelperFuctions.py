@@ -182,6 +182,11 @@ def picklify_lst(lst, fn):
         pickle.dump(lst, fp)
     print('Completed Picklifying.\n\n')
         
+def picklify(lst, fn):
+    with open(fn+".txt", "wb") as fp:   #Pickling
+        pickle.dump(lst, fp)
+    print('Completed Picklifying.\n\n')
+    
 def pickle_loader(fn):
     with open(fn, "rb") as fp:   # Unpickling
         b = pickle.load(fp)
