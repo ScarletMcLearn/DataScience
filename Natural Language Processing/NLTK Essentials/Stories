@@ -1,0 +1,22 @@
+mypath = '/home/scarlet/Projects/Data Science/Data/Short Stories/'
+
+from os import listdir
+from os.path import isfile, join
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+for itm in onlyfiles:
+    file = open('/home/scarlet/Projects/Data Science/Data/Short Stories/' + itm, 'rb')
+    print(len(file.read()))
+    
+    
+docs = []
+
+for itm in onlyfiles:
+    file = open('/home/scarlet/Projects/Data Science/Data/Short Stories/' + itm, 'rb')
+#     print(len(file.read()))
+    
+    docs.append(str((file.read())))
+    
+print("Done!")
+
+len(docs)
