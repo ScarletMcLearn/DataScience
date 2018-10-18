@@ -1,0 +1,170 @@
+Processing document#0
+Positives: 336/3154
+Negatives: 167/3154
+Positive Percentage: 10.653138871274571
+Negative Percentage: 5.294863665187064
+“The Faery Handbag” - Kelly Link 
+Fantasy
+
+Processing document#1
+Positives: 91/995
+Negatives: 99/995
+Positive Percentage: 9.145728643216081
+Negative Percentage: 9.949748743718594
+“Symbols and Signs” - Vladimir Nabokov
+Sad
+
+Processing document#2
+Positives: 49/402
+Negatives: 29/402
+Positive Percentage: 12.189054726368159
+Negative Percentage: 7.213930348258707
+
+
+Processing document#3
+Positives: 160/911
+Negatives: 73/911
+Positive Percentage: 17.56311745334797
+Negative Percentage: 8.01317233809001
+“The Ones Who Walk Away from Omelas” - Ursula K. Le Guin
+
+
+Processing document#4
+Positives: 367/2641
+Negatives: 210/2641
+Positive Percentage: 13.896251419916696
+Negative Percentage: 7.9515335100340785
+“The Water That Falls on You from Nowhere” - John Chu
+SciFi
+
+Processing document#5
+Positives: 122/1575
+Negatives: 88/1575
+Positive Percentage: 7.746031746031747
+Negative Percentage: 5.587301587301587
+“Broads” - Roxane Gay
+erotica
+
+Processing document#6
+Positives: 129/1532
+Negatives: 106/1532
+Positive Percentage: 8.420365535248042
+Negative Percentage: 6.919060052219321
+“The Cartographer Wasps and the Anarchist Bees” - E. Lily Yu
+fantasy
+
+Processing document#7
+Positives: 781/6669
+Negatives: 451/6669
+Positive Percentage: 11.710901184585396
+Negative Percentage: 6.762633078422551
+“The Dead” - James Joyce
+love and loss 
+
+Processing document#8
+Positives: 340/4363
+Negatives: 254/4363
+Positive Percentage: 7.792803117121247
+Negative Percentage: 5.821682328672932
+The Hunter's Wife - ANTHONY DOERR
+romance
+
+Processing document#9
+Positives: 115/1526
+Negatives: 85/1526
+Positive Percentage: 7.536041939711664
+Negative Percentage: 5.5701179554390565 
+Premium Harmony - STEVEN KING
+Tragedy
+
+Processing document#10
+Positives: 227/1827
+Negatives: 120/1827
+Positive Percentage: 12.424740010946907
+Negative Percentage: 6.568144499178982
+“The Veldt” - Ray Bradbury
+Science Fiction
+
+
+Processing document#11
+Positives: 129/1168
+Negatives: 65/1168
+Positive Percentage: 11.044520547945206
+Negative Percentage: 5.565068493150685
+YOUNGER WOMEN - KAREN JOY FOWLER
+Fantasy
+
+Processing document#12
+Positives: 106/942
+Negatives: 68/942
+Positive Percentage: 11.252653927813164
+Negative Percentage: 7.218683651804671
+“The Cask of Amontillado” - Edgar Allan Poe
+Horror
+
+Processing document#13
+Positives: 654/5907
+Negatives: 489/5907
+Positive Percentage: 11.07160995429152
+Negative Percentage: 8.278313864906044
+“Bartleby, the Scrivener” - Herman Melville
+Parable
+
+Processing document#14
+Positives: 181/1694
+Negatives: 141/1694
+Positive Percentage: 10.684769775678866
+Negative Percentage: 8.323494687131051
+Ghosts and Empties - Lauren Groff
+
+Processing document#15
+Positives: 130/1755
+Negatives: 159/1755
+Positive Percentage: 7.4074074074074066
+Negative Percentage: 9.05982905982906
+The Monkey's Paw - W. W. Jacobs
+Horror
+
+Processing document#16
+Positives: 132/1016
+Negatives: 46/1016
+Positive Percentage: 12.992125984251967
+Negative Percentage: 4.52755905511811
+“The Celebrated Jumping Frog of Calaveras County” - Mark Twain
+Fantasy Fiction
+
+
+
+
+
+# docs[0]    # “The Faery Handbag” - Kelly Link.txt
+
+# docs[1]      # “Symbols and Signs” - Vladimir Nabokov.txt
+
+# docs[3]      # “The Ones Who Walk Away from Omelas” - Ursula K. Le Guin.txt
+
+# docs[4]        # “The Water That Falls on You from Nowhere” - John Chu.txt
+
+# docs[5]        # “Broads” - Roxane Gay.txt
+
+# docs[6]        # “The Cartographer Wasps and the Anarchist Bees” - E. Lily Yu.txt
+
+# docs[7]          # “The Dead” - James Joyce.txt
+
+# docs[8]       # The Hunter's Wife - ANTHONY DOERR.txt
+
+# docs[9]         # Premium Harmony - STEVEN KING.txt
+
+# docs[10]        # “The Veldt” - Ray Bradbury.txt
+
+# docs[11]           # YOUNGER WOMEN - KAREN JOY FOWLER.txt
+
+# docs[12]           # “The Cask of Amontillado” - Edgar Allan Poe.txt
+
+# docs[13]               # “Bartleby, the Scrivener” - Herman Melville.txt
+
+# docs[14]            # Ghosts and Empties - Lauren Groff.txt
+
+# docs[15]           # The Monkey's Paw - W. W. Jacobs.txt
+
+# docs[16]             # “The Celebrated Jumping Frog of Calaveras County” - Mark Twain.txt
