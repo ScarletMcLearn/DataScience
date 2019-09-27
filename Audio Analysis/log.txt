@@ -1,0 +1,53 @@
+Collecting librosa
+  Using cached https://files.pythonhosted.org/packages/ad/6e/0eb0de1c9c4e02df0b40e56f258eb79bd957be79b918511a184268e01720/librosa-0.7.0.tar.gz
+Collecting audioread>=2.0.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/2e/0b/940ea7861e0e9049f09dcfd72a90c9ae55f697c17c299a323f0148f913d2/audioread-2.1.8.tar.gz
+Collecting numpy>=1.15.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/9b/21/2b18339d24a2f73dcefb2f10f48aff6182e16da83e3a612684443c6cfb29/numpy-1.17.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting scipy>=1.0.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/7a/0e/3781e028d62a8422244582abd8f084e6314297026760587c85607f687bf3/scipy-1.3.1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting scikit-learn!=0.19.0,>=0.14.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/1f/af/e3c3cd6f61093830059138624dbd26d938d6da1caeec5aeabe772b916069/scikit_learn-0.21.3-cp35-cp35m-manylinux1_x86_64.whl
+Collecting joblib>=0.12 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/cd/c1/50a758e8247561e58cb87305b1e90b171b8c767b15b12a1734001f41d356/joblib-0.13.2-py2.py3-none-any.whl
+Collecting decorator>=3.0.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/5f/88/0075e461560a1e750a0dcbf77f1d9de775028c37a19a346a6c565a257399/decorator-4.4.0-py2.py3-none-any.whl
+Requirement already satisfied: six>=1.3 in /usr/lib/python3/dist-packages (from librosa) (1.10.0)
+Collecting resampy>=0.2.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/79/75/e22272b9c2185fc8f3af6ce37229708b45e8b855fd4bc38b4d6b040fff65/resampy-0.2.2.tar.gz
+Collecting numba>=0.38.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/36/79/b6a3a3fc3797d2d597f9d32e48ab59b445cc4aa35c81a9b713bc46909142/numba-0.45.1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting soundfile>=0.9.0 (from librosa)
+  Using cached https://files.pythonhosted.org/packages/68/64/1191352221e2ec90db7492b4bf0c04fd9d2508de67b3f39cbf093cd6bd86/SoundFile-0.10.2-py2.py3-none-any.whl
+Collecting llvmlite>=0.29.0dev0 (from numba>=0.38.0->librosa)
+  Using cached https://files.pythonhosted.org/packages/34/4e/7f31b4362a6e254ddb5af3035e8682cc63fa7c9d9f89b2a024adafab49b6/llvmlite-0.29.0-1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting cffi>=1.0 (from soundfile>=0.9.0->librosa)
+  Using cached https://files.pythonhosted.org/packages/62/76/135eeffe0089e6724bdd65c1bf9f1654db9b47783e65b8d9f1454c540d8b/cffi-1.12.3-cp35-cp35m-manylinux1_x86_64.whl
+Collecting pycparser (from cffi>=1.0->soundfile>=0.9.0->librosa)
+  Using cached https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz
+Installing collected packages: audioread, numpy, scipy, joblib, scikit-learn, decorator, llvmlite, numba, resampy, pycparser, cffi, soundfile, librosa
+  Running setup.py install for audioread: started
+    Running setup.py install for audioread: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-xok42drx/audioread/setup.py'"'"'; __file__='"'"'/tmp/pip-install-xok42drx/audioread/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-g8n81mge/install-record.txt --single-version-externally-managed --compile
+         cwd: /tmp/pip-install-xok42drx/audioread/
+    Complete output (17 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/audioread
+    copying audioread/rawread.py -> build/lib/audioread
+    copying audioread/maddec.py -> build/lib/audioread
+    copying audioread/exceptions.py -> build/lib/audioread
+    copying audioread/ffdec.py -> build/lib/audioread
+    copying audioread/version.py -> build/lib/audioread
+    copying audioread/macca.py -> build/lib/audioread
+    copying audioread/__init__.py -> build/lib/audioread
+    copying audioread/gstdec.py -> build/lib/audioread
+    running install_lib
+    creating /usr/local/lib/python3.5/dist-packages/audioread
+    error: could not create '/usr/local/lib/python3.5/dist-packages/audioread': Permission denied
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-xok42drx/audioread/setup.py'"'"'; __file__='"'"'/tmp/pip-install-xok42drx/audioread/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-g8n81mge/install-record.txt --single-version-externally-managed --compile Check the logs for full command output.

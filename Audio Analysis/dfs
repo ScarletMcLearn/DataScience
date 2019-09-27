@@ -1,0 +1,39 @@
+Help on package librosa:
+
+NNAAMMEE
+    librosa - Top-level module for librosa
+
+PPAACCKKAAGGEE  CCOONNTTEENNTTSS
+    _cache
+    beat
+    core (package)
+    decompose
+    display
+    effects
+    feature (package)
+    filters
+    onset
+    output
+    segment
+    sequence
+    util (package)
+    version
+
+SSUUBBMMOODDUULLEESS
+    audio
+    constantq
+    fft
+    harmonic
+    pitch
+    spectrum
+    time_frequency
+
+DDAATTAA
+    ccaacchhee = <librosa._cache.CacheManager object>
+
+VVEERRSSIIOONN
+    0.7.0
+
+FFIILLEE
+    /home/scarlet/.local/lib/python3.5/site-packages/librosa/__init__.py
+
