@@ -1,0 +1,195 @@
+Sometimes it’s useful to discover the hierarchical
+structure of a set of data, such as the parse
+
+trees of a group of sentences.
+
+In these cases, Recursive Neural Tensor Networks,
+or RNTNs, are a better fit than feedforward
+
+or recurrent nets.
+
+Let’s take a closer look and see why.
+
+RNTNs were conceived by Richard Socher of
+MetaMind as part of his PhD thesis at Stanford.
+
+The purpose of these nets was to analyze data
+that had a hierarchical structure.
+
+Originally, they were designed for sentiment
+analysis, where the sentiment of a sentence
+
+depends not just on its component words, but
+on the order in which they’re syntactically
+
+grouped.
+
+So let’s take a look at the structure of
+an RNTN.
+
+An RNTN has three basic components – a parent
+group, which we’ll call the root, and the
+
+child groups, which we’ll call the leaves.
+
+Each group is simply a collection of neurons,
+where the number of neurons depends on the
+
+complexity of the input data.
+
+As you can see, the root is connected to both
+leaves, but the leaves are not connected to
+
+each other.
+
+Technically speaking, the three components
+form what’s called a binary tree.
+
+In general, the leaf groups receive input,
+and the root group uses a classifier to fire
+
+out a class and a score.
+
+We’ll get to the significance of these two
+values in a moment.
+
+An RNTN’s structure may seem simple, but
+just like a recurrent net, the complexity
+
+comes from the way in which data moves throughout
+the network.
+
+In the case of an RNTN, this process is recursive.
+
+To see how this recursion works, let’s take
+a look at an example.
+
+Let’s feed an English sentence into the
+net, and receive the sentence’s parse tree
+
+as output.
+
+At step one, we feed the first two words into
+leaf groups one and two, respectively.
+
+As a practical note, the leaf groups do not
+actually receive the words per say, but rather
+
+vector representations of the words.
+
+A vector is just an ordered set of numbers,
+and it’s been shown that these nets work
+
+best with very specific vector representations
+– particularly, good results are achieved
+
+when the numbers in the two vectors encode
+the similarities between the two words, when
+
+compared to other words in the vocabulary.
+
+The exact details of this process are beyond
+the scope of this video.
+
+The two vectors move across the net to the
+root, which processes them and fires out two
+
+values – the class and the score.
+
+The score represents the quality of the current
+parse, and the class represents an encoding
+
+of a structure in the current parse.
+
+This is the point where the net starts the
+recursion.
+
+At the next step, the first leaf group now
+receives the current parse, rather than a
+
+single word.
+
+The second leaf group receives the next word
+in the sentence.
+
+At this point, the root group would output
+the score of a parse that is three words long.
+
+This continues until all the inputs are used
+up, and the net has a parse tree with every
+
+single word included.
+
+This simplified example illustrates the main
+idea behind an RNTN; but in a practical application,
+
+we typically encounter more complex recursive
+processes.
+
+Rather than use the next word in the sentence
+for the second leaf group, an RNTN would try
+
+all of the next words, and eventually, vectors
+that represent entire sub-parses.
+
+By doing this at every step of the recursive
+process, the net is able to analyze – and
+
+score – every possible syntactic parse.
+
+Have you ever had to work with data where
+the underlying patterns were hierarchical?
+
+Please comment and let us know what you learned.
+
+Shown here are three possible parse trees
+for the same sentence.
+
+To pick the best one, the net relies on the
+score value produced by the root group.
+
+By using this score to select the best substructure
+at each step of the recursive process, the
+
+net will produce the highest-scoring parse
+as its final output.
+
+Once the net has the final structure, it backtracks
+through the parse tree in order to figure
+
+out the right grammatical label for each part
+of the sentence.
+
+Here, it does that one first and labels it
+as a noun phrase.
+
+Then it works on this, and you get a verb
+phrase.
+
+It then works its way up, and when it reaches
+the top, it adds a special label that signifies
+
+the beginning of the parse structure.
+
+RNTNs are trained with backpropagation by
+comparing the predicted sentence structure
+
+with the proper sentence structure obtained
+from a set of labelled training data.
+
+Once trained, the net will give a higher score
+to structures that are more similar to the
+
+parse trees that it saw in training.
+
+RNTNs are used in natural language processing
+for both syntactic parsing and sentiment analysis.
+
+They are also used to parse images, typically
+when an image contains a scene with many different
+
+components.
+
+In the next video, we’ll take a closer look
+at the many applications of Deep Learning.
+

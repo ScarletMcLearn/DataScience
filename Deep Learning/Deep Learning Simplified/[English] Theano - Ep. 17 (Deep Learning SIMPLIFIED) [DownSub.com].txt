@@ -1,0 +1,89 @@
+If you’re ready to start coding your own
+deep net, then you should take a look at the
+
+Theano library. Theano provides an important
+set of functions for building deep nets that
+
+will train quickly on your machine. Let’s
+take a look at what the library offers.
+
+Theano was created by the Machine Learning
+group at the University of Montreal. The head
+
+of the group, Yoshua Bengio, is one of the
+pioneers behind Deep Nets.
+
+Theano is a Python library that lets you define
+and evaluate mathematical expressions with
+
+vectors and matrices, which are rectangular
+arrays of numbers. Technically speaking, both
+
+neural nets and input data can be represented
+as matrices, and all the standard net operations
+
+can be redefined as matrix calculations. This
+is extremely important since computers can
+
+perform matrix operations very quickly, especially
+when you use a library like Theano to process
+
+multiple matrix values in parallel. So if
+you build a neural net with this underlying
+
+structure, you could potentially use just
+a single machine with a GPU to train enormous
+
+nets in a reasonable time window.
+
+Keep in mind that if you use Theano, you will
+have to build a deep net from the ground up.
+
+The library does not provide complete functionality
+for creating a specific type of deep net.
+
+Instead, you’ll need to code every aspect
+of a net, like the model, the layers, the
+
+activation, the training method, and any special
+methods for preventing overfitting. The good
+
+news is that Theano allows you to build your
+implementation atop a set of vectorized functions,
+
+providing you with a highly efficient, optimized
+solution.
+
+Do you have any experience coding a deep net
+with the Theano library? Please comment and
+
+share your thoughts.
+
+There are many other libraries that extend
+the functionality of Theano. For example,
+
+the Blocks platform provides a wrapper for
+each Theano function, allowing you to access
+
+the functions with parameters. The Lasagne
+package allows you to build a net on top of
+
+Theano by providing the net’s hyper-parameters
+layer by layer. Keras is another library with
+
+a minimalist design that allows you to easily
+build a net layer by layer, train it, and
+
+run it. Niche libraries like Passage are suited
+for text analysis applications that require
+
+a recurrent net.
+
+Currently, Theano provides no support for
+distributed, multi-node implementations. So
+
+for example, training a net in a Hadoop cluster
+is not possible with Theano at this time.
+
+Next up, we’ll take a look at Deeplearning4j.
+

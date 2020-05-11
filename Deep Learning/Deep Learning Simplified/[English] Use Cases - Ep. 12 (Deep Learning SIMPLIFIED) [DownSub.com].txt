@@ -1,0 +1,292 @@
+There are so many important use cases for
+Deep Learning, that it’s impossible to produce
+
+an exhaustive list.
+
+Deep Learning is just getting started, and
+new applications pop up all the time.
+
+Let’s take a look at some of the biggest
+ones today.
+
+At this point, it should be no surprise that
+machine vision is one of the biggest applications
+
+of deep learning.
+
+Image search systems use deep learning for
+image classification and automatic tagging,
+
+which allows the images to be accessible through
+a standard search query.
+
+Companies like Facebook use deep nets to scan
+pictures for faces at many different angles,
+
+and then label the face with the proper name.
+
+Deep nets are also used to recognize objects
+within images which allow for images to be
+
+searchable based on the objects within them.
+
+Let’s look at an example application – Clarifai.
+
+Let’s load Clarifai in a browser.
+
+Here is the URL, which you'll also find in
+the video description below.
+
+Clarifai is an app that uses a convolutional
+net to recognize things and concepts in a
+
+digital image.
+
+Let’s take a look.
+
+Right in the middle of the page you have the
+demo button.
+
+Lets click that.
+
+It takes you to part of the webpage where
+you have the demo.
+
+You have two choices - a) either choose a
+URL where the image is located, or b) load
+
+the digital image yourselves if you have it
+on file.
+
+I'm going with choice b) - loading an image;
+I am in the right folder now and am going
+
+to select the first one.
+
+When I select an image, it wants me to go
+through a verification process.
+
+In this case, it wants me to select all the
+squares that have a gift box, so I'm gonna
+
+go through and do that.
+
+This changes every time btw - you can have
+different tests.
+
+Its come back and you see the predictions.
+
+Firstly, it says there's no person, it expected
+to find a person but there weren’t any so
+
+it identified that as a pattern for this one,
+which is cool!
+
+The other predictions are "tableware", "indoors",
+"party", "fashion" etc.
+
+So this is the list of tags its associated
+with this image.
+
+If you scroll down, it shows a list of example
+images and the items in them.
+
+Like the first one with a coffee and croissant,
+which I think is cool.
+
+If you go to the one with the concert, its
+tagged it pretty accurately with "concert",
+
+"band", "singer" etc.
+
+You also get similar images.
+
+I'm going to pick another one, this time of
+a county fair.
+
+Again it goes through the same verification
+process - this time it wants me to pick images
+
+with cars.
+
+Ok - it came back and gave me some tags.
+
+It recognized a Ferris wheel, and though carousel
+is only partly visible to the left, it still
+
+picked it out!
+
+It also picked out the word "fun".
+
+Also, the images it suggested as similar are
+accurate - they are virtually identical to
+
+the one I picked.
+
+Further, it presents the same example images
+as the last time.
+
+So there you have it, a demo of object recognition
+using Clarifai.
+
+Other uses of deep learning include image
+and video parsing.
+
+Video recognition systems are important tools
+for driverless cars, remote robots, and theft
+
+detection.
+
+And while not exactly a part of machine vision,
+the speech recognition field got a powerful
+
+boost from the introduction of deep nets.
+
+Deep Net parsers can be used to extract relations
+and facts from text, as well as automatically
+
+translate text to other languages.
+
+These nets are extremely useful in sentiment
+analysis applications, and can be used as
+
+part of movie ratings and new product intros.
+
+Here is a quick demo of Metamind - an RNTN
+that performs sentiment analysis.
+
+Let’s load Metamind in a browser.
+
+Here is the URL, which you'll also find in
+the video description below.
+
+Metamind is an app by Richard Socher that
+uses an RNTN for twitter sentiment, amongst
+
+other things.
+
+You can search by user name, or keyword or
+hashtag.
+
+I'm going to search by hash tag.
+
+My first one's #coffee.
+
+When you click "Classify", it first downloads
+the tweets which takes a little time.
+
+It then comes back and displays you two things.
+
+On the left, it shows you a pie chart of the
+3 different sentiments - positive, negative
+
+and neutral.
+
+For most searches, you'll get lots of neutral
+comments which is natural, but here you have
+
+more positive comments than negative - 206
+vs 41, which I think is good :-)
+
+On the right, it also lists some example comments
+classified as positive, neutral and negative.
+
+Let’s search a different one - #holidays.
+
+Not surprisingly, you find a ton more positive
+comments about the holidays.
+
+In this case, if you look at the example,
+even the negative ones are light-hearted.
+
+So there you have it, a demo of twitter sentiment
+analysis using Metamind.
+
+Even recurrent nets have found uses in character-level
+text processing and document classification.
+
+Deep nets are now beginning to thrive in the
+medical field.
+
+A Stanford team used deep learning to identify
+over 6000 factors that help predict the chances
+
+of a cancer patient surviving.
+
+Researchers from IDSIA in Switzerland created
+a deep net model to identify invasive breast
+
+cancer cells.
+
+Beyond this, deep nets are even used for drug
+discovery.
+
+In 2012, Merck hosted the Molecular Activity
+challenge on Kaggle in order to predict the
+
+biological activities of different drug molecules
+based solely on chemical structure.
+
+As a brief mention, this challenge was won
+by George Dahl of the University of Toronto,
+
+who led a team by the name of ‘gggg’.
+
+But one crucial application of deep nets is
+radiology.
+
+Convolutional nets can help detect anomalies
+like tumors and cancers through the use of
+
+data from MRI, fMRI, EKG, and CT scans.
+
+In the field of finance, deep nets can help
+make buy and sell predictions based on market
+
+data streams, portfolio allocations, and risk
+profiles.
+
+Depending on how they’re trained, they’re
+useful for both short term trading and long
+
+term investing.
+
+In digital advertising, deep nets are used
+to segment users by purchase history in order
+
+to offer relevant and personalized ads in
+real time.
+
+Based on historical ad price data and other
+factors, deep nets can learn to optimally
+
+bid for ad space on a given web page.
+
+In fraud detection, deep nets use multiple
+data sources to flag a transaction as fraudulent
+
+in real time.
+
+They can also determine which products and
+markets are typically the most susceptible
+
+to fraud.
+
+In marketing and sales, deep nets are used
+to gather and analyze customer information,
+
+in order to determine the best upselling strategies.
+
+In agriculture, deep nets use satellite feeds
+and sensor data to identify problematic environmental
+
+conditions.
+
+Which of these deep learning applications
+appeals to you the most?
+
+Please comment and share your thoughts.
+
+In the next video, we’ll take a look at
+the main ideas behind a Deep Learning Platform.
+

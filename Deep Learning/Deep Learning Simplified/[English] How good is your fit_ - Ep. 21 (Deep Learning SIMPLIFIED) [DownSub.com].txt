@@ -1,0 +1,144 @@
+When it comes to fitting a model to our data, our best bet is to follow the “Goldilocks” principle.
+
+We don't want to underfit our data and produce a model with poor accuracy,
+
+but we also don't want to overfit our data and produce a model that can't generalize to new samples.
+
+We want our model to be “just right”. Let's now take a closer look at the problems of underfitting and overfitting.
+
+Suppose we are trying to classify big cats
+based on data attributes like body size, weight,
+
+bite strength, sex, the presence of a mane,
+things like that. If we develop a model that
+
+broadly classifies any animal that roars and
+has a mane as a lion, then since the model
+
+ignores the animal's sex, it will improperly
+classify the female version of the species
+
+– the lioness – as a lion. Such a model
+is said to “underfit” the data because
+
+it fails to give sufficient weight to important
+data features when distinguishing between
+
+different classes. To fix the problem of underfitting,
+we can increase the model's precision by adding
+
+more features that help differentiate the
+samples.
+
+We could also try to develop a model that
+analyzes every conceivable attribute of big
+
+cats in intricate ways, but eventually we
+run the risk of developing a large set of
+
+arbitrary patterns that describe the training
+set very well, but don't generalize to new
+
+samples of data. As a simple example, our
+training set might contain a lion that is
+
+specifically 305 pounds, 3.5 feet tall, and
+has 2.9 inch claws. A poorly trained model
+
+might simply develop a rule that states “Any
+305 pound, 3.5 foot tall cat with 2.9 inch
+
+claws is a lion”. This rule will of course
+accurately predict our training sample, but
+
+the rule is useless when trying to classify
+new samples. A model that behaves this way
+
+is said to overfit the data. Models that overfit
+data have failed to identify the true patterns
+
+that accurately differentiate the classes
+of the data set. As an additional example,
+
+if all the data was gathered from a population
+of African lions, such as those from the Lion
+
+King, the model may struggle to properly classify
+a White Lion.
+
+Sampling and data collection play a large
+role here, but the quality of the model is
+
+very important. The model must be able to
+identify important patterns in the data that
+
+properly differentiate the classes, so that
+new samples can be properly classified. In
+
+the above example, a good model could look
+at the data from both an African Lion and
+
+a White Lion, and by looking for the appropriate
+pattern, identify both of them as a lion.
+
+So what causes overfitting to occur when training
+a neural network? Typically, overfitting occurs
+
+when the set of input features is far too
+big, or the network architecture is too complex
+
+for the problem – in other words, there
+are more hidden layers and nodes per layer
+
+than are needed.
+
+In either case, overfitting will manifest
+itself in the weights and biases of the network.
+
+During training, the neural network assigns
+weights to each feature, which determines
+
+both their importance and the ways they will
+be recombined. When overfitting, the model
+
+will assign weights to features that are not
+needed and will add unnecessary complexity
+
+to the patterns.
+
+Overfitting is a very common problem across
+many different data science methods.
+
+One popular way to prevent overfitting is by splitting up the data into 3 sets – the training set,
+
+test set, and cross-validation set. Along
+with parameter averaging, this method ensures
+
+that the model is not too dependent on any
+particular subset of the overall data set.
+
+For neural networks in particular, a common
+method is regularization. There are a few
+
+different types, such as L1 and L2, but each
+follows the same general principle – the
+
+model is penalized for having weights and
+biases that are too large.
+
+Another method is Max Norm constraints, which directly adds a size limit to the weights or biases.
+
+A completely different approach is dropout, which randomly switches off certain neurons in the network,
+
+preventing the model from becoming too dependent
+on a set of neurons and its associated weights
+
+and biases. While these methods are all applied
+broadly across the model and don't systematically
+
+search for problem patterns or problem weights and biases, they have proven to be effective
+
+at reducing or preventing the problem of overfitting.
+
+Next up, we'll take a look at TensorFlow.
+

@@ -1,0 +1,196 @@
+Google's TensorFlow library is a great choice
+for building commercial-grade deep learning
+
+applications using Python.
+
+There's a lot of hype surrounding TensorFlow,
+so in this video we're going to take a closer
+
+look and shed some light on the library's
+various features.
+
+TensorFlow grew out of an earlier Google library
+called “DistBelief”, which is a proprietary
+
+deep net library developed as part of the
+Google Brain project.
+
+The project team's vision was to build a system
+that simplified the deployment of large-scale
+
+machine learning models onto a variety of
+different hardware setups – anything from
+
+a smart phone, to single servers, to systems
+consisting of 100s of machines with 1000s
+
+of GPUs.
+
+In essence, this library would improve the
+portability of machine learning so that research
+
+models could be more easily applied to commercial-grade
+applications.
+
+Even though TensorFlow is only 6 months old,
+it's currently the most popular Machine Learning
+
+Library on GitHub.
+
+Much like the Theano library, TensorFlow is
+based on the concept of a computational graph.
+
+In a computational graph, nodes represent
+either persistent data or a math operation,
+
+and edges represent the flow of data between
+nodes.
+
+The data that flows through these edges is
+a multi-dimensional array known as a tensor,
+
+hence the library's name, “TensorFlow”.
+
+The output from one operation or set of operations
+is then fed as an input into the next.
+
+Even though TensorFlow was designed to support
+neural networks, it can support any domain
+
+where computation can be modelled as a data
+flow graph.
+
+TensorFlow also adopts several useful features
+from Theano such as auto differentiation,
+
+shared and symbolic variables, and common
+sub-expression elimination.
+
+And for an open source library, it has comprehensive
+and informative documentation, in addition
+
+to a free massive open online course on Udacity
+as of March 2016.
+
+Different types of deep nets can be built
+using TensorFlow, although there is currently
+
+no support for hyper-parameter configuration.
+
+TensorFlow has a RoadMap that details some
+upcoming features, and while hyper-parameter
+
+configuration is mentioned, there is no specific
+timeline for this feature's implementation.
+
+For now, TensorFlow users have to work with
+an additional library called Keras if this
+
+flexibility is required.
+
+Right now TensorFlow has a “no-nonsense”
+interface for C++, and the team hopes that
+
+the community will develop more language interfaces
+through SWIG, an open-source tool for connecting
+
+programs and libraries.
+
+Recently, Jason Toy of Somatic announced the
+release of a SWIG interface to Ruby for the
+
+summer of 2016.
+
+You may have noticed that TensorFlow and Theano
+are very similar in many ways, but there are
+
+a few key differences.
+
+When TensorFlow was released in November of
+2015, its compile and run times were several
+
+orders of magnitude slower than Theano, which
+was still a reported issue as recent as March
+
+2016.
+
+The TensorFlow community – both the development
+team and outside contributors – have worked
+
+hard to combat these performance issues.
+
+Soumith Chintala of Facebook regularly publishes
+updates on the performance of different libraries
+
+on GitHub; an update in April of 2016 showed
+that TensorFlow performed reasonably well
+
+in the ImageNet category, with no Theano-based
+libraries listed in the analysis.
+
+Another improvement over Theano comes in the
+form of parallelism.
+
+As we saw in a prior video, Deeplearning4j
+supports the training of a machine learning
+
+model on a distributed framework through the
+use of a two-step procedure called Iterative
+
+Map-Reduce.
+
+The underlying concept, known as data parallelism,
+is implemented in a recent release known as
+
+distributed TensorFlow – v0.8.
+
+Data parallelism allows you to train different
+subsets of the data on different nodes in
+
+a cluster for each training pass, followed
+by parameter averaging and replacement across
+
+the cluster.
+
+v0.8 also implements model parallelism, where
+different portions of the model are trained
+
+on different devices in parallel.
+
+For example, you could use model parallelism
+to train stacked RNNs by deploying each RNN
+
+on a different device.
+
+Even though most Deep Learning Libraries support
+CUDA, very few support OpenCL, a fast-rising
+
+standard for GPU computing.
+
+In response to a top community issue currently
+open on this topic, the TensorFlow team has
+
+added OpenCL support to the RoadMap.
+
+A nice feature is TensorBoard, a visualization
+tool for network architecture and performance.
+
+The tool allows you to zoom in and visualize
+different levels of the network, as well as
+
+view different summary-level metrics and changes
+over time throughout the training process.
+
+TensorFlow has achieved significant results
+in the world of deep learning in a very short
+
+amount of time.
+
+If this trend continues, it is on track to
+become the premier library for building deep
+
+nets.
+
+In the next video, we’ll take a look at
+Metrics for Deep Learning.
+

@@ -1,0 +1,80 @@
+If you want a high-quality deep learning library
+with plenty of great extensions and the support
+
+of a large community, then you should take
+a look at Torch.
+
+Torch offers GPU support, the option to set
+up a deep net by configuring its hyper-parameters,
+
+and many other useful features.
+
+Let’s check it out.
+
+Torch was developed by Ronan Collobert and
+Soumith Chintala of Facebook, Clement Farabet
+
+of Twitter, and Koray Kavukcuoglu of Google
+DeepMind.
+
+Torch is a library for LuaJIT, a popular implementation
+of the Lua programming language.
+
+The library provides a powerful vectorized
+implementation of the math behind Deep Learning
+
+algorithms.
+
+In addition, there are many libraries that
+extend Torch’s functionality for various
+
+applications, all of which are supported by
+a large community.
+
+To some extent, Torch allows you to set up,
+train, and run a deep net by configuring its
+
+hyper-parameters.
+
+Once configured, a deep net can be called
+within the routines of your program.
+
+Torch and its many extended libraries allow
+you to build just about every type of deep
+
+net that we’ve seen.
+
+But some libraries provide special features
+that could be useful for your project.
+
+For example, the CUDA library “CuTorch”
+provides GPU support, which is not included
+
+in the standard Torch library.
+
+The “NN” library allows you to work with
+different architectures and stack different
+
+nets together.
+
+“Cephes” extends Torch with a specialized
+math library.
+
+“DP” is a deep learning library for streamlining
+the R&D process.
+
+“NNgraph” provides graph tools for the
+“NN” library.
+
+There are many other important extensions,
+so if you want to learn more, be sure to check
+
+out the Torch website.
+
+Have you ever used the Torch library in one
+of your Deep Learning projects?
+
+Please comment and share your experiences.
+
+Next up – we’ll take a look at Caffe
+

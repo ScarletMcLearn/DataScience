@@ -1,0 +1,88 @@
+If you’re like most beginners, trying to learn about Deep Learning feels like taking a drink from a firehose
+
+you’re hit with too much complicated info too quickly, and most of it ends up seeping out of your mind
+
+If you’re tired of all that, then you’re gonna love the series I’ve created for you!
+
+My goal is to simplify everything so that you know just enough to make sense out of all those technical details
+
+If you’ve ever tried to look into Deep Learning in the past,
+
+you probably immediately came across terms like Deep Belief Nets
+
+Convolutional Nets, Backpropagation, non-linearity, Image recognition, and so on
+
+Or maybe you came across the big Deep Learning researchers like Andrew Ng, Geoff Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy
+
+If you follow tech news you may have even heard about Deep Learning in big companies
+
+Google buying DeepMind for 400 million dollars,
+
+Apple and its self-driving Car
+
+nVidia and its GPUs
+
+and Toyota's billion dollar AI research investment.
+
+But there’s one thing that’s always hard to find:
+
+an explanation of what Deep Learning really is
+
+in simple language that anyone can understand
+
+Videos on the topic are usually either too mathematical
+
+have too much code
+
+or are so confusingly high level and out of reach that they might as well be 100,000 feet up in the air
+
+In this series, I’m going to explain Deep Learning to you without scaring you away with all that math and code
+
+It’s not that the technical side of Deep Learning is bad.
+
+In fact, if you want to go far in this field, you’ll need to learn about it at some point.
+
+But if you are like me, you probably just want to skip to the point where Deep Learning is no longer scary
+
+and everything just makes sense.
+
+I know it sounds intimidating since there’s so much information, but that’s why I’m here to help!
+
+At the very least, I want to get you to the point where you know how to take advantage of all the
+
+great Deep Learning software and libraries that are available.
+
+If you’ve ever struggled with finding clear information on Deep Learning,
+
+please comment and let me know your thoughts!
+
+Over the next several videos, I wanna bring you along step by step
+
+until you know just enough where everything starts to make sense.
+
+You won’t know everything about the field, but you’ll have a better idea
+
+of what there is to learn and where to go next if you’re interested in learning more.
+
+We'll start with some basic concepts about Deep learning.
+
+We’ll touch on the different kinds of models and some ideas for choosing between them.
+
+And don’t worry – like I promised, we’ll skip the math and go straight to the intuition.
+
+Later, you'll learn about some different use cases for Deep Learning.
+
+Then after that, we’ll get to the practical stuff -
+
+first you'll see some platforms that allow you to build your own deep nets,
+
+and then you’ll learn about software libraries you can use for your own personal apps.
+
+YouTube is a great channel for these lessons because communication doesn’t have to be one way.
+
+If you ever feel that I’m being unclear or there’s anything you’d like to add,
+
+feel free to leave a comment and contribute.
+
+The other viewers and I all want to hear from you!
+

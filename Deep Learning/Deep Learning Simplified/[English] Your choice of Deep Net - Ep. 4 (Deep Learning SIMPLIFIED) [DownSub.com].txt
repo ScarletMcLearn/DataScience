@@ -1,0 +1,88 @@
+Now if you're like me, starting a Deep Learning
+project sounds really exciting.
+
+But when it comes to picking the right kind
+of net to use, well, things can get a little
+
+confusing.
+
+You first need to decide if you're trying
+to build a classifier or if you're trying
+
+to find patterns in your data.
+
+Beyond that, I’ll try to help by giving
+you some general guidelines.
+
+Before we get started, I want to give you
+a bit of a heads up.
+
+I’m going to be using some terminology that
+may sound a little scary right now, but don’t
+
+worry.
+
+I’ll cover all these terms in detail in
+the upcoming videos.
+
+If you’re interested in unsupervised learning
+– that is, you want to extract patterns
+
+from a set of unlabelled data – then your
+best bet is to use either a Restricted Boltzmann
+
+Machine, or an autoencoder.
+
+What type of projects would you need to use
+a Deep Net for?
+
+Please comment and let me know your thoughts.
+
+If you have labeled data for supervised learning
+and you want to build a classifier, you have
+
+several different options depending on your
+application.
+
+For text processing tasks like sentiment analysis,
+parsing, and named entity recognition – use
+
+a Recurrent Net or a Recursive Neural Tensor
+Network, which we’ll refer to as an RNTN.
+
+For any language model that operates on the
+character level, use a Recurrent Net.
+
+For image recognition, use a Deep Belief Network
+or a Convolutional Net.
+
+For object recognition, use a Convolutional
+Net or an RNTN.
+
+Finally, for speech recognition, use a Recurrent
+Net.
+
+In general, Deep Belief Networks and Multilayer
+Perceptrons with rectified linear units – also
+
+known as RELU – are both good choices for
+classification.
+
+For time series analysis, it’s best to use
+a Recurrent Net.
+
+Deep Nets are the current state of the art
+in pattern recognition, but it’s worth noting
+
+that neural nets have been around for decades.
+
+So you might be wondering: why did it take
+almost 50 years for Deep Nets to come on to
+
+the scene?
+
+Well, as it turns out, Deep Nets are very
+hard to train, which we will see in the next
+
+video.
+

@@ -1,0 +1,88 @@
+If your deep learning project requires graph
+analytics and other important algorithms,
+
+then Dato GraphLab Create might be a good
+choice. GraphLab is a software platform that
+
+offers two deep nets and a whole host of machine
+learning and graph algorithms. Let’s take
+
+a closer look.
+
+GraphLab offers you two different types of
+deep nets, depending on the nature of your
+
+input data. If you supply GraphLab with image
+data, the default selection will be a convolutional
+
+net. With any other kind of data, the default
+is a multilayer perceptron. In addition to
+
+deep nets, the platform has several built-in
+machine learning algorithms including text
+
+analytics, a recommender, classification,
+regression, and clustering. And as the name
+
+suggests, they also provide Graph Analytics
+tools, which is unique among deep net platforms.
+
+Under what circumstances would you use a graph
+in your deep learning projects? Please comment
+
+and let me know your thoughts.
+
+Just like the H2O platform, GraphLab provides
+a great set of data munging features. It provides
+
+built-in integration for SQL databases, Hadoop,
+Spark, Amazon S3, Pandas data frames, and
+
+many others.
+
+GraphLab also offers an intuitive UI for model
+management. In addition to this, GraphLab
+
+Canvas allows you to create sophisticated
+visualizations of your model’s results.
+
+GraphLab Create is provided as a downloadable
+software package, so it will need to be deployed
+
+and managed on your own hardware infrastructure.
+
+GraphLab offers three different types of built-in
+storage, all of which are open source. There
+
+is SArray, which is a columnar representation.
+Then there is SFrame, a tabular storage model.
+
+And finally there is SGraph, the graph model.
+According to the platform’s website, these
+
+tools are designed to handle terabytes of
+data analysis at interactive speeds.
+
+An important note is that the GraphLab Create
+platform supports the use of GPUs. As we’ve
+
+previously seen, this feature is becoming
+increasingly important for Deep Learning applications.
+
+You can use the GraphLab models to build different
+types of predictive analytics tools, which
+
+can then be set up as services. These services
+can be accessed programmatically through an
+
+API on your computer or mobile device.
+
+The information on GraphLab’s website is
+a bit limited, so you may have to sift through
+
+the API’s documentation in order to see
+if the platform is a good fit for your project.
+
+Up next, we’ll start looking into Deep Learning
+Libraries.
+

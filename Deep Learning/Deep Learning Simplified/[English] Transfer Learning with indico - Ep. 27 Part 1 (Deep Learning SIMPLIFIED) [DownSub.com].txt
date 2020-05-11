@@ -1,0 +1,112 @@
+If you’ve ever shopped for clothes online,
+then you’ve probably noticed a list of recommended
+
+items somewhere on the web page.
+
+These product recommendations are usually
+built by analyzing the past purchasing behavior
+
+of the store’s customers.
+
+But Deep nets are revolutionizing this aspect
+of the fashion world by learning how to identify
+
+matching clothing combinations that most people
+would find appealing.
+
+Indico is a cloud-based Deep Learning service
+that has used the concept of transfer learning
+
+to build a demo for the fashion matching problem.
+
+Let’s take a closer look.
+
+Indico is a group of innovators in Boston aiming
+to revolutionize software through powerful,
+
+developer-friendly machine learning.  Their
+state of the art deep learning algorithms
+
+have enabled companies to automatically extract
+meaningful information from unstructured data
+
+regardless of size or capability.
+
+The team has built a Custom Collection API,
+which is a set of rich features trained on
+
+100s of millions of examples. Using Transfer
+Learning, their models can handle messy unstructured
+
+data, making them even more effective.
+
+Machine learning models are excellent for
+recognizing patterns within a narrow domain.
+
+Transfer learning allows you to take a model
+that's been trained to solve one task, and
+
+tweak it to solve another task. This is a
+familiar concept in the machine learning space,
+
+but recent progress in deep learning has made
+it much more effective compared to traditional
+
+machine learning techniques. This is because
+deep neural networks learn many layers of
+
+features, and when properly trained, the knowledge
+encoded by these features can be useful for
+
+solving many related tasks, not just the one
+it was originally trained to solve. So instead
+
+of training a model from scratch every time,
+you can jump-start your model using features
+
+from a similar pre-trained model, and then
+use your data to fine-tune the features for
+
+your specific problem. Remember, with traditional
+machine learning, all these learned features
+
+are written by hand -- the model doesn’t
+figure them out by itself, like a deep learning
+
+model would. So, transfer learning wouldn’t
+work well with traditional machine learning
+
+features; for interesting problems, no one
+knows how to write transferable features by
+
+hand.
+
+indico’s Custom Collection API is built
+around this idea of knowledge transfer. Just
+
+to give an example…since the API has been
+trained on large volumes of text data, you
+
+could potentially fine-tune the API for a
+specific Natural Language Processing task
+
+in a domain of your choosing. Because of transfer
+learning, you’d need a much smaller training
+
+set than if you were building the net from
+scratch, and you’d still be able to obtain
+
+remarkably good accuracy. The API has also
+been trained on many images, so the same concept
+
+holds true for image recognition applications.
+
+Next up - Part 2 of this video with the fashion
+matching demo by Amanda Sivaraj of indico.
+
+If you wanna learn more about Deep Learning,
+hang around after this for our recommendations,
+
+or visit us on Facebook and Twitter. Thanks
+for watching, and we'll see you next time!
+

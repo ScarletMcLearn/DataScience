@@ -1,0 +1,134 @@
+If you want your computer to recognize VERY
+complex patterns – then trust me on this
+
+– you really need to start using neural
+networks.
+
+When the patterns get really complex, neural
+nets start to outperform all of their competition.
+
+Plus, GPUs can train them faster than ever
+before!
+
+Let’s take a look.
+
+Neural nets truly have the potential to revolutionize
+the field of Artificial Intelligence.
+
+We all know that computers are very good with
+repetitive calculations and detailed instructions,
+
+but they’ve historically been bad at recognizing
+patterns.
+
+Thanks to deep learning, this is all about
+to change.
+
+If you only need to analyze simple patterns,
+a basic classification tool like an SVM or
+
+Logistic Regression is typically good enough.
+
+But when your data has 10s of different inputs
+or more, neural nets start to win out over
+
+the other methods.
+
+Still, as the patterns get even more complex,
+neural networks with a small number of layers
+
+can become unusable.
+
+The reason is that the number of nodes required
+in each layer grows exponentially with the
+
+number of possible patterns in the data.
+
+Eventually training becomes way too expensive
+and the accuracy starts to suffer.
+
+So for an intricate pattern – like an image
+of a human face, for example – basic classification
+
+engines and shallow neural nets simply aren’t
+good enough – the only practical choice
+
+is a deep net.
+
+Have you ever run into a wall when trying
+to work with highly complex data?
+
+Please comment and let me know your thoughts.
+
+But what enables a deep net to recognize these
+complex patterns?
+
+The key is that deep nets are able to break
+the complex patterns down into a series of
+
+simpler patterns.
+
+For example, let’s say that a net had to
+decide whether or not an image contained a
+
+human face.
+
+A deep net would first use edges to detect
+different parts of the face – the lips,
+
+nose, eyes, ears, and so on – and would
+then combine the results together to form
+
+the whole face.
+
+This important feature – using simpler patterns
+as building blocks to detect complex patterns
+
+– is what gives deep nets their strength.
+
+The accuracy of these nets has become very
+impressive – in fact, a deep net from google
+
+recently beat a human at a pattern recognition
+challenge.
+
+It’s not surprising that deep nets were
+inspired by the structure of our own human
+
+brains.
+
+Even in the early days of neural networks,
+researches wanted to link a large number of
+
+perceptrons together in a layered web – an
+idea which helped improve their accuracy.
+
+It is believed that our brains have a very
+deep architecture and that we decipher patterns
+
+just like a deep net – we detect complex
+patterns by first detecting, and combining,
+
+the simple ones.
+
+There is one downside to all of this – deep
+nets take much longer to train.
+
+The good news is that recent advances in computing
+have really reduced the amount of time it
+
+takes to properly train a net.
+
+High performance GPUs can finish training
+a complex net in under a week, when fast CPUs
+
+may have taken weeks or even months.
+
+Before we talk more about the various Deep
+Learning models, we’re going to briefly
+
+discuss which types of deep nets are suitable
+for different machine learning tasks.
+
+That’s coming up in the next video.
+

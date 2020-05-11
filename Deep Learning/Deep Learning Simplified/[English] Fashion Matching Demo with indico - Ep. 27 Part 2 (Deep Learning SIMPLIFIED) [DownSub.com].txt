@@ -1,0 +1,142 @@
+Transfer Learning allows you to take a deep
+neural network thats trained for one task,
+
+and apply it to another.
+
+Instead of creating models for each different
+task, you can use a collection of common features
+
+learned from other tasks, and fine-tune the
+model based on your data.
+
+indico uses the concept of Transfer Learning to build a Fashion Matching demo with their Custom Collection API.
+
+Here is Amanda Sivaraj, the Director of Marketing
+at Indico, to give us the demo.
+
+So, as we talked about in the previous video, product recommendations are typically based
+
+on analyzing past purchases or online search behaviour.
+
+You’ve likely received suggestions while
+shopping online for…you know, maybe a shirt
+
+(or some other piece of clothing) that looks
+similar to one that you’ve purchased in
+
+the past.
+
+That’s useful to some extent, but how many
+of us want closets full of the same pattern
+
+or style?
+
+Wouldn’t it be more helpful to recommend
+a pair of pants — or skirt, or handbag,
+
+etc. — that went well with that shirt?
+
+We thought this could be an interesting problem
+to try to solve, so we went ahead and built
+
+this demo to test it out.
+
+We approached the problem as a fixed wardrobe
+of clothes in that we only have these five
+
+pairs of pants, but have unlimited options
+when it comes to shirts we could potentially
+
+match with.
+
+You can select one of these available shirts
+to find which pair of pants it best matches
+
+with -- or try uploading your own!
+
+Remarkably, this model is only trained on
+about 110 different shirts.
+
+This is only possible because we started with
+Custom Collection's rich feature embeddings,
+
+which already encode things like colour patterns
+and the visual parts of clothing.
+
+This made the model easy to prototype, and
+easy to re-train when we weren’t satisfied
+
+with the results.
+
+For instance, take this pair of pants.
+
+They’re so loud and flamboyant, the training
+data set only had examples of them matched
+
+with a couple of white shirts.
+
+Since the model saw so few example matches
+for these flamboyant pants, it learned not
+
+to recommend them at all.
+
+After adding a few more training examples
+of outfit matches though the model learned
+
+to recommend them when appropriate.
+
+That’s the beauty of Custom Collection and
+this concept of transfer learning.
+
+You need to collect and label considerably
+less data compared to starting from scratch.
+
+It significantly cuts down on training and
+testing time because you don’t need to build
+
+any model infrastructure (we trained this
+in maybe 30 minutes).
+
+It’s flexible.
+
+Of course, to move beyond this “limited
+wardrobe” approach, you’d need a larger
+
+dataset (somewhere in the 1000s of images,
+most likely), but that’s still orders of
+
+magnitude less data than training a fashion
+matching model from scratch.
+
+Moving forward, it would be interesting to
+see how an e-commerce fashion site like Asos,
+
+or brands with an online component to their
+physical store like Zara could automatically
+
+combine these “matching” recommendations
+with “similarity” recommendations to improve
+
+both customer experience and likelihood to
+purchase.
+
+If you’d like to dive more into the process
+and code we used to train this model, check
+
+out the indico blog for our tutorial!
+
+We’ll be releasing it on August 9, 2016,
+and if you want to be notified when it goes
+
+out, be sure to sign up for our newsletter.
+
+By using Transfer Learning, you can apply deep nets to different domains
+
+without needing to start from square one or collect large amounts of data.
+
+If you wanna learn more about Deep Learning, hang around after this
+
+for our recommendations, or visit us on Facebook and Twitter.
+
+Thanks for watching, and we'll see you next time!
+

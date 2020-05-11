@@ -1,0 +1,77 @@
+If you’re looking to build a commercial-grade
+deep net application, then Deeplearning4j
+
+is worth looking into. In addition to a big
+selection of deep nets, this Java library
+
+provides a lot of great tools, like a distributed
+multi-node Map-Reduce procedure, and a package
+
+for vectorization. Let’s dive in and take
+a closer look.
+
+Deeplearning4j is the brainchild of SkyMind’s
+Adam Gibson. This library is also referred
+
+to as DL4j.
+
+DL4j is a commercial-grade Deep Learning library
+that can run on a distributed, multi-node
+
+setup. The “j” in deeplearning4j stands
+for Java, which is the programming language
+
+the library is built upon. This particular
+library allows you to configure a deep net
+
+by selecting values for its hyper parameters.
+It comes with built-in GPU support for a distributed
+
+framework, which is an important feature for
+the training process. As an addition, the
+
+library can run on both Scala and Clojure.
+
+DL4j supports all of the deep nets we’ve
+seen up to this point – the RBM, DBN, Convolutional
+
+net, Recurrent net, RNTN, autoencoders, and
+even the vanilla MLP. DL4j also includes a
+
+vectorization library called Canova, which
+was built by the same team.
+
+Training any machine learning model on a distributed
+framework requires the use of a two-step procedure
+
+called Iterative Map-Reduce.
+
+In the “Map” step, the input data is distributed
+across all the nodes in the cluster. Each
+
+node then trains the net with the portion
+of the data that it receives.
+
+In the “Reduce” step, the weights and
+biases across every node in the cluster are
+
+averaged together. Each node replaces the
+parameters of its net with this new average.
+
+These two steps are repeated iteratively until
+the overall error is sufficiently small.
+
+This is how DL4j trains a model on a distributed
+platform. In contrast, a traditional map-reduce
+
+procedure is sequential, and is only run one
+time.
+
+Have you ever trained a deep net over a distributed
+architecture? Please comment and share your
+
+experiences.
+
+In the next video, we’ll take a look at
+the Torch library.
+

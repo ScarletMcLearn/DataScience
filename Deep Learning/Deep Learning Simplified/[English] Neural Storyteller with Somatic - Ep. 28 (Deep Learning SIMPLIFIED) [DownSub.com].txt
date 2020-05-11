@@ -1,0 +1,199 @@
+When we look at a picture, our brain often
+spins what we see into an intricate narrative
+
+based on what we know, and how we feel.
+
+Deep Learning is on the verge of creating
+this type of cognitive ability in an artificial
+
+neural net.
+
+Neural Storyteller is a fun machine vision
+project that will observe a digital image,
+
+and then attempt to imagine a romance short
+story based on what it sees.
+
+Jason Toy of Somatic has incorporated this
+into their model marketplace, so anyone can
+
+try it out.
+
+Let’s take a closer look at what Neural
+Storyteller is, and how it works.
+
+Neural Storyteller is the brainchild of Jamie
+Ryan Kiros, a PhD student at the University
+
+of Toronto’s Machine Learning Group.
+
+Neural nets may be inspired by the brain,
+but getting an artificial net to imagine a
+
+story like a human is no easy task.
+
+In his blog post, Jason Toy gives a detailed
+explanation of the process while breaking
+
+it down into a few steps.
+
+In the first step, we feed images into a net
+as input and, as output, we generate sentences
+
+describing that image.
+
+Back in Episode 9, we saw how a recurrent
+net could perform image captioning by taking
+
+a single image as input, and generating a
+sequence as output.
+
+The image captions used for training are generated
+from the MSCOCO database.
+
+We also need a mechanism to generate a story
+that goes beyond the individual elements of
+
+the image.
+
+So in the second step, we need to devise a
+skip-thought model, which will generate text
+
+in the style of a romance story.
+
+A similar type of model is the skip-gram,
+which uses a target word to predict the surrounding
+
+words, also called the context.
+
+The skip-thought model predicts the surrounding
+text for a given sentence, called a thought.
+
+The romance text for Neural Storyteller was
+obtained from the BookCorpus.
+
+Image captions and romance stories usually
+have different word patterns due to differences
+
+in style.
+
+Generally speaking, captions are straightforward
+and factual, while romance stories tend to
+
+be much more emotive.
+
+As a result, the word vectors for these language
+styles tend to be dissimilar.
+
+So in a final step, we need to bridge this
+gap by building a model that can perform a
+
+transformation from one style to another.
+
+For more details on this process, check out
+the links in the video description below.
+
+Here is Jason Toy to introduce Somatic and
+give us a demo of Neural Storyteller.
+
+Here we are going to demo Neural Storyteller
+running on Somatic platform.
+
+Somatic’s goal is to make Deep Learning
+accessible to everyone.
+
+We accomplish this in two ways; first, by
+hosting pre-built deep learning models so
+
+anyone can use and interact with models without
+having to deal with the pains normally associated
+
+with running and building them.
+
+Secondly, Somatic has its own engine where
+you can build your own models or customize
+
+existing models like Neural Storyteller.
+
+Neural Storyteller is a model where you upload
+an image and it generates a mini story related
+
+to the picture.
+
+In this instance of neural storyteller, we’ve
+trained it on romance novels.
+
+Neural Storyteller is similar to neural style
+transfer but for text instead of images.
+
+You can either interact with any model via
+APIs; we have libraries for all the major languages
+
+Or you can use a web-form to directly
+upload to the website.
+
+So I am gonna upload this picture of the earth
+to the website.
+
+And then I will submit the model.
+
+You can put an email here if you wanna get
+notified.
+
+So here, you can see the results.
+
+.
+
+So you can see this model recognized high
+level features from the image.
+
+It talks about the sky - talks about the sun
+- the world - moonlight - so the image as
+
+you can see was influencing the text that
+was generated.
+
+Lets look at another example.
+
+Here this is a picture of a car that got uploaded
+and as you can see, it mentions car, it mentions
+
+building, New York City and street; so once
+again, many of the prominent features were
+
+used to generate the story.
+
+As I mentioned earlier, this version of Neural
+Storyteller was trained on romance novels.
+
+But as long as you have access to large bodies
+of text, you can train your own version of
+
+any other kind of text.
+
+Imagine a version that was trained on law
+documents or Wikipedia or from some other
+
+famous author.
+
+They would talk about whats in the image;
+there are lots of different things you could
+
+do.
+
+You can try to train your own version on Somatic
+platform.
+
+While the results vary in terms of accuracy,
+Neural Storyteller is a great starting point
+
+for this type of technology.
+
+If you wanna learn more about Deep Learning,
+hang around after this for our recommendations,
+
+or visit us on Facebook and Twitter.
+
+Thanks for watching, and we'll see you next
+time!
+

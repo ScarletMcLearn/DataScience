@@ -1,0 +1,179 @@
+So now you’re probably thinking – wow,
+deep nets are really great!
+
+But why did it take so long for them to become
+popular?
+
+Well as it turns out, when you try to train
+them with a method called backpropagation,
+
+you run into a fundamental problem called
+the vanishing gradient, or sometimes the exploding
+
+gradient.
+
+When that happens, training takes too long
+and the accuracy really suffers.
+
+Let’s take a closer look.
+
+When you’re training a neural net, you’re
+constantly calculating a cost value.
+
+The cost is typically the difference between
+the net’s predicted output and the actual
+
+output from a set of labelled training data.
+
+The cost is then lowered by making slight
+adjustments to the weights and biases over
+
+and over throughout the training process,
+until the lowest possible value is obtained.
+
+Here is that forward prop again; and here
+are the example weights and biases.
+
+The training process utilizes something called
+a gradient, which measures the rate at which
+
+the cost will change with respect to a change
+in a weight or a bias.
+
+Deep architectures are your best and sometimes
+your only choice for complex machine learning
+
+problems such as facial recognition.
+
+But up until 2006, there was no way to accurately
+train deep nets due to a fundamental problem
+
+with the training process: the vanishing gradient.
+
+Let’s think of a gradient like a slope,
+and the training process like a rock rolling
+
+down that slope.
+
+A rock will roll quickly down a steep slope
+but will barely move at all on a flat surface.
+
+The same is true with the gradient of a deep
+net.
+
+When the gradient is large, the net will train
+quickly.
+
+When the gradient is small, the net will train
+slowly.
+
+Here's that deep net again.
+
+And here is how the gradient could potentially
+vanish or decay back through the net.
+
+As you can see, the gradients are much smaller
+in the earlier layers.
+
+As a result, the early layers of the network
+are the slowest to train.
+
+But this is a fundamental problem!
+
+The early layers are responsible for detecting
+the simple patterns and the building blocks
+
+– when it came to facial recognition, the
+early layers detected the edges which were
+
+combined to form facial features later in
+the network.
+
+And if the early layers get it wrong, the
+result built up by the net will be wrong as
+
+well.
+
+It could mean that instead of a face like
+this, your net looks for this.
+
+The process used for training a neural net
+is called back-propagation or back-prop.
+
+We saw before that forward prop starts with
+the inputs and works forward; back-prop does
+
+the reverse, calculating the gradient from
+right to left.
+
+For example, here are 5 gradients, 4 weight
+and 1 bias.
+
+It starts with the left and works back through
+the layers, like so.
+
+Each time it calculates a gradient, it uses
+all the previous gradients up to that point.
+
+So, lets start with that node.
+
+That edge uses the gradient at that node.
+
+And the next.
+
+So far things are simple.
+
+As you keep going back, things get a bit more
+complex - that one for example uses a lot
+
+of gradients, even though this is a relatively
+simple net.
+
+If your net gets larger and deeper, like this
+one, it gets even worse.
+
+But why is that?
+
+Well, a gradient at any point is the product
+of the previous gradients up to that point.
+
+And the product of two numbers between 0 and
+1 gives you a smaller number.
+
+Say this rectangle is a one.
+
+Also, say there are two gradients - a fourth
+- like that - and a third.
+
+If you multiply them, you get a fourth of
+a third which is a twelfth.
+
+A fourth of a twelfth is a forty-eighth.
+
+You can see that numbers keep getting smaller
+the more you multiply.
+
+Have you ever had this issue while training
+a neural network with backpropagation?
+
+If so, please comment and let me know your
+thoughts.
+
+As a result of all this, backprop ends up
+taking a lot of time to train the net, and
+
+the accuracy is often very low.
+
+Up until 2006, deep nets were still underperforming
+shallow nets and other machine learning algorithms.
+
+But everything changed after three breakthrough
+papers published by Hinton, Lecun, and Bengio
+
+in 2006 and 2007.
+
+In the next video, we’ll begin taking a
+closer look at these breakthroughs, starting
+
+with the Restricted Boltzmann Machine.
+

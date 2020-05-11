@@ -1,0 +1,222 @@
+Computers that can play games have always
+impressed the computing world.
+
+In December 2013, a small group of AI researchers
+from a London-based company called DeepMind
+
+released a ground-breaking paper called “Playing
+Atari with Deep Reinforcement Learning”.
+
+And just a little over a month later, Google
+announced that they had bought DeepMind for
+
+a really big sum of money.
+
+Since then, there’s been all kinds of talk
+about reinforcement learning in the field
+
+of AI.
+
+In January of 2016, Google announced that
+the appropriately named AlphaGo was able to
+
+beat the reigning Go champion of the world.
+
+We’re gonna take the mystery out of reinforcement
+learning so you can see how all these amazing
+
+feats are possible.
+
+The story of reinforcement Learning goes all
+the way back to AI, animal psychology, and
+
+control theory.
+
+At the heart of it, it involves an autonomous
+agent like a person, animal, robot, or deep
+
+net - learning to navigate an uncertain environment
+with the goal of maximizing a numerical reward.
+
+Sports are a great example of this.
+
+Just think of what our autonomous agent would
+have to deal with in a tennis match.
+
+The agent would have to consider its actions,
+like its serves, returns, and volleys.
+
+These actions change the state of the game,
+or in other words – the current set, the
+
+leading player, things like that.
+
+And every action is performed with a reward
+in mind – winning a point, in order to win
+
+the game, set, and match.
+
+Our agent needs to follow a policy, or a set
+of rules and strategies, in order to maximize
+
+the final score.
+
+But if you were building an autonomous agent,
+how would you actually model this?
+
+We know that the agent’s actions will change
+the state of the environment.
+
+So a model would need to be able to take a
+state and an action as input, and generate
+
+the maximum expected reward as output.
+
+But since that only gets you to the next state,
+you’ll need to take into account the total
+
+expected reward for every action from the
+current till the end state.
+
+The way this works will be different for every
+application, and you’re probably not surprised
+
+to know that building a Tennis agent is different
+from building an Atari agent.
+
+The researchers at DeepMind used a series
+of Atari screenshots to build a convolutional
+
+neural network, with a couple of tweaks.
+
+The output wasn’t a class, but instead it
+was a target number for the maximum reward.
+
+So it was actually dealing with regression,
+not classification.
+
+They also didn’t use pooling layers, since
+unlike image recognition, individual positions
+
+of game objects, like the player, are all
+important and can’t be reduced.
+
+A recurrent net could have been used too,
+as long as the output layer was tailored for
+
+regression, and the input at each time step
+included the action and the environment state.
+
+There’s also the Deep Q-Network, or DQN
+for short.
+
+The DQN also uses the principle of predicting
+the maximum reward given a state and action.
+
+It was actually patented by Google, and it’s
+seen a lot of improvements like the Experience
+
+Replay and the Dueling Network Architecture.
+
+Reinforcement learning isn’t just a fancy,
+smart-sounding way to say supervised learning.
+
+Supervised learning is all about making sense
+of the environment based on historical examples.
+
+But that isn’t always the best way to do
+things.
+
+Imagine if you’re trying to drive a car
+in heavy traffic based on the road patterns
+
+you observed the week before when the roads
+were clear.
+
+That’s about as effective as driving when
+you’re only looking at the rear view mirror.
+
+Reinforcement learning on the other hand is
+all about reward.
+
+You get points for your actions – like staying
+in your lane, driving under the speed limit,
+
+signaling when you’re supposed to, things
+like that.
+
+But you can also lose points for dangerous
+actions like tailgating and speeding.
+
+Your objective is to get the maximum number
+of points possible given the current state
+
+of the traffic on the road around you.
+
+Reinforcement learning emphasizes that an
+action results in a change of the state, which
+
+is something a supervised learning model doesn’t
+focus on.
+
+In April of 2016, Amazon founder Jeff Bezos
+talked about how his company is a great place
+
+to fail, and how most companies are unwilling
+to suffer through “the string of failed
+
+experiments”.
+
+You can think of this as a statement about
+rewards.
+
+Most organizations operate in the realm of
+conventional wisdom, which is about exploiting
+
+what is known to achieve finite rewards with
+known odds.
+
+Some groups venture into the unknown and explore
+new territory with the prospect of out-sized
+
+rewards at long odds.
+
+And many of these organizations do fail!
+
+But some of them succeed and end up changing
+the world.
+
+With reinforcement learning, an agent can
+explore the trade-off between exploration
+
+and exploitation, and choose the path to the
+maximum expected reward.
+
+This channel’s all about Deep Learning,
+so we focused on the topic of building a deep
+
+reinforcement net.
+
+But reinforcement learning falls under the
+broader umbrella of artificial intelligence.
+
+It involves topics like goal setting, planning,
+and perception.
+
+And it can even form a bridge between AI and
+the engineering disciplines.
+
+Reinforcement learning is simple and powerful,
+and given the recent advances, it has the
+
+potential to become a big force in the field
+of Deep Learning.
+
+If you wanna learn more about Deep Learning,
+hang around after this for our recommendations,
+
+or visit us on Facebook and Twitter.
+
+Thanks for watching, and we'll see you next
+time!
+

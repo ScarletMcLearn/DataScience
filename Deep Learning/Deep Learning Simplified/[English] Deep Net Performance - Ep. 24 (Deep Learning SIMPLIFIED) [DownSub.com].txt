@@ -1,0 +1,268 @@
+If you’re familiar with Deep Learning, then
+I’m sure you’ve heard a lot of talk about
+
+the importance of GPUs. GPUs are a powerful
+tool for training deep nets, and nearly every
+
+software library supports them. But when it
+comes to speeding up the training process,
+
+there are several alternatives to GPUs that
+are worth considering. Let’s take a closer
+
+look.
+
+The CPU in your computer is capable of performing
+many different tasks across a wide variety
+
+of domains. But this versatility comes at
+a cost – CPUs require sophisticated control
+
+mechanisms in order to manage the flow of
+tasks. The CPU is also designed to perform
+
+tasks serially – one after another – rather
+than in parallel. Parallelism can also be
+
+achieved by building in a limited number of
+cores directly into the CPU.
+
+These cores are also versatile, but they need to be created with general-purpose computing in mind. You
+
+may have also noticed that CPU clock speeds
+haven’t improved much over the last few
+
+years, even though there have been some minor
+improvements with CPU memory. Since training
+
+a deep net requires so many computational
+resources, a CPU is impractical for large-scale
+
+deep nets.
+
+So if a lone CPU isn’t powerful enough for
+the job, what can we use to train a deep net
+
+in a reasonable time window? There are a few
+tricks we can use, one of which is to implement
+
+deep nets using vectors. Vector algebra – like
+addition, dot products, and transposes – are
+
+all operations that can be performed in parallel.
+Take the dot product for example…Each multiplication
+
+step can be performed in parallel, and the
+resulting products can then be added together.
+
+Through the use of a parallel implementation,
+deep nets can be trained orders of magnitude
+
+faster. Parallelism implemented at the hardware
+level is known as parallel processing, and
+
+parallelism at the software level is parallel
+programming.
+
+Parallel processing can be broken down into
+two general categories – shared memory,
+
+and distributed computing. Let’s start by
+looking at a few shared memory options.
+
+The first option is the GPU, a popular tool
+in the world of deep learning. Unlike a CPU,
+
+where the number of built-in cores is typically
+in the single or double digits, GPUs implement
+
+100s and sometimes even 1000s of cores. Each
+GPU core is versatile, and capable of general-purpose
+
+parallel computing. Any task that can be implemented
+in parallel, can be performed on a GPU. With
+
+regards to deep nets, the most popular application
+for GPUs is the training process. The Deep
+
+Learning community provides great support
+for GPUs through libraries, implementations,
+
+and a vibrant ecosystem fostered by nVidia.
+Despite all their advantages, GPUs do come
+
+with one big drawback. Their versatility and
+general-purpose design leads to extremely
+
+high power consumption. This becomes a significant
+issue for large scale deep nets, like the
+
+ones that are used by the tech giants.
+
+One alternative to the GPU is the “Field
+Programmable Gate Array”, or FPGA. FPGAs
+
+are highly configurable, and they were originally
+used by electrical engineers to build mock-ups
+
+of different chip designs…that way the engineers
+could test different solutions to a given
+
+problem, without having to actually design
+a chip each time. FPGAs allow you to tweak
+
+the chip’s function at the lowest level,
+which is the logic gate. So an FPGA can be
+
+tailored specifically for a deep net application,
+allowing them to consume much less power than
+
+a GPU. But there’s an additional benefit,
+since FPGAs can be used to run a deep net
+
+model and generate predictions. This would
+come in handy if, for example, you needed
+
+to run a large-scale convolutional net across
+1000s of images per second. So FPGAs are a
+
+great tool, but their big strength…that
+is, their configurability…can also be somewhat
+
+of a weakness. To properly setup and configure
+an FPGA, an engineer would need highly-specialized
+
+knowledge in digital and integrated circuit
+design.
+
+Another option is an “Application Specific
+Integrated Circuit”, or ASIC. ASICs are
+
+highly specialized with designs built in at
+the hardware and integrated circuit level.
+
+Once built they will perform very well at
+the task they were designed for but are generally
+
+unusable at any other tasks. Compared to GPUs
+and FGPAs, ASICs tend to have the lowest power
+
+consumption requirements. There are several
+Deep Learning ASICs such as the Google Tensor
+
+Processing Unit TPU, and the chip being built
+by Nervana Systems.
+
+Aside from shared memory, parallelism can
+also be implemented using distributed computing.
+
+Generally speaking, the three options for
+distributed computing are data parallelism,
+
+model parallelism, and pipeline parallelism.
+
+Data parallelism allows you to train different
+subsets of the data on different nodes in
+
+a cluster for each training pass. This is
+followed by parameter averaging and replacement
+
+across the cluster. We saw model parallelism
+with TensorFlow, where different portions
+
+of the model are trained on different devices
+in parallel.
+
+Pipeline Parallelism works like a production
+assembly line. Generally, there will be a
+
+number of jobs to be completed, each of which
+can be broken up into independent tasks. Each
+
+task for a given job will be dedicated to
+a worker, ensuring that each worker is relatively
+
+well-utilized. When a worker finishes its
+task, it can move on to a task for another
+
+job down the line, even if the other workers
+are still working on the current job. Here
+
+is an example of a job involving 4 tasks,
+each of which is dedicated to a worker. When
+
+worker 1 finishes task 1 for the first job,
+worker 1 can start working on a task for job
+
+2. Worker 2 may still be working on task 2
+for job 1, and when worker 2 finishes and
+
+moves to job 2, worker 3 may still be working
+on task 3 for job 1, and so on. Even though
+
+this is a bit simplified and processing times
+can be variable in practice, this example
+
+should illustrate the concept of pipeline
+parallelism.
+
+Computer scientists have been researching
+parallel programming for decades, and in that
+
+time they’ve developed a set of advanced
+techniques. Most of these are beyond the scope
+
+of this video, but the main idea is that designing
+algorithms with parallelism in mind will allow
+
+you to take full advantage of the parallelism
+capabilities of the hardware. Let’s look
+
+at three general ways to parallelize your
+code – note that this is an extensive area
+
+of computer science, so we are not providing
+an exhaustive list.
+
+The first method is to decompose your data
+model into chunks, where each chunk is needed
+
+to perform an instance of a task. In this
+example, we see a data table where each row
+
+represents a chunk of data that is independent
+from the others. By organizing your data in
+
+this manner, each row can be used as an input
+in parallel.
+
+The second method is to identify tasks that
+have dependencies, and place them into a single
+
+group. By creating multiple groups that have
+no dependencies on one another, you can process
+
+the final job in parallel by dividing up the
+groups.
+
+The third method is to implement threads and
+processes that handle different tasks or task
+
+groups. This method can be performed independently,
+but the performance benefits can be significant
+
+when combined with the second method.
+
+If you want to learn more about this topic,
+a great resource is the Open HPI Massive Open
+
+Online Course on Parallel Programming.
+
+Hopefully by now, you have a better understanding
+of the available options for training deep
+
+nets in parallel. Next up, we’ll take a
+look at the use of deep neural networks for
+
+Text Analytics.
+

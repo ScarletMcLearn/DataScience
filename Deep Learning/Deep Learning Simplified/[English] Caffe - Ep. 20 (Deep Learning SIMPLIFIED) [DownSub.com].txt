@@ -1,0 +1,71 @@
+If you need a library for a machine vision
+or a forecasting application, then Caffe might
+
+be a good choice. This library lets you build
+your own deep nets with a sophisticated set
+
+of layer configuration options. You can even
+access premade nets that were uploaded to
+
+a community website. Let’s take a look.
+
+The Caffe Deep Learning Library was created
+by Google’s Yangqing Jia, who won an ImageNet
+
+Challenge in 2014.
+
+Caffe was originally designed for machine
+vision tasks, so it’s well-suited for convolutional
+
+nets. However, recent versions of the library
+provide support for speech and text, reinforcement
+
+learning, and recurrent nets for sequence
+processing. Since the library is written in
+
+C++ with CUDA, applications can easily switch
+between a CPU and a GPU as needed. Matlab
+
+and Python interfaces are also available for
+Caffe.
+
+With Caffe, you can build a deep net by configuring
+its hyper-parameters. In fact, the layer configuration
+
+options are very sophisticated. You can create
+a net with many different types of layers,
+
+such as a vision layer, a loss layer, an activation
+layer, and a few others. So each layer can
+
+perform a different function or take on a
+different role. This flexibility allows you
+
+to develop extremely complex deep nets for
+your application. Caffe is supported by a
+
+large community where users can contribute
+their own deep net to a repository known as
+
+the “Model Zoo”. AlexNet and GoogleNet
+are two popular user-made nets available to
+
+the community. There are also a few educational
+resources like demos and slides, so if you’re
+
+going to use Caffe, it’s a great place to
+start.
+
+Caffe vectorizes input data through a special
+data representation called a “blob”. A
+
+“blob” is a type of array that speeds
+up data analysis and provides synchronization
+
+capabilities between a CPU and a GPU.
+
+Have you ever used the Caffe library in one
+of your own Deep Net projects? Please comment
+
+and share your experiences.
+

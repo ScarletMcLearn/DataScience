@@ -1,0 +1,147 @@
+Okay, so an RBM can extract features and reconstruct
+inputs…but how exactly does that help with
+
+the vanishing gradient?
+
+By combining RBMs together and introducing
+a clever training method, we obtain a powerful
+
+new model that finally solves our problem.
+
+Let’s now take a look at a Deep Belief Network.
+
+Just like the RBM, Deep Belief Nets were also
+conceived by Geoff Hinton as an alternative
+
+to backpropagation.
+
+Because of his accomplishments, he was hired
+for image recognition work at Google, where
+
+a large-scale DBN project is currently believed
+to be in development.
+
+In terms of network structure, a DBN is identical
+to an MLP.
+
+But when it comes to training, they are entirely
+different.
+
+In fact, the difference in training methods
+is the key factor that enables DBNs to outperform
+
+their shallow counterparts.
+
+A deep belief network can be viewed as a stack
+of RBMs, where the hidden layer of one RBM
+
+is the visible layer of the one "above" it.
+
+A DBN is trained as follows:
+a) The first RBM is trained to re-construct
+
+its input as accurately as possible
+b) The hidden layer of the first RBM is treated
+
+as the visible layer for the second and the
+second RBM is trained using the outputs from
+
+the first RBM
+c) This process is repeated until every layer
+
+in the network is trained
+An important note about a DBN is that each
+
+RBM layer learns the entire input.
+
+In other kinds of models – like convolutional
+nets – early layers detect simple patterns
+
+and later layers recombine them.
+
+Like in our facial recognition example, the
+early layers would detect edges in the image,
+
+and later layers would use these results to
+form facial features.
+
+A DBN, on the other hand, works globally by
+fine tuning the entire input in succession
+
+as the model slowly improves – kind of like
+a camera lens slowly focusing a picture.
+
+The reason that a DBN works so well is highly
+technical, but suffice it to say that a stack
+
+of RBMs will outperform a single unit – just
+like a Multilayer perceptron was able to outperform
+
+a single perceptron working alone.
+
+After this initial training, the RBMs have
+created a model that can detect inherent patterns
+
+in the data.
+
+But we still don’t know exactly what the
+patterns are called.
+
+To finish training, we need to introduce labels
+to the patterns and fine-tune the net with
+
+supervised learning.
+
+To do this, you need a very small set of labeled
+samples so that the features and patterns
+
+can be associated with a name.
+
+The weights and biases are altered slightly,
+resulting in a small change in the net’s
+
+perception of the patterns, and often a small
+increase in the total accuracy.
+
+Fortunately, the set of labelled data can
+be small relative to the original data set,
+
+which as we’ve discussed, is extremely helpful
+in real-world applications.
+
+Have you ever trained a Deep Belief Network
+before?
+
+If so, please comment and share your experiences.
+
+So let’s recap the benefits of a Deep Belief
+Network.
+
+We saw that a DBN only needs a small labelled
+data set, which is important for real-world
+
+applications.
+
+The training process can also be completed
+in a reasonable amount of time through the
+
+use of GPUs.
+
+And best of all, the resulting net will be
+very accurate compared to a shallow net, so
+
+we can finally see that a DBN is a solution
+to the vanishing gradient problem!
+
+Now that we’ve covered the Deep Belief Net,
+we can begin to discuss a few other deep learning
+
+models and see what kinds of problems they
+can solve.
+
+Let’s jump over to the next video, and take
+a look at how a convolutional net could be
+
+trained to recognize different objects in
+an image.
+

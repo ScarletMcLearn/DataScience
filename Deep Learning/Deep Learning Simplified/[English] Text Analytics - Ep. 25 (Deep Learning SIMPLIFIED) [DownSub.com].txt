@@ -1,0 +1,211 @@
+One of the goals of Big Data Analytics is
+to make the most out of the mountains of unstructured
+
+textual data we have access to. Standard Natural
+Language Processing techniques are okay, but
+
+Deep Learning can truly revolutionize the
+field of text analytics. In this video, we’ll
+
+explore the key aspects of text analytics
+in order to see why deep learning has so much
+
+potential.
+
+Natural language processing, or NLP for short,
+is a big field that includes methods like
+
+lemmatization, named entity recognition, part
+of speech tagging, syntactic parsing, fact
+
+extraction, sentiment analysis, machine translation…and
+many others. These methods typically rely
+
+on a “language model,” a model that estimates
+the likelihood of seeing a particular component
+
+in a body of natural language. One example
+is the trigram model, which attempts to calculate
+
+the probability of seeing a specific sequence
+of three words in a natural language corpus.
+
+All of these methods perform well in practice,
+but each one has some kind of limitation.
+
+Language is subjective and ambiguous – sometimes
+the same word can mean something different
+
+depending on the context, and sometimes synonyms
+can have subtly different meanings depending
+
+on the way they’re used. It can also be
+difficult to add new words to an existing
+
+language model, so NLP often requires a lot
+of manual curation. This added labor comes
+
+at the cost of variable quality and consistency.
+
+Deep learning is an important tool that overcomes
+some of the limitations of NLP. The fundamental
+
+difference between deep learning and traditional
+methods is the use of vectors. To represent
+
+a word, a deep learning model might use the
+“one-hot” vector implementation, which
+
+has its roots in digital circuit design. In
+this form, each word is represented as a vector
+
+whose length is the size of the entire vocabulary.
+Every value in the vector is set to 0, except
+
+for the index that maps to the word, which
+is set to 1.
+
+Not surprisingly, this can get out of hand
+if the vocabulary size is large. Large vectors
+
+can really slow down the processing time,
+as we’ve seen before. As a real world example,
+
+the Google 1T corpus has a vocabulary of over
+13 million words. To store these words as
+
+one-hot vectors, we would need 13 million
+vectors, each of size 13 million, which comes
+
+out to over 169 trillion values!
+
+Dimensionality reduction is one application
+for which one-hot vectors are used. Take the
+
+“continuous bag of words” model, for instance.
+Suppose we have some word, which we’ll call
+
+“w”, surrounded by a fixed set of words,
+called the “context”. In this model, the
+
+context is used as a set of features to predict
+what “w” might be, in a type of “fill
+
+in the blanks” application. A shallow three-layered
+neural net is used for this task, with the
+
+input layer containing one-hot vectors for
+the context words, and the output layer firing
+
+the predicted target word, “w”.
+
+The “skip-gram” model is the reverse of
+the continuous bag of words model, since it
+
+allows you to estimate the context words,
+given a target word. Since only the target
+
+is used as input, rather than a set of context
+words, the input to the hidden layer will
+
+be much smaller. As a result, we can use the
+hidden layer’s activation to represent the
+
+target word, rather than use the long one-hot
+vector form. Basically, we can reduce the
+
+input vector’s dimensionality.
+
+There are several existing tools for converting
+words into vectors, so you don’t need to
+
+go out and make your own. Two popular tools
+are Word2Vec and Glove, which we’ll link
+
+to in the description below.
+
+Now that we know how words can be represented,
+let’s look at how they can be used with
+
+Deep Nets in a few key NLP problems.
+
+Syntactic parsing is an old problem that received
+a big boost from the use of Recursive Neural
+
+Tensor Networks, or RNTNs. We explained these
+nets in detail during Episode 11 of the Deep
+
+Learning Simplified series. But for a brief
+overview, an RNTN consists of a root node
+
+connected to two leaf nodes. Two words are
+passed as input to the leaf nodes, with each
+
+leaf receiving its own word. The leaf nodes
+pass these words to the root, which processes
+
+them and essentially produces an intermediate
+parse, along with a score. This parse is fed
+
+into the leaf, along with the next word in
+the sentence. This process is recursive, and
+
+it continues until every word in the sentence
+has been fed into the net. In practice, the
+
+recursive process is much more complex, since
+the net needs to analyze all possible sub-parses
+
+during the recursive step, rather than just
+using the next word. But by doing so, it is
+
+able to analyze – and score – every possible
+syntactic parse.
+
+Deep nets are also useful for machine translation.
+As we saw in episode 9, a recurrent net can
+
+take in a sequence of inputs along with a
+time delay, and produce a sequence of outputs.
+
+A properly trained recurrent net can learn
+the inherent syntactic and semantic relationships
+
+of multiple different languages…So when
+the net is fed a sequence of words in one
+
+language, it knows how to generate the appropriate
+sequence of words in the other language.
+
+In his Ph.D thesis, Richard Socher pioneered
+the use of RNTNs for the problem of sentiment
+
+analysis. He introduced the notion that sentiment,
+like syntax, is hierarchical in nature – and
+
+that a single word in the right place can
+change the entire meaning of a sentence. Consider
+
+this example that we’ve adapted from his
+thesis. Note that the phrase “turned around”
+
+changes the entire sentiment of the sentence
+from negative to positive. A traditional sentiment
+
+analyzer might label it as negative since
+there are more negative terms than positive
+
+ones. But a well-trained RNTN is capable of
+interpreting the deep semantic structure of
+
+this sentence in order to make the correct
+prediction.
+
+Text analytics is a challenging field, but
+deep nets have already made a big impact,
+
+with many more improvements to come in the
+future. In the next video, we’ll take a
+
+closer look at architecting a deep net.
+

@@ -1,0 +1,213 @@
+You may have heard us mention before that
+a deep net at Google recently outperformed
+
+a human at an image recognition task, and
+you may have wondered how the performance
+
+was actually measured. The metric used for
+the comparison is known as “error”, and
+
+in this video we’ll take a look at the measurement
+of Deep Net performance.
+
+Error is a straightforward measurement that
+captures the proportion of data points classified
+
+incorrectly – typically from the test data
+set. The calculation is simply the number
+
+of incorrect classifications made by the net,
+divided by the total number of classifications.
+
+Unfortunately, error has a significant drawback
+as a performance measurement, especially when
+
+the data points are skewed towards one class
+over another. Let’s assume we are tasked
+
+with developing a medical model to diagnose
+a brain tumor that only occurs in about 1%
+
+of patients. With the objective of low error,
+we could design a model that always gives
+
+a negative diagnosis for every single patient.
+While this model would be useless in a practical
+
+setting, the error would be a seemingly-low
+1%!!
+
+The problem arises when we measure error globally
+across the set of all classes, rather than
+
+taking a granular view of the model’s performance
+at the class-level. Let’s illustrate this
+
+by looking at a two-class classification problem,
+where a data point is either considered “positive”
+
+or “negative”. If the model makes a positive
+classification, there are two possibilities
+
+– the model could be correct, in which case
+we have a “true positive”. Or the model
+
+could be incorrect and the point is actually
+negative, in which case we have a “false
+
+positive”. “True negatives” and “false
+negatives” are defined similarly when the
+
+model makes a negative prediction. If the
+number of occurrences of these four values
+
+are placed in a 2x2 grid, we form a valuable
+tool known as a confusion matrix.
+
+Each square in the matrix is a placeholder
+for a value, so the values are not related
+
+to any particular square’s visual size.
+You could have values like this, or like this
+
+Using this matrix, we can devise new measurements
+that overcome the issues of the error metric.
+
+We can do this by asking two related questions
+about the model’s performance. We first
+
+look at the positives in the data set and
+ask, “What percentage of these positives
+
+was the model able to correctly identify?”
+This metric is known as recall, expressed
+
+as the number of true positives divided by
+the total number of positives in the data
+
+set.
+
+We can also look at the number of times the
+model predicted positive and ask “What percentage
+
+of these predictions were actually positive?”
+This metric is known as precision, expressed
+
+as the number of true positives divided by
+the number of data points classified as positive.
+
+These two questions sound similar, but spoken
+another way, we want to know “How many of
+
+the positive data points was the model able
+to “recall”, and how “precise” were
+
+the actual predictions?” Also keep in mind
+that precision and recall are defined for
+
+the negative data points as well.
+
+So going back to our brain tumor diagnosis
+example, the model had a recall of 0 for the
+
+positive class, simply because it failed to
+identify any of the patients from the data
+
+set with a positive diagnosis.
+
+As an additional example, let’s consider
+a model that examines a pool of applicants
+
+for a top 5 US business school, and determines
+which students to accept. We will say that
+
+accepting a student is a positive classification,
+and rejecting the student is a negative classification.
+
+Since business schools have very strict entry
+requirements, only the very best applicants
+
+will ultimately be accepted. So given the
+extremely low number of false positives, the
+
+model will have a high precision value. But
+there will be a large number of qualified
+
+students that had potential to perform well,
+but just barely miss out on the opportunity
+
+for one reason or another. This will be the
+model’s false negatives, so the model will
+
+have a low recall value.
+
+A model for a US state university undergraduate
+admissions would be designed a bit differently,
+
+since the goal is to admit a much larger number
+of students. A few underqualified students
+
+will likely be accepted, so the false positive
+count will be high. But unlike the previous
+
+model, very few qualified students will be
+overlooked, so the number of false negatives
+
+will be low. This model will have low precision
+and high recall.
+
+We can use hybrid measures in order to achieve
+a balance between precision and recall. One
+
+of these measures, the F1 score, is calculated
+as the harmonic mean of precision and recall,
+
+which outperforms the standard arithmetic
+mean in the presence of outliers. The harmonic
+
+mean is also an improvement when the features
+have values between 0 and 1, something which
+
+comes in handy during the process of feature
+scaling.
+
+We can also examine precision and recall graphically
+by plotting these values and examining the
+
+area under the curve. The model that maximizes
+this area will typically be the best-performing.
+
+We can extend these concepts to classification
+problems with more than two classes. Here
+
+is what the confusion matrix might look like.
+The definitions for Precision and Recall remain
+
+the same as in the case of two-class classification.
+The difference is that now a data point can
+
+be misclassified in multiple ways, so false
+positives and false negatives must be summed
+
+over all the possible misclassification pairs.
+
+So, for multi-class classification, precision
+is the ratio of the number of true positives
+
+over all points classified as positive. And
+Recall is the ratio of the number of true
+
+positives over the total number of positives.
+
+All of these metrics are important tools for
+understanding the performance of our model.
+
+If you’d like to learn more about some of
+the hybrid measures built on precision and
+
+recall, please follow this link to Wikipedia.
+Next up, we’ll take a look at how to train
+
+and run deep nets within a reasonable amount
+of time.
+

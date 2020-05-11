@@ -1,0 +1,189 @@
+With the right design, deep nets are some
+of the most powerful tools we have in the
+
+world of data science. But given the countless
+number of parameters you need to consider
+
+when training the net and building the architecture,
+configuring a net is never a straightforward
+
+task. In this video, we’ll take a look at
+the challenges associated with configuring
+
+a deep net, and some of the techniques for
+speeding up the process.
+
+Each hyper-parameter of a deep net is an important
+design choice, in terms of both the architecture
+
+and the training approach.
+
+The first decision is the architecture, where
+you need to specify the types of layers for
+
+the deep net. Input layers are generally straightforward
+since they’re typically constrained by the
+
+application and the data set. However, there
+are many different types of hidden layers
+
+to choose from, such as convolution, pooling,
+activation, and loss, just to name a few.
+
+Convolution and pooling often have their own
+sub-parameters for the number of filters and
+
+the type of pooling, respectively. Some nets
+can also have matrix operations built in,
+
+if you need to change the shape of your data
+between layers. When deciding on an output
+
+layer, you need to specify the cost function
+for the net, which could be the sum of squares,
+
+or even cross-entropy, a function that’s
+often used for multi-class classification.
+
+After choosing the layers, you then need to
+determine the number of neurons to place in
+
+each layer. There are a few heuristics for
+this aspect of neural net design, two of which
+
+are growing and pruning. With growing, you
+start with a smaller-than-expected neuron
+
+count, and you keep adding neurons throughout
+the training process until the cost is no
+
+longer affected. Pruning is the reverse process.
+With pruning, you start with an excess of
+
+neurons, and you keep removing them until
+there is a cost difference. Growing and pruning
+
+are valuable techniques but they’re computationally
+expensive for large nets. If resources are
+
+limited, a better approach is to start with
+an excess of neurons, and then use a regularizer
+
+to prevent overfitting.
+
+There are a variety of activation functions
+to choose from, the most popular of which
+
+are the logistic unit, or the Sigmoid…the
+Hyperbolic Tangent, and the rectified linear
+
+unit, or ReLU. As we mentioned in a prior
+episode, ReLU is one approach to fight the
+
+vanishing gradient problem when working with
+back-prop. These activations all come with
+
+their own variants, so feel free to experiment
+and pick the one that suits your needs.
+
+In episode 21, we mentioned that an over-configured
+net may lead to over-fitting. However, when
+
+we combine an over-configured net with a regularizer,
+we typically end up with a model that can
+
+generalize well to new data points. The reason
+is that a net with more neurons has more ways
+
+to combine its weights and biases. As a result,
+there are more possible “patterns” that
+
+the network can learn to recognize, so there’s
+a better chance of finding some kind of weight
+
+and bias configuration with the lowest possible
+cost. Think of it like a rough cut technique
+
+– we err on the side of caution in the hopes
+that a good solution will exist, and then
+
+we cut away the rough edges until we find
+something that works.
+
+One last note regarding architecture. If you
+need to build in recurrence, you will need
+
+to carefully consider the size of the net’s
+input memory. This will determine how much
+
+of the past input the net is required to remember.
+Gating units, like GRUs and LSTMs, are designed
+
+specifically to help a net remember the different
+parts of an input sequence.
+
+The success of the training process depends
+heavily on the choice of parameters. Back-prop
+
+in particular is sensitive to the learning
+rate. If the rate is too large, the algorithm
+
+may simply skip over the point that minimizes
+overall cost. If the rate is too small, the
+
+training process will take an unreasonable
+amount of time. A common practice is to use
+
+a rate that changes as the training progresses.
+Generally, the rate starts out large in the
+
+beginning to speed up training, and then decreases
+gradually as training progresses. Think of
+
+it like this – the net starts by learning
+about the patterns in a broad sense, and then
+
+slowly starts to fine-tune its understanding.
+There are many strategies for dynamically
+
+altering the learning rate, some of which
+are Adagrad, RMSprop, and Adadelta.
+
+Before a net can be trained, we need to assign
+starting values to the weights and biases
+
+in a process called initialization. The easiest
+solution is to simply randomize the values,
+
+but since the quality of the initial weights
+has such a big effect on training times, this
+
+may not always be appropriate. Most of the
+advanced methods for initialization are beyond
+
+the scope of this video…but for one example,
+a DBN may use an RBM to set the initial weights
+
+and biases before supervised fine-tuning takes
+place.
+
+If you’re working with RNNs, you could use
+techniques like gradient clipping and steeper
+
+gates to speed up training. But generally
+speaking, if you’ve exhausted all the available
+
+options and your deep nets are still falling
+short of performance targets…just raise
+
+the number of training epochs. This strategy
+will work for every type of deep net.
+
+When it comes to the topic of deep net configuration,
+this clip only scratched the surface. There
+
+are many options available, and new methods
+are being discovered every day. Next up, we’ll
+
+take a look at Fashion matching with indico.
+

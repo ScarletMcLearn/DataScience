@@ -1,0 +1,127 @@
+So what was it that allowed researchers to
+overcome the vanishing gradient problem? The
+
+answer to this question has two parts, the
+first of which involves a Restricted Boltzmann
+
+Machine. This is a method that can automatically find patterns in our data by reconstructing
+
+the input. Sounds complicated, but bear with me. We’ll take a closer look.
+
+Geoff Hinton at the University of Toronto
+was one of the first researchers to devise
+
+a breakthrough idea for training deep nets.His approach led to the creation of the Restricted
+
+Boltzmann Machine, also known as the RBM.
+Because of his pioneering work he’s often
+
+referred to as one of the father’s of deep
+learning.
+
+An RBM is a shallow, two-layer net; the first
+layer is known as the visible layer and the
+
+second is called the hidden layer. Each node
+in the visible layer is connected to every
+
+node in the hidden layer. An RBM is considered
+“restricted” because no two nodes in the
+
+same layer share a connection.
+
+An RBM is the mathematical equivalent of a
+two-way translator – in the forward pass,
+
+an RBM takes the inputs and translates them
+into a set of numbers that encode the inputs.
+
+In the backward pass, it takes this set of
+numbers and translates them back to form the
+
+re-constructed inputs. A well-trained net
+will be able to perform the backwards translation
+
+with a high degree of accuracy. In both steps,
+the weights and biases have a very important
+
+role. They allow the RBM to decipher the interrelationships
+among the input features, and they also help
+
+the RBM decide which input features are the
+most important when detecting patterns.
+
+Through several forward and backward passes,
+an RBM is trained to reconstruct the input
+
+data. Three steps are repeated over and over
+through the training process:
+
+a) With a forward pass, every input is combined
+with an individual weight and one overall
+
+bias, and the result is passed to the hidden
+layer which may or may not activate. Here’s
+
+how it flows for the whole net.
+b) Next, in a backward pass, each activation
+
+is combined with an individual weight and
+an overall bias, and the result is passed
+
+to the visible layer for reconstruction. Here’s
+how it flows back.
+
+c) At the visible layer, the reconstruction
+is compared against the original input to
+
+determine the quality of the result.
+
+RBMs use a measure called KL Divergence for
+step c); steps a) thru c) are repeated with
+
+varying weights and biases until the input
+and the re-construction are as close as possible.
+
+Have you ever had to train an RBM in one of
+your own machine learning projects? Please
+
+comment and tell me about your experiences.
+
+An interesting aspect of an RBM is that the
+data does not need to be labelled. This turns
+
+out to be very important for real-world data
+sets like photos, videos, voices, and sensor
+
+data – all of which tend to be unlabelled.
+Rather than having people manually label the
+
+data and introduce errors, an RBM automatically
+sorts through the data, and by properly adjusting
+
+the weights and biases, an RBM is able to
+extract the important features and reconstruct
+
+the input. An important note is that an RBM
+is actually making decisions about which input
+
+features are important and how they should
+be combined to form patterns. In other words,
+
+an RBM is part of a family of feature extractor
+neural nets, which are all designed to recognize
+
+inherent patterns in data. These nets are
+also called autoencoders, because in a way,
+
+they have to encode their own structure.
+
+So we saw that an RBM can extract features,
+but how does that help with the vanishing
+
+gradient? We’ll get to the second part of
+our answer in the next video when we take
+
+a look at the Deep Belief Net.
+

@@ -1,0 +1,127 @@
+There are times when it’s extremely useful
+to figure out the underlying structure of
+
+a data set.
+
+Having access to the most important data features
+gives you a lot of flexibility when you start
+
+applying labels.
+
+Autoencoders are an important family of neural
+networks that are well-suited for this task.
+
+Let’s take a look.
+
+In a previous video we looked at the Restricted
+Boltzmann Machine, which is a very popular
+
+example of an autoencoder.
+
+But there are other types of autoencoders
+like denoising and contractive, just to name
+
+a few.
+
+Just like an RBM, an autoencoder is a neural
+net that takes a set of typically unlabelled
+
+inputs, and after encoding them, tries to
+reconstruct them as accurately as possible.
+
+As a result of this, the net must decide which
+of the data features are the most important,
+
+essentially acting as a feature extraction
+engine.
+
+Autoencoders are typically very shallow, and
+are usually comprised of an input layer, an
+
+output layer and a hidden layer.
+
+An RBM is an example of an autoencoder with
+only two layers.
+
+Here is a forward pass that ends with a reconstruction
+of the input.
+
+There are two steps - the encoding and the
+decoding.
+
+Typically, the same weights that are used
+to encode a feature in the hidden layer are
+
+used to reconstruct an image in the output
+layer.
+
+Autoencoders are trained with backpropagation,
+using a metric called “loss”.
+
+As opposed to “cost”, loss measures the
+amount of information that was lost when the
+
+net tried to reconstruct the input.
+
+A net with a small loss value will produce
+reconstructions that look very similar to
+
+the originals.
+
+Not all of these nets are shallow.
+
+In fact, deep autoencoders are extremely useful
+tools for dimensionality reduction.
+
+Consider an image containing a 28x28 grid
+of pixels.
+
+A neural net would need to process over 750
+input values just for one image – doing
+
+this across millions of images would waste
+significant amounts of memory and processing
+
+time.
+
+A deep autoencoder could encode this image
+into an impressive 30 numbers, and still maintain
+
+information about the key image features.
+
+When decoding the output, the net acts like
+a two-way translator.
+
+In this example, a well-trained net could
+translate these 30 encoded numbers back into
+
+a reconstruction that looks similar to the
+original image.
+
+Certain types of nets also introduce random
+noise to the encoding-decoding process, which
+
+has been shown to improve the robustness of
+the resulting patterns.
+
+Have you ever needed to use an autoencoder
+to reduce the dimensionality of your data?
+
+If so, please comment and share your experiences.
+
+Deep autoencoders perform better at dimensionality
+reduction than their predecessor, principal
+
+component analysis, or PCA.
+
+Below is a comparison of two letter codes
+for news stories of different topics – generated
+
+by both a deep autoencoder and a PCA.
+
+Labels were added to the picture for illustrative
+purposes.
+
+In the next video, we’ll take a look at
+Recursive Neural Tensor Nets or RNTNs
+

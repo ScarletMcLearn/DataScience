@@ -1,0 +1,115 @@
+At this point, you’re probably eager to
+use a deep net in one of your own applications.
+
+If that’s the case, let me introduce you
+to a few platforms that allow you to utilize
+
+these nets without the hassle of building
+one yourself.
+
+Deep Learning platforms come in two different
+forms – software platforms and full platforms.
+
+Let’s see how they work.
+
+A platform is a set of tools that other people
+can build on top of.
+
+For example, think of the applications that
+can be built off of the tools provided by
+
+iOS and Android, Windows and MacOS, IBM Websphere,
+and even Oracle BEA.
+
+So a Deep Learning platform provides a set
+of tools and an interface for building custom
+
+deep nets.
+
+Typically, they provide a user with a selection
+of deep nets to choose from, along with the
+
+ability to integrate data from different sources,
+manipulate data, and manage models through
+
+a UI.
+
+Some platforms also help with performance
+if a net needs to be trained with a large
+
+data set.
+
+Have you ever used a Deep Learning platform
+in one of your own projects?
+
+Please comment and share your experiences.
+
+Later in the series, we will introduce you
+to software libraries that will help you code
+
+your own deep nets.
+
+There are some advantages and disadvantages
+of using a platform vs. using a software library.
+
+A platform is an out-of-the-box application
+that lets you configure a deep net’s hyper-parameters
+
+through an intuitive UI; with a platform,
+you don’t need to know anything about coding
+
+in order to use the tools.
+
+The downside is that you are constrained by
+the platform’s selection of deep nets as
+
+well as the configuration options.
+
+But for anyone looking to quickly deploy a
+deep net, a platform is the best way to go.
+
+A software library is a set of functions and
+modules that you can call through your own
+
+code in order to perform certain tasks.
+
+Deep net libraries give you a lot of extra
+flexibility with net selection and hyper-parameter
+
+configuration.
+
+For example, there aren’t many platforms
+that let you build a Recursive Neural Tensor
+
+Net, but you can code your own with the right
+deep net library!
+
+The obvious downside to libraries is the coding
+experience required to use them, but if you
+
+need the flexibility, they really are a great
+resource.
+
+Soon we’ll take a look at Ersatz Labs, a
+dedicated Deep Learning platform that handles
+
+all the technical issues like code, deployments,
+and performance – and allows the user to
+
+go straight to modelling.
+
+We’ll also look at two machine learning
+software platforms called H2O, and GraphLab
+
+Create, both of which offer Deep Learning
+tools.
+
+Note that since the latter two are software
+platforms and not full platforms like Ersatz,
+
+they would need to be installed on your own
+personal hardware.
+
+Coming up next, we’ll first see an overview
+of Ersatz Labs.
+

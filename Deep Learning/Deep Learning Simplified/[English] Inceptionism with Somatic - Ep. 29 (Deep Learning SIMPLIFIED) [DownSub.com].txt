@@ -1,0 +1,208 @@
+In June of 2015, Google published a blog post
+about Inceptionism - a neural net that hallucinates.
+
+The idea behind the project was to showcase
+the features learned by different levels of
+
+a convolutional neural network.
+
+This was done by applying the learned features
+onto different images, which yielded results
+
+that were interesting, and sometimes a little
+amusing.
+
+Jason Toy of Somatic has implemented Inceptionism
+in their model marketplace.
+
+As we’ve seen in episodes 3 and 8, a convolutional
+neural network learns progressively complex
+
+features by assembling simpler ones.
+
+In the example of face detection, it first
+learns features like edges and color contrasts.
+
+These simple features form more complex facial
+features like the eyes and nose, which are
+
+then combined to form the face.
+
+The neural network does all of this on its
+own during the training process without any
+
+direction from the person building it.
+
+Neural nets are almost always built with a
+specific task in mind.
+
+But as we saw in episode 27, it’s extremely
+helpful to re-use what a neural network as
+
+already learned.
+
+By letting the net learn on its own, the builder
+surrenders control over what each individual
+
+layer does and learns.
+
+This is an important benefit for something
+like facial recognition, since there are so
+
+many different ways that a set of pixels could
+form a facial feature.
+
+But as a downside, it’s not always clear
+up front which filter or layer will learn
+
+which features, and at what level.
+
+The Inceptionism project is an effort by Google
+to figure out what a given layer learns, and
+
+re-apply that onto other images.
+
+Up to this point, we’ve seen how a deep
+net can discriminate between inputs, and assign
+
+them to a class, or set of classes.
+
+In image recognition for example, a deep net
+can analyze a digital image and label it as
+
+a cat picture.
+
+However, deep nets can also be used in generation.
+
+Given an output, they can generate a set of
+corresponding input data that would have resulted
+
+in that output.
+
+So as an example, think of a cat detector
+model, which would need to produce the original
+
+cat image.
+
+Working in reverse, the model would start
+with the cat, then break it down into features
+
+like the face and legs, then further down
+into edges and color contrasts, and then finally
+
+into the pixels that make up the digital image.
+
+The key insight from this project is that
+the learned weights and biases of the discriminative
+
+CNN model can also be used in generation.
+
+By extracting the learned features from a
+network and applying them to a random image,
+
+those particular features of the image are
+enhanced.
+
+So if you extracted the features from the
+edge detecting layer of a model trained on
+
+animals, and applied it to a natural scene,
+any edges in the scene that resembled those
+
+found in animals would be enhanced.
+
+On the other hand, if you applied higher level
+features like a dog face, onto a nebula image,
+
+you’d end up with a strange looking combination
+of the two.
+
+It’s important to understand that this is
+not just super-imposition.
+
+The model is gradually tweaking the features
+in the image to look more and more like what
+
+it learned from the original network.
+
+This actually results in an inter-twining
+of the two.
+
+Here is Jason Toy to demo Inceptionism.
+
+Now I'm going to show the Inception model
+running on the Somatic platform.
+
+First we're gonna upload a picture; then we're
+gonna show what it looks like going through
+
+the different layers of the Inception model.
+
+Now remember, the model is automatically learning
+features from the images it was trained on.
+
+So if you are training a classifier in this
+case, its going to learn features on a low level,
+
+and then as the layers move up, it
+learns higher and higher layers of abstraction.
+
+So here is a lower layer, where it has started
+to learn things like lines and edges, and
+
+so you see these lines and edges exaggerated
+in the image.
+
+Now we'll process it again, a few layers up.
+
+And you can see that its started to see shapes
+- such as, it looks like - eyes!
+
+And other circular objects and embeds that
+back into the image.
+
+Then we're gonna look up a layer higher up
+and we start to see faces, shapes of animals;
+
+you can see the eyes, noses, and other features
+of animals.
+
+And then a layer even higher up you see its
+a little bit more abstract but you can see
+
+multiple different types of animals it looks
+like, and eyes in the picture.
+
+So this was just a way to visualize back on
+to the image what the neural network has learned
+
+and is seeing in the image itself.
+
+So thats why they're calling it Inception;
+its recursively looking at the model.
+
+So you can also build, that means, any type of
+model you like using any type of training data.
+
+So the model that most people see is trained
+off of ImageNet, which has 1,000 classes but
+
+you can train it on your own images of other
+things and then your model would learn those
+
+visual features in the image.
+
+Even though this project has no immediate
+application, it showcases the concept of generation,
+
+which is an essential component of knowledge
+transfer.
+
+If you wanna learn more about Deep Learning,
+hang around after this for our recommendations,
+
+or visit us on Facebook and Twitter.
+
+Thanks for watching, and we'll see you next
+time!
+

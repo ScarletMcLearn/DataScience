@@ -1,0 +1,138 @@
+What do you do if the patterns in your data
+change with time? In that case, your best
+
+bet is to use a recurrent neural network.
+This deep learning model has a simple structure
+
+with a built-in feedback loop, allowing it
+to act as a forecasting engine. Let’s take
+
+a closer look.
+
+]Recurrent neural networks, or RNNs, have
+a long history, but their recent popularity
+
+is mostly due to the works of Juergen Schmidhuber,
+Sepp Hochreiter, and Alex Graves. Their applications
+
+are extremely versatile – ranging from speech
+recognition to driverless cars.
+
+All the nets we’ve seen up to this point
+have been feedforward neural networks. In
+
+a feedforward neural network, signals flow
+in only one direction from input to output,
+
+one layer at a time. In a recurrent net, the
+output of a layer is added to the next input
+
+and fed back into the same layer, which is
+typically the only layer in the entire network.
+
+You can think of this process as a passage
+through time – shown here are 4 such time
+
+steps. At t = 1, the net takes the output
+of time t = 0 and sends it back into the net
+
+along with the next input. The net repeats
+this for t = 2, t = 3, and so on.
+
+Unlike feedforward nets, a recurrent net can
+receive a sequence of values as input, and
+
+it can also produce a sequence of values as
+output. The ability to operate with sequences
+
+opens up these nets to a wide variety of applications.
+Here are a few examples. When the input is
+
+singular and the output is a sequence, a potential
+application is image captioning. A sequence
+
+of inputs with a single output can be used
+for document classification. When both the
+
+input and output are sequences, these nets
+can classify videos frame by frame. If a time
+
+delay is introduced, the net can statistically
+forecast the demand in supply chain planning.
+
+Have you ever used an RNN for one of these
+applications? If so, please comment and share
+
+your experiences.
+
+Like we’ve seen with previous deep learning
+models, by stacking RNNs on top of each other,
+
+you can form a net capable of more complex
+output than a single RNN working alone.
+
+Typically, an RNN is an extremely difficult
+net to train. Since these nets use backpropagation,
+
+we once again run into the problem of the
+vanishing gradient. Unfortunately, the vanishing
+
+gradient is exponentially worse for an RNN.
+The reason for this is that each time step
+
+is the equivalent of an entire layer in a
+feedforward network. So training an RNN for
+
+100 time steps is like training a 100-layer
+feedforward net – this leads to exponentially
+
+small gradients and a decay of information
+through time.
+
+There are several ways to address this problem
+- the most popular of which is gating. Gating
+
+is a technique that helps the net decide when
+to forget the current input, and when to remember
+
+it for future time steps. The most popular
+gating types today are GRU and LSTM. Besides
+
+gating, there are also a few other techniques
+like gradient clipping, steeper gates, and
+
+better optimizers.
+
+When it comes to training a recurrent net,
+GPUs are an obvious choice over an ordinary
+
+CPU. This was validated by a research team
+at Indico, which uses these nets on text processing
+
+tasks like sentiment analysis and helpfulness
+extraction. The team found that GPUs were
+
+able to train the nets 250 times faster! That’s
+the difference between one day of training,
+
+and over eight months!
+
+So under what circumstances would you use
+a recurrent net over a feedforward net? We
+
+know that a feedforward net outputs one value,
+which in many cases was a class or a prediction.
+
+A recurrent net is suited for time series
+data, where an output can be the next value
+
+in a sequence, or the next several values.
+So the answer depends on whether the application
+
+calls for classification, regression, or forecasting.
+
+In the next video, we’ll take a look at
+a family of deep learning models known as
+
+the autoencoders.
+

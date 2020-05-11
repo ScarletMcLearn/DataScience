@@ -1,0 +1,49 @@
+If you’re coding a deep neural network,
+using a Deep Learning software library is
+
+a sure-fire way to simplify the development
+process. Rather than re-invent the wheel,
+
+you can take advantage of well-tested code
+that was created by experts in the field.
+
+Let’s take a closer look.
+
+If you aren’t a developer or if you’re
+unfamiliar with the term, a library is a premade
+
+set of functions and modules that you can
+call through your own programs. Libraries
+
+are typically created by highly-qualified
+software teams, and popular libraries are
+
+regularly maintained. Many libraries are open-source,
+and are surrounded by big communities that
+
+provide support and contribute to the codebase.
+Deep Learning has plenty of great libraries
+
+available, several of which were created by
+key people in the field.
+
+Have you ever tried to code your own deep
+net? Did you use a library to help simplify
+
+the process? Please comment and share your
+thoughts.
+
+If you’re building a commercial app that
+requires the use of a deep net, your best
+
+bet is to use a commercial-grade library like
+deeplearning4j, Torch, or Caffe. For educational
+
+or scientific projects, you should use a library
+like Theano. Another notable library is deepmat,
+
+and there are many others.
+
+In the next video, we’ll start by looking
+at the Theano library.
+

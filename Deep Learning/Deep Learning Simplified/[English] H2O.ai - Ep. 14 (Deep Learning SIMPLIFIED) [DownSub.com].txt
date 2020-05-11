@@ -1,0 +1,99 @@
+If you need to run different learning models
+alongside a deep net – perhaps as an ensemble
+
+– then H2O.ai might be a good choice. This
+software platform offers one deep net – the
+
+multilayer perceptron – and a few other
+machine learning algorithms. Let’s take
+
+a look.
+
+H2O started out as an open-source machine
+learning platform, with deep nets being a
+
+recent addition. Besides a set of machine
+learning algorithms, the platform offers several
+
+useful features, such as data pre-processing.
+
+Currently, the only deep net supported by
+H2O is the multilayer perceptron. Despite
+
+this, the platform has sophisticated data
+munging capabilities as well as an intuitive
+
+model management UI. The other supported machine
+learning models include a GLM, a Distributed
+
+Random Forest, K-Means clustering, a gradient
+boosting machine that uses an ensemble of
+
+decision trees, a cox proportional hazard,
+and a Naïve Bayes classifier. Training with
+
+backpropagation is performed by means of the
+L-BFGS algorithm.
+
+Thankfully, H2O comes with built-in integration
+tools for platforms like HDFS, Amazon S3,
+
+SQL, and NoSQL.
+
+While the platform has an intuitive UI, you
+can access the tools through a familiar programming
+
+environment like R, Python, JSON, and several
+others. You can even model and analyze data
+
+with Tableau, Microsoft Excel, and R Studio.
+H2O also offers ensemble training, which allows
+
+you to obtain a model with the optimal set
+of hyper-parameters.
+
+Unlike Ersatz, H2O is provided as a downloadable
+software package, which you'll need to deploy
+
+and manage on your own hardware infrastructure.
+To help with this, the platform provides an
+
+in-memory map-reduce capability, distributed
+parallel processing, and columnar compression.
+
+These additions should help speed up your
+training significantly. The creators’ hope
+
+was that search and analytics would be interactive,
+but this does not apply to training; instead,
+
+they hoped that the trained nets could make
+predictions about new data on the fly, perhaps
+
+even in nano-seconds. As one final note, it’s
+not clear whether or not GPU support is built-in
+
+to the platform at this time. Although, you
+can access your deep net programmatically
+
+through an API.
+
+H2O offers a lot of interesting features,
+but the website can be a bit confusing to
+
+navigate. There are a lot of different options
+and it may take some time to figure out how
+
+to use the platform to meet your needs. Still,
+if your interested in building your own deep
+
+net, it’s worth checking out.
+
+If you have any experience using the H2O.ai
+platform, please comment and share your experiences.
+
+We’d love to hear from you.
+
+Next up, we’ll take a look at Dato GraphLab
+Create.
+
