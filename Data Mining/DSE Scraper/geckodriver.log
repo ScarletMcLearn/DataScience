@@ -298,3 +298,104 @@ JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/company_listing.php, line 6200: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/company_listing.php, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450961"
+console.error: "Unable to find target with innerWindowId:6442450961"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450962"
+console.error: "Unable to find target with innerWindowId:6442450962"
+JavaScript error: https://www.dsebd.org/company_listing.php#A, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450963"
+console.error: "Unable to find target with innerWindowId:6442450963"
+JavaScript error: https://www.dsebd.org/company_listing.php#A, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450964"
+console.error: "Unable to find target with innerWindowId:6442450964"
+JavaScript error: https://www.dsebd.org/company_listing.php#A, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450965"
+console.error: "Unable to find target with innerWindowId:6442450965"
+JavaScript error: https://www.dsebd.org/company_listing.php#A, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450966"
+console.error: "Unable to find target with innerWindowId:6442450966"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: https://www.dsebd.org/company_listing.php#A, line 6200: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450967"
+console.error: "Unable to find target with innerWindowId:6442450967"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450968"
+console.error: "Unable to find target with innerWindowId:6442450968"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450969"
+console.error: "Unable to find target with innerWindowId:6442450969"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677353466140	Marionette	INFO	Stopped listening on port 45533
+1677354277041	geckodriver	INFO	Listening on 127.0.0.1:32893
+1677354277584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3i7l2x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1677354279194	Marionette	INFO	Marionette enabled
+1677354279201	Marionette	INFO	Listening on port 33201
+Read port: 33201
+WebDriver BiDi listening on ws://127.0.0.1:43201
+1677354279475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3i7l2x/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43201/devtools/browser/b86f2ea2-8271-4c00-b767-733033cc97df
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450952"
+console.error: "Unable to find target with innerWindowId:6442450952"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450953"
+console.error: "Unable to find target with innerWindowId:6442450953"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450954"
+console.error: "Unable to find target with innerWindowId:6442450954"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450955"
+console.error: "Unable to find target with innerWindowId:6442450955"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450957"
+console.error: "Unable to find target with innerWindowId:6442450957"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450958"
+console.error: "Unable to find target with innerWindowId:6442450958"
+console.error: "Unable to find target with innerWindowId:6442450959"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450960"
+console.error: "Unable to find target with innerWindowId:6442450960"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450961"
+console.error: "Unable to find target with innerWindowId:6442450961"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450962"
+console.error: "Unable to find target with innerWindowId:6442450962"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined

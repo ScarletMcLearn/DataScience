@@ -111,10 +111,10 @@ tmp[s_trading_code+ len(('Trading Code: ')):s_script_code-1]
 table_0['trading_code'] = tmp[s_trading_code+ len(('Trading Code: ')):s_script_code-1]
 
 company_name = d.find_elements(By.CLASS_NAME, 'BodyHead')[0].text
-table_0['company_name'] = company_name[company_name.find(':')+2:]
+table_0['Company Name'] = company_name[company_name.find(':')+2:]
 
 market_info_date = d.find_elements(By.CLASS_NAME, 'BodyHead')[1].text
-table_0['market_info_date'] = market_info_date[market_info_date.find(':')+2:]
+table_0['Market Info Date'] = market_info_date[market_info_date.find(':')+2:]
 
 
 d.find_elements(By.ID, 'company')[1].get_attribute('innerHTML')
@@ -169,34 +169,131 @@ soup = BeautifulSoup(d.find_elements(By.ID, 'company')[1].get_attribute('innerHT
 # Table 1
 soup = BeautifulSoup(d.find_elements(By.ID, 'company')[1].get_attribute('innerHTML'), 'html.parser')
 table_1 = {}
-for row in soup.find_all('tr'):
-    row_header = row.th.get_text()
-    row_cell = row.td.get_text()
-    table_1[row_header] = row_cell
+c = 0
+for row in range(len(soup.find_all('tr'))):
+    # row_header = soup.find_all('tr')[row].th.get_text()
+    row_header = soup.find_all('tr')[row].find_all('th')
+    row_cell = soup.find_all('tr')[row].find_all('td')
+    # print(c)
+    # print(row_header)
+    # print(row_cell)
+    if c==0:
+        table_1['Last Trading Price'] = row_cell[0].text
+        table_1['Closing Price'] = row_cell[1].text
+    elif c==1:
+        table_1['Last Update'] = row_cell[0].text
+        table_1["Day's Range"] = row_cell[1].text
+    elif c==2:
+        table_1['Change'] = row_cell[0].text
+        table_1["Day's Value"] = row_cell[1].text
+    elif c==3:
+        table_1["52 Weeks' Moving Range"] = row_cell[1].text
+        table_1["Change %"] = row_cell[0].text
+    elif c==4:
+        table_1['Opening Price'] = row_cell[0].text
+        table_1["Day's Volume"] = row_cell[1].text
+    elif c==5:
+        table_1['Adjusted Opening Price'] = row_cell[0].text
+        table_1["Day's Trade"] = row_cell[1].text
+    elif c==6:
+        table_1["Yesterday's Closing Price"] = row_cell[0].text
+        table_1["Market Capitalization"] = row_cell[1].text
+    c = c + 1
+    # table_1[row_header] = row_cell
 
 table_1
+
+# table_1 = {}
+# c = 0
+# for row in soup.find_all('tr'):
+#     # row_header = row.th.get_text()
+#     row_cell = row.get_text()
+#     # result[row_header] = row_cell
+#     print(c)
+#     print(row_cell)
+#     c = c + 1
+
+
 
 
 # Table 2
 soup = BeautifulSoup(d.find_elements(By.ID, 'company')[2].get_attribute('innerHTML'), 'html.parser')
 table_2 = {}
-for row in soup.find_all('tr'):
-    row_header = row.th.get_text()
-    row_cell = row.td.get_text()
-    table_2[row_header] = row_cell
+c = 0
+for row in range(len(soup.find_all('tr'))):
+    # row_header = soup.find_all('tr')[row].th.get_text()
+    row_header = soup.find_all('tr')[row].find_all('th')
+    row_cell = soup.find_all('tr')[row].find_all('td')
+    # print(c)
+    # print(row_header)
+    # print(row_cell)
+    if c==0:
+        table_2['Authorized Capital'] = row_cell[0].text
+        table_2['Debut Trading Date'] = row_cell[1].text
+    elif c==1:
+        table_2['Paid-up Capital'] = row_cell[0].text
+        table_2['Type of Instrument'] = row_cell[1].text
+    elif c==2:
+        table_2['Face/par Value'] = row_cell[0].text
+        table_2['Market Lot'] = row_cell[1].text
+    elif c==3:
+        table_2['Total No. of Outstanding Securities'] = row_cell[0].text
+        table_2['Sector'] = row_cell[1].text
+    c = c + 1
+ 
+table_2       
+# soup = BeautifulSoup(d.find_elements(By.ID, 'company')[2].get_attribute('innerHTML'), 'html.parser')
+# table_2 = {}
+# for row in soup.find_all('tr'):
+#     row_header = row.th.get_text()
+#     row_cell = row.td.get_text()
+#     table_2[row_header] = row_cell
 
-table_2
+# table_2
 
 
 # Table 3
 soup = BeautifulSoup(d.find_elements(By.ID, 'company')[3].get_attribute('innerHTML'), 'html.parser')
 table_3 = {}
-for row in soup.find_all('tr'):
-    row_header = row.th.get_text()
-    row_cell = row.td.get_text()
-    table_3[row_header] = row_cell
+c = 0
+for row in range(len(soup.find_all('tr'))):
+    # row_header = soup.find_all('tr')[row].th.get_text()
+    row_header = soup.find_all('tr')[row].find_all('th')
+    row_cell = soup.find_all('tr')[row].find_all('td')
+    # print(c)
+    # print(row_header)
+    # print(row_cell)
+    if c==0:
+        table_3['Cash Dividend'] = row_cell[0].text
+        # table_3['Debut Trading Date'] = row_cell[1].text
+    elif c==1:
+        table_3['Bonus Issue'] = row_cell[0].text
+        # table_3['Type of Instrument'] = row_cell[1].text
+    elif c==2:
+        table_3['Right Issue'] = row_cell[0].text
+        # table_3['Market Lot'] = row_cell[1].text
+    elif c==3:
+        table_3['Year End'] = row_cell[0].text
+        # table_3['Sector'] = row_cell[1].text
+    elif c==4:
+        table_3['Reserve &amp; Surplus without OCI'] = row_cell[0].text
+        # table_3['Sector'] = row_cell[1].text
+    elif c==5:
+        table_3['Other Comprehensive Income (OCI)'] = row_cell[0].text
+        # table_3['Sector'] = row_cell[1].text
+    c = c + 1
+        
+        
+        
+        
+# soup = BeautifulSoup(d.find_elements(By.ID, 'company')[3].get_attribute('innerHTML'), 'html.parser')
+# table_3 = {}
+# for row in soup.find_all('tr'):
+#     row_header = row.th.get_text()
+#     row_cell = row.td.get_text()
+#     table_3[row_header] = row_cell
 
-table_3
+# table_3
 
 
 
@@ -241,8 +338,8 @@ for row in soup.find_all('td'):
     # row_header = row.th.get_text()
     row_cell = row.get_text()
     # result[row_header] = row_cell
-    print(c)
-    print(row_cell)
+    # print(c)
+    # print(row_cell)
     if c==8:
         pe_ratio_latest_audited_basic_eps.append(row_cell)
     elif c==9:
@@ -274,8 +371,8 @@ for row in soup.find_all('td'):
     c = c + 1
 
 table_6 = {}
-table_6['pe_ratio_latest_audited_basic_eps'] = pe_ratio_latest_audited_basic_eps
-table_6['pe_ratio_latest_audited_diluted_eps'] = pe_ratio_latest_audited_diluted_eps
+table_6['PE Ratio Latest Audited Basic EPS'] = pe_ratio_latest_audited_basic_eps
+table_6['PE Ratio Latest Audited Diluted EPS'] = pe_ratio_latest_audited_diluted_eps
 table_6
 
 
@@ -288,78 +385,78 @@ for row in soup.find_all('td'):
     # row_header = row.th.get_text()
     row_cell = row.get_text()
     # result[row_header] = row_cell
-    print(c)
-    print(row_cell)
+    # print(c)
+    # print(row_cell)
     if c == 19:
-        table_7['first_year'] = row_cell
+        table_7['First Year'] = row_cell
     elif c == 26: # 16 17
-        table_7['first_year_nav_per_share_original'] = row_cell
+        table_7['First Year NAV Per Share Original'] = row_cell
     elif c == 27:
-        table_7['first_year_nav_per_share_restated'] = row_cell
+        table_7['First Year NAV Per Share Restated'] = row_cell
     elif c == 28:
-        table_7['first_year_nav_per_share_diluted'] = row_cell
+        table_7['First Year NAV Per Share Diluted'] = row_cell
     elif c == 29:
-        table_7['first_year_profit_continuing_operations'] = row_cell
+        table_7['First Year Profit Continuing Operations'] = row_cell
     elif c == 30:
-        table_7['first_year_profit'] = row_cell
+        table_7['First Year Profit'] = row_cell
     elif c == 31:
-        table_7['first_year_total_comprehensive_income'] = row_cell
+        table_7['First Year Total Comprehensive Income'] = row_cell
     elif c == 32:
-        table_7['second_year'] = row_cell
+        table_7['Second Year'] = row_cell
     elif c == 39: # 16 17
-        table_7['second_year_nav_per_share_original'] = row_cell
+        table_7['Second Year NAV Per Share Original'] = row_cell
     elif c == 40:
-        table_7['second_year_nav_per_share_restated'] = row_cell
+        table_7['Second Year NAV Per Share Restated'] = row_cell
     elif c == 41:
-        table_7['second_year_nav_per_share_diluted'] = row_cell
+        table_7['Second Year NAV Per Share Diluted'] = row_cell
     elif c == 42:
-        table_7['second_year_profit_continuing_operations'] = row_cell
+        table_7['Second Year Profit Continuing Operations'] = row_cell
     elif c == 43:
-        table_7['second_year_profit'] = row_cell
+        table_7['Second Year Profit'] = row_cell
     elif c == 44:
-        table_7['second_year_total_comprehensive_income'] = row_cell
+        table_7['Second Year Total Comprehensive Income'] = row_cell
     elif c == 45:
-        table_7['third_year'] = row_cell
+        table_7['Third Year'] = row_cell
     elif c == 45 + 7: # 16 17
-        table_7['third_year_nav_per_share_original'] = row_cell
+        table_7['Third Year NAV Per Share Original'] = row_cell
     elif c == 45 + 8:
-        table_7['third_year_nav_per_share_restated'] = row_cell
+        table_7['Third Year NAV Per Share Restated'] = row_cell
     elif c == 45 + 9:
-        table_7['third_year_nav_per_share_diluted'] = row_cell
+        table_7['Third Year NAV Per Share Diluted'] = row_cell
     elif c == 45 + 10:
-        table_7['third_year_profit_continuing_operations'] = row_cell
+        table_7['Third Year Profit Continuing Operations'] = row_cell
     elif c == 45 + 11:
-        table_7['third_year_profit'] = row_cell
+        table_7['Third Year Profit'] = row_cell
     elif c == 45 + 12:
-        table_7['third_year_total_comprehensive_income'] = row_cell
+        table_7['Third Year Total Comprehensive Income'] = row_cell
     elif c == 58:
-        table_7['fourth_year'] = row_cell
+        table_7['Fourth Year'] = row_cell
     elif c == 58 + 7: # 16 17
-        table_7['fourth_year_nav_per_share_original'] = row_cell
+        table_7['Fourth Year NAV Per Share Original'] = row_cell
     elif c == 58 + 8:
-        table_7['fourth_year_nav_per_share_restated'] = row_cell
+        table_7['Fourth Year NAV Per Share Restated'] = row_cell
     elif c == 58 + 9:
-        table_7['fourth_year_nav_per_share_diluted'] = row_cell
+        table_7['Fourth Year NAV Per Share Diluted'] = row_cell
     elif c == 58 + 10:
-        table_7['fourth_year_profit_continuing_operations'] = row_cell
+        table_7['Fourth Year Profit Continuing Operations'] = row_cell
     elif c == 58 + 11:
-        table_7['fourth_year_profit'] = row_cell
+        table_7['Fourth Year Profit'] = row_cell
     elif c == 58 + 12:
-        table_7['fourth_year_total_comprehensive_income'] = row_cell
+        table_7['Fourth Year Total Comprehensive Income'] = row_cell
     elif c == 71:
-        table_7['fifth_year'] = row_cell
+        table_7['Fifth Year'] = row_cell
     elif c == 71 + 7: # 16 17
-        table_7['fifth_year_nav_per_share_original'] = row_cell
+        table_7['Fifth Year NAV Per Share Original'] = row_cell
     elif c == 71 + 8:
-        table_7['fifth_year_nav_per_share_restated'] = row_cell
+        table_7['Fifth Year NAV Per Share Restated'] = row_cell
     elif c == 71 + 9:
-        table_7['fifth_year_nav_per_share_diluted'] = row_cell
+        table_7['Fifth Year NAV Per Share Diluted'] = row_cell
     elif c == 71 + 10:
-        table_7['fifth_year_profit_continuing_operations'] = row_cell
+        table_7['Fifth Year Profit Continuing Operations'] = row_cell
     elif c == 71 + 11:
-        table_7['fifth_year_profit'] = row_cell
+        table_7['Fifth Year Profit'] = row_cell
     elif c == 71 + 12:
-        table_7['fifth_year_total_comprehensive_income'] = row_cell
+        table_7['Fifth Year Total Comprehensive Income'] = row_cell
     c = c + 1
 
 table_7
@@ -379,100 +476,100 @@ for row in soup.find_all('td'):
     # print(c)
     # print(row_cell)
     if c == 14:
-        table_8['first_year'] = row_cell
+        table_8['First Year'] = row_cell
     elif c == 15: # 16 17
-        table_8['first_year_eps_original'] = row_cell
+        table_8['First Year EPS Original'] = row_cell
     elif c == 16:
-        table_8['first_year_eps_restated'] = row_cell
+        table_8['First Year EPS Restated'] = row_cell
     elif c == 17:
-        table_8['first_year_eps_diluted'] = row_cell
+        table_8['First Year EPS Diluted'] = row_cell
     elif c == 18:
-        table_8['first_year_eps_original_continuing_operation'] = row_cell
+        table_8['First Year EPS Original Continuing Operation'] = row_cell
     elif c == 19:
-        table_8['first_year_eps_restated_continuing_operation'] = row_cell
+        table_8['First Year EPS Restated Continuing Operation'] = row_cell
     elif c == 21:
-        table_8['first_year_dividend'] = row_cell
+        table_8['First Year Dividend'] = row_cell
     elif c == 22:
-        table_8['first_year_dividend_yeild'] = row_cell
+        table_8['First Year Dividend Yeild'] = row_cell
     #
     elif c == 23:  # 14
-        table_8['second_year'] = row_cell
+        table_8['Second Year'] = row_cell
     elif c == 24: # 15
-        table_8['second_year_eps_original'] = row_cell
+        table_8['Second Year EPS Original'] = row_cell
     elif c == 25:
-        table_8['second_year_eps_restated'] = row_cell
+        table_8['Second Year EPS Restated'] = row_cell
     elif c == 26:
-        table_8['second_year_eps_diluted'] = row_cell
+        table_8['Second Year EPS Diluted'] = row_cell
     elif c == 27:
-        table_8['second_year_eps_original_continuing_operation'] = row_cell
+        table_8['Second Year EPS Original Continuing Operation'] = row_cell
     elif c == 28:
-        table_8['second_year_eps_restated_continuing_operation'] = row_cell
+        table_8['Second Year EPS Restated Continuing Operation'] = row_cell
     elif c == 29:
-        table_8['second_year_eps_diluted_continuing_operation'] = row_cell
+        table_8['Second Year EPS Diluted Continuing Operation'] = row_cell
     elif c == 30:
-        table_8['second_year_dividend'] = row_cell
+        table_8['Second Year Dividend'] = row_cell
     elif c == 31:
-        table_8['second_year_dividend_yeild'] = row_cell
+        table_8['Second Year Dividend Yeild'] = row_cell
     #
     #
     elif c == 32:  # 14
-        table_8['third_year'] = row_cell
+        table_8['Third Year'] = row_cell
     elif c == 33: # 15
-        table_8['third_year_eps_original'] = row_cell
+        table_8['Third Year EPS Original'] = row_cell
     elif c == 34:
-        table_8['third_year_eps_restated'] = row_cell
+        table_8['Third Year EPS Restated'] = row_cell
     elif c == 35:
-        table_8['third_year_eps_diluted'] = row_cell
+        table_8['Third Year EPS Diluted'] = row_cell
     elif c == 36:
-        table_8['third_year_eps_original_continuing_operation'] = row_cell
+        table_8['Third Year EPS Original Continuing Operation'] = row_cell
     elif c == 37:
-        table_8['third_year_eps_restated_continuing_operation'] = row_cell
+        table_8['Third Year EPS Restated Continuing Operation'] = row_cell
     elif c == 38:
-        table_8['third_year_eps_diluted_continuing_operation'] = row_cell
+        table_8['Third Year EPS Diluted Continuing Operation'] = row_cell
     elif c == 39:
-        table_8['third_year_dividend'] = row_cell
+        table_8['Third Year Dividend'] = row_cell
     elif c == 40:
-        table_8['third_year_dividend_yeild'] = row_cell
+        table_8['Third Year Dividend Yeild'] = row_cell
     #
     #
     elif c == 41:  # 14
-        table_8['fourth_year'] = row_cell
+        table_8['Fourth Year'] = row_cell
     elif c == 42: # 15
-        table_8['fourth_year_eps_original'] = row_cell
+        table_8['Fourth Year EPS Original'] = row_cell
     elif c == 43:
-        table_8['fourth_year_eps_restated'] = row_cell
+        table_8['Fourth Year EPS Restated'] = row_cell
     elif c == 44:
-        table_8['fourth_year_eps_diluted'] = row_cell
+        table_8['Fourth Year EPS Diluted'] = row_cell
     elif c == 45:
-        table_8['fourth_year_eps_original_continuing_operation'] = row_cell
+        table_8['Fourth Year EPS Original Continuing Operation'] = row_cell
     elif c == 46:
-        table_8['fourth_year_eps_restated_continuing_operation'] = row_cell
+        table_8['Fourth Year EPS Restated Continuing Operation'] = row_cell
     elif c == 47:
-        table_8['fourth_year_eps_diluted_continuing_operation'] = row_cell
+        table_8['Fourth Year EPS Diluted Continuing Operation'] = row_cell
     elif c == 48:
-        table_8['fourth_year_dividend'] = row_cell
+        table_8['Fourth Year Dividend'] = row_cell
     elif c == 49:
-        table_8['fourth_year_dividend_yeild'] = row_cell
+        table_8['Fourth Year Dividend Yeild'] = row_cell
     #
     #
     elif c == 50:  # 14
-        table_8['fifth_year'] = row_cell
+        table_8['Fifth Year'] = row_cell
     elif c == 51: # 15
-        table_8['fifth_year_eps_original'] = row_cell
+        table_8['Fifth Year EPS Original'] = row_cell
     elif c == 52:
-        table_8['fifth_year_eps_restated'] = row_cell
+        table_8['Fifth Year EPS Restated'] = row_cell
     elif c == 53:
-        table_8['fifth_year_eps_diluted'] = row_cell
+        table_8['Fifth Year EPS Diluted'] = row_cell
     elif c == 54:
-        table_8['fifth_year_eps_original_continuing_operation'] = row_cell
+        table_8['Fifth Year EPS Original Continuing Operation'] = row_cell
     elif c == 55:
-        table_8['fifth_year_eps_restated_continuing_operation'] = row_cell
+        table_8['Fifth Year EPS Restated Continuing Operation'] = row_cell
     elif c == 56:
-        table_8['fifth_year_eps_diluted_continuing_operation'] = row_cell
+        table_8['Fifth Year EPS Diluted Continuing Operation'] = row_cell
     elif c == 57:
-        table_8['fifth_year_dividend'] = row_cell
+        table_8['Fifth Year Dividend'] = row_cell
     elif c == 58:
-        table_8['fifth_year_dividend_yeild'] = row_cell
+        table_8['Fifth Year Dividend Yeild'] = row_cell
     #
     c = c + 1
 
@@ -512,31 +609,31 @@ table_9
 
 # This table not needed - contact info ase
 # # # Table 12
-soup = BeautifulSoup(d.find_elements(By.ID, 'company')[12].get_attribute('innerHTML'), 'html.parser')
-result = {}
+# soup = BeautifulSoup(d.find_elements(By.ID, 'company')[12].get_attribute('innerHTML'), 'html.parser')
+# result = {}
 
-c = 0
-for row in soup.find_all('td'):
-    # row_header = row.th.get_text()
-    row_cell = row.get_text()
-    # result[row_header] = row_cell
-    # print(c)
-    # print(row_cell)
-    if c == 5:
-        result['present_shortterm_loan'] = row_cell
-    elif c == 7:
-        result['present_longterm_loan'] = row_cell
-    elif c == 9:
-        result['latest_dividend_status'] = row_cell
-    elif c == 13:
-        result['latest_credit_rating_shortterm_status'] = row_cell
-    elif c == 15:
-        result['latest_credit_rating_shortterm_status'] = row_cell
-    elif c == 17:
-        result['otc_delisting_relisting'] = row_cell
-    c = c + 1
+# c = 0
+# for row in soup.find_all('td'):
+#     # row_header = row.th.get_text()
+#     row_cell = row.get_text()
+#     # result[row_header] = row_cell
+#     # print(c)
+#     # print(row_cell)
+#     if c == 5:
+#         result['present_shortterm_loan'] = row_cell
+#     elif c == 7:
+#         result['present_longterm_loan'] = row_cell
+#     elif c == 9:
+#         result['latest_dividend_status'] = row_cell
+#     elif c == 13:
+#         result['latest_credit_rating_shortterm_status'] = row_cell
+#     elif c == 15:
+#         result['latest_credit_rating_shortterm_status'] = row_cell
+#     elif c == 17:
+#         result['otc_delisting_relisting'] = row_cell
+#     c = c + 1
 
-result
+# result
 
 
 
@@ -550,20 +647,22 @@ for row in soup.find_all('td'):
     # row_header = row.th.get_text()
     row_cell = row.get_text()
     # result[row_header] = row_cell
-    print(c)
-    print(row_cell)
-    if c == 5:
-        table_11['present_shortterm_loan'] = row_cell
+    # print(c)
+    # print(row_cell)
+    if c == 1:
+        table_11['Present Operational Status'] = row_cell
+    elif c == 5:
+        table_11['Present Shortterm Loan'] = row_cell
     elif c == 7:
-        table_11['present_longterm_loan'] = row_cell
+        table_11['Present Longterm Loan'] = row_cell
     elif c == 9:
-        table_11['latest_dividend_status'] = row_cell
+        table_11['Latest Dividend Status'] = row_cell
     elif c == 13:
-        table_11['latest_credit_rating_shortterm_status'] = row_cell
+        table_11['Latest Credit Rating Shortterm Status'] = row_cell
     elif c == 15:
-        table_11['latest_credit_rating_shortterm_status'] = row_cell
+        table_11['Latest Credit Rating Longterm Status'] = row_cell
     elif c == 17:
-        table_11['otc_delisting_relisting'] = row_cell
+        table_11['OTC Delisting Relisting'] = row_cell
     c = c + 1
 
 table_11
@@ -591,6 +690,12 @@ def pprint_dict(dic):
 pprint_dict(data_dict)
 
 
+tmp = pd.DataFrame.from_dict([data_dict])
+tmp_f = '/media/scarlet/Project/Project Files/DSE Scraper/CSV/' + data_dict['Company Name'].title() + '.csv'
+tmp.to_csv(tmp_f)
+
+
+
 graph_idx = 4 # 4, 5, 6
 options_idx = 0 # 0, 1, 2, 3, 4, 5
 options = ['1 month', '3 monthes', '6 monthes', '9 monthes', '1 year', '2 years', ] 
@@ -602,7 +707,7 @@ elif graph_idx == 5:
     graph_type = 'Total Trade'
 elif graph_idx == 6:
     graph_type = 'Total Volume'
-tmp = '/media/scarlet/Project/Project Files/DSE Scraper/Charts/' + data_dict['company_name'] + ' - ' + graph_type + ' - ' +  options[options_idx]  + '.jpeg'
+tmp = '/media/scarlet/Project/Project Files/DSE Scraper/Charts/' + data_dict['Company Name'] + ' - ' + graph_type + ' - ' +  options[options_idx].title()  + '.jpeg'
 d.save_full_page_screenshot(tmp)
 d.close()
 d.switch_to.window(d.window_handles[0])
@@ -621,3 +726,14 @@ d.switch_to.window(d.window_handles[0])
 #      print(soup.find_all('td')[i])
 #      print(i)
 #      print()
+
+
+d.get('https://www.dsebd.org/company_listing.php')
+
+for i in d.find_elements(By.PARTIAL_LINK_TEXT, 'More'):
+    i.click()
+    
+# First company
+d.find_elements(By.CLASS_NAME, 'ab1')[27].text
+# Last company
+d.find_elements(By.CLASS_NAME, 'ab1')[681].text
