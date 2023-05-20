@@ -166,61 +166,68 @@ def generate_random_floats(n_of_obj):
 
 def draw_shape(figure, source, x_col_name, y_col_name, shape, size, fill_color, border_color, border_width, alpha, line_dash, line_alpha, line_cap, line_join, line_smoothing):
     if shape=='circle' or shape=='c':
-        figure.circle(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
+        item = figure.circle(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='square' or shape=='s':
-        figure.square(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
+        item = figure.square(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='diamond' or shape=='d':
-        figure.diamond(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
+        item = figure.diamond(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='triangle' or shape=='t':
-        figure.triangle(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
+        item = figure.triangle(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='cross' or shape=='+':
-        figure.cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='X' or shape=='x':
-        figure.x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='asterisk' or shape=='*':
-        figure.asterisk(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.asterisk(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='circle_cross' or shape=='c+':
-        figure.circle_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.circle_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='circle_x' or shape=='cx':
-        figure.circle_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.circle_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='inverted_triangle' or shape=='it':
-        figure.inverted_triangle(x=x_col_name, y=y_col_name, source=source,  size=size, fill_color=fill_color, 
+        item = figure.inverted_triangle(x=x_col_name, y=y_col_name, source=source,  size=size, fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='square_cross' or shape=='s+':
-        figure.square_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.square_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='square_x' or shape=='sx':
-        figure.square_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.square_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='plus' or shape=='p':
-        figure.plus(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.plus(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='diamond_cross' or shape=='d+':
-        figure.diamond_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.diamond_cross(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='diamond_x' or shape=='dx':
-        figure.diamond_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.diamond_x(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='hex' or shape=='h':
-        figure.hex(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.hex(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='y':
-        figure.y(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.y(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='-' or shape=='dash':
-        figure.dash(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
+        item = figure.dash(x=x_col_name, y=y_col_name, source=source, size=size,  fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha)
     elif shape=='line' or shape=='l':
         # Line cap / line join : "butt", "round", or "square"
         # miter, round or bevel
-        figure.line(x=x_col_name, y=y_col_name, source=source, #size=size, 
+        item = figure.line(x=x_col_name, y=y_col_name, source=source, #size=size, 
                # fill_color=fill_color, 
                 line_color=border_color, line_width=border_width, alpha=alpha, line_dash=line_dash, line_alpha=alpha,  line_cap=line_cap, line_join=line_join, 
                # line_smoothing=line_smoothing
               )
+        # Final line
+    # figure.line(x=x_col_name, y=y_col_name, source=source, #size=size, 
+    #            # fill_color=fill_color, 
+    #             line_color=border_color, line_width=border_width, alpha=alpha, line_dash=line_dash, line_alpha=alpha,  line_cap=line_cap, line_join=line_join, 
+               # line_smoothing=line_smoothing
+              # )
+    return figure, item
    
