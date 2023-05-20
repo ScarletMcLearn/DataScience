@@ -399,3 +399,12 @@ JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
 JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 2059: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.error: "Unable to find target with innerWindowId:6442450969"
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+JavaScript error: https://www.dsebd.org/displayCompany.php?name=AAMRANET, line 6128: ReferenceError: calculateRightBody is not defined
+console.warn: "Async method failed in safeAsyncMethod" (new Error("The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown", "resource://devtools/client/fronts/inspector.js", 158))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677362196317	Marionette	INFO	Stopped listening on port 33201
