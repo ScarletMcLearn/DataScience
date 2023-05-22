@@ -1,0 +1,412 @@
+Certainly! I'll go through the code and explain each line:
+
+from bokeh.io import curdoc: Import the curdoc module from Bokeh, which represents the current document.
+
+from bokeh.models import ColumnDataSource: Import the ColumnDataSource class from Bokeh, which is a data structure that holds the data for the lines.
+
+from bokeh.plotting import figure: Import the figure class from Bokeh, which represents the plot.
+
+from bokeh.layouts import row: Import the row function from Bokeh layouts, which allows arranging plots in a row.
+
+from random import randint: Import the randint function from the Python random module, which generates random integers.
+
+from functools import partial: Import the partial function from the Python functools module, which allows creating partial functions with preset arguments.
+
+Create a new instance of ColumnDataSource called source with empty initial data for the lines.
+
+Create a new instance of figure called p with specified width, height, and title.
+
+14-17. Create four line renderers (renderer1, renderer2, renderer3, renderer4) using the line method of the figure object. Each renderer is associated with a specific data column from the source data source and has different colors and legend labels.
+
+20-35. Define the update_lines function that updates the data of the lines. It appends a new x value and random y values for each line to the source data source. It also updates the x-range and y-range of the plot based on the new data.
+
+Create a partial function called callback that wraps the update_lines function.
+
+Add the p plot to the document.
+
+Call the update_lines function to initialize the lines with some initial data.
+
+Add a periodic callback that calls the callback function every 2 seconds.
+
+That's a brief explanation of the code. To customize it for other projects, you can modify the following parts:
+
+Adjust the source.data dictionary in the update_lines function to include the necessary data columns for your lines.
+
+Customize the p figure by modifying its attributes such as width, height, title, axis labels, etc., based on your requirements.
+
+Add or remove line renderers (renderer1, renderer2, etc.) based on the number of lines you need.
+
+Modify the logic in the update_lines function to update the lines based on your specific data sources or calculations.
+
+Adjust the timing of the periodic callback by modifying the interval value (in milliseconds) in curdoc().add_periodic_callback(callback, 2000).
+
+By making these modifications, you can adapt the code to suit your specific project and requirements.
+
+
+
+
+
+
+
+
+# Implementation 1
+MAX_DATA_POINTS = 100  # Maximum number of data points to store
+
+def update_lines():
+    new_data = dict(
+        x=source.data['x'][-(MAX_DATA_POINTS-1):] + [source.data['x'][-1] + 1] if source.data['x'] else [0],
+        y1=source.data['y1'][-(MAX_DATA_POINTS-1):] + [randint(0, 10)],
+        y2=source.data['y2'][-(MAX_DATA_POINTS-1):] + [randint(0, 10)],
+        y3=source.data['y3'][-(MAX_DATA_POINTS-1):] + [randint(0, 10)],
+        y4=source.data['y4'][-(MAX_DATA_POINTS-1):] + [randint(0, 10)]
+    )
+    source.data = new_data
+
+    # Update the x-range of the plot to show the latest points
+    if len(source.data['x']) >= 10:
+        p.x_range.start = source.data['x'][-10]
+    p.x_range.end = source.data['x'][-1]
+
+    # Update the y-range of the plot
+    p.y_range.start = min(min(source.data['y1']), min(source.data['y2']), min(source.data['y3']), min(source.data['y4'])) - 1
+    p.y_range.end = max(max(source.data['y1']), max(source.data['y2']), max(source.data['y3']), max(source.data['y4'])) + 1
+
+
+
+
+
+
+
+
+# Implementation 2
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource
+from bokeh.plotting import figure
+from bokeh.layouts import row
+from random import randint
+from functools import partial
+import csv
+
+# Define the CSV file path
+csv_file = "data.csv"
+
+# Create a data source for the lines
+source = ColumnDataSource(data=dict(x=[], y1=[], y2=[], y3=[], y4=[]))
+
+# Create a figure
+p = figure(width=800, height=400, title='Updating Lines')
+
+# Create four line renderers
+renderer1 = p.line(x='x', y='y1', line_width=2, color='blue', legend_label='Line 1', source=source)
+renderer2 = p.line(x='x', y='y2', line_width=2, color='red', legend_label='Line 2', source=source)
+renderer3 = p.line(x='x', y='y3', line_width=2, color='green', legend_label='Line 3', source=source)
+renderer4 = p.line(x='x', y='y4', line_width=2, color='orange', legend_label='Line 4', source=source)
+
+# Update the lines with random data and save to CSV
+def update_lines():
+    new_data = dict(
+        x=source.data['x'] + [source.data['x'][-1] + 1] if source.data['x'] else [0],
+        y1=source.data['y1'] + [randint(0, 10)],
+        y2=source.data['y2'] + [randint(0, 10)],
+        y3=source.data['y3'] + [randint(0, 10)],
+        y4=source.data['y4'] + [randint(0, 10)]
+    )
+    source.data = new_data
+
+    # Update the x-range of the plot to show the latest points
+    if len(source.data['x']) >= 10:
+        p.x_range.start = source.data['x'][-10]
+    p.x_range.end = source.data['x'][-1]
+
+    # Update the y-range of the plot
+    p.y_range.start = min(min(source.data['y1']), min(source.data['y2']), min(source.data['y3']), min(source.data['y4'])) - 1
+    p.y_range.end = max(max(source.data['y1']), max(source.data['y2']), max(source.data['y3']), max(source.data['y4'])) + 1
+
+    # Save the updated data to a CSV file
+    save_data_to_csv(new_data)
+
+# Save data to a CSV file
+def save_data_to_csv(data):
+    with open(csv_file, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([data['x'][-1], data['y1'][-1], data['y2'][-1], data['y3'][-1], data['y4'][-1]])
+
+# Load data from a CSV file
+def load_data_from_csv():
+    data = {'x': [], 'y1': [], 'y2': [], 'y3': [], 'y4': []}
+    with open(csv_file, mode='r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            data['x'].append(float(row[0]))
+            data['y1'].append(float(row[1]))
+            data['y2'].append(float(row[2]))
+            data['y3'].append(float(row[3]))
+            data['y4'].append(float(row[4]))
+    return data
+
+# Create a callback to update the lines every 2 seconds
+callback = partial(update_lines)
+
+# Add the lines to the document
+curdoc().add_root(row(p))
+
+# Load the initial data from CSV
+source.data = load_data_from_csv()
+
+# Periodically update the lines every 2 seconds
+curdoc().add_periodic_callback(callback, 2000)
+
+
+
+
+
+
+
+# Implementation 3
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource
+from bokeh.plotting import figure
+from bokeh.layouts import row
+from random import randint
+from functools import partial
+import csv
+
+# Define the CSV file path
+csv_file = "data.csv"
+
+# Define the chunk size
+chunk_size = 1000
+
+# Create a data source for the lines
+source = ColumnDataSource(data=dict(x=[], y1=[], y2=[], y3=[], y4=[]))
+
+# Create a figure
+p = figure(width=800, height=400, title='Updating Lines')
+
+# Create four line renderers
+renderer1 = p.line(x='x', y='y1', line_width=2, color='blue', legend_label='Line 1', source=source)
+renderer2 = p.line(x='x', y='y2', line_width=2, color='red', legend_label='Line 2', source=source)
+renderer3 = p.line(x='x', y='y3', line_width=2, color='green', legend_label='Line 3', source=source)
+renderer4 = p.line(x='x', y='y4', line_width=2, color='orange', legend_label='Line 4', source=source)
+
+# Update the lines with random data and save to CSV
+def update_lines():
+    new_data = dict(
+        x=source.data['x'] + [source.data['x'][-1] + 1] if source.data['x'] else [0],
+        y1=source.data['y1'] + [randint(0, 10)],
+        y2=source.data['y2'] + [randint(0, 10)],
+        y3=source.data['y3'] + [randint(0, 10)],
+        y4=source.data['y4'] + [randint(0, 10)]
+    )
+    source.data = new_data
+
+    # Update the x-range of the plot to show the latest points
+    if len(source.data['x']) >= 10:
+        p.x_range.start = source.data['x'][-10]
+    p.x_range.end = source.data['x'][-1]
+
+    # Update the y-range of the plot
+    p.y_range.start = min(min(source.data['y1']), min(source.data['y2']), min(source.data['y3']), min(source.data['y4'])) - 1
+    p.y_range.end = max(max(source.data['y1']), max(source.data['y2']), max(source.data['y3']), max(source.data['y4'])) + 1
+
+    # Save the updated data to a CSV file
+    save_data_to_csv(new_data)
+
+# Save data to a CSV file
+def save_data_to_csv(data):
+    with open(csv_file, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([data['x'][-1], data['y1'][-1], data['y2'][-1], data['y3'][-1], data['y4'][-1]])
+
+# Load data from a CSV file in chunks
+def load_data_from_csv():
+    data = {'x': [], 'y1': [], 'y2': [], 'y3': [], 'y4': []}
+    with open(csv_file, mode='r') as file:
+        reader = csv.reader(file)
+        next(reader)  # Skip the header row
+        chunk_counter = 0
+        for row in reader:
+            data['x'].append(float(row[0]))
+            data['y1'].append(float(row[1]))
+            data['y2'].append(float(row[2]))
+            data['y3'].append(float(row[3]))
+            data['y4'].append(float(row[4]))
+            if len(data['x']) == chunk_size:
+                yield data
+                data = {'x': [], 'y1': [], 'y2': [], 'y3': [], 'y4': []}
+                chunk_counter += 1
+        # Check if there's any remaining data
+        if len(data['x']) > 0:
+            yield data
+            chunk_counter += 1
+    print(f"Loaded {chunk_counter} chunks of data from CSV")
+
+# Create a callback to update the lines every 2 seconds
+callback = partial(update_lines)
+
+# Add the lines to the document
+curdoc().add_root(row(p))
+
+# Load the initial data from CSV
+data_generator = load_data_from_csv()
+source.data = next(data_generator)
+
+# Periodically update the lines every 2 seconds
+curdoc().add_periodic_callback(callback, 2000)
+
+
+
+
+
+# Implementation 4
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource
+from bokeh.plotting import figure
+from bokeh.layouts import row
+from random import randint
+from functools import partial
+import pandas as pd
+
+# Chunk size for loading data from CSV
+CHUNK_SIZE = 1000
+
+# Create a data source for the lines
+source = ColumnDataSource(data=dict(x=[], y1=[], y2=[], y3=[], y4=[]))
+
+# Create a figure
+p = figure(width=800, height=400, title='Updating Lines')
+
+# Create four line renderers
+renderer1 = p.line(x='x', y='y1', line_width=2, color='blue', legend_label='Line 1', source=source)
+renderer2 = p.line(x='x', y='y2', line_width=2, color='red', legend_label='Line 2', source=source)
+renderer3 = p.line(x='x', y='y3', line_width=2, color='green', legend_label='Line 3', source=source)
+renderer4 = p.line(x='x', y='y4', line_width=2, color='orange', legend_label='Line 4', source=source)
+
+# Function to load data from CSV in chunks
+def load_data_from_csv():
+    data = {
+        'x': [],
+        'y1': [],
+        'y2': [],
+        'y3': [],
+        'y4': []
+    }
+    for chunk in pd.read_csv('data.csv', chunksize=CHUNK_SIZE):
+        data['x'].extend(chunk['x'].tolist())
+        data['y1'].extend(chunk['y1'].tolist())
+        data['y2'].extend(chunk['y2'].tolist())
+        data['y3'].extend(chunk['y3'].tolist())
+        data['y4'].extend(chunk['y4'].tolist())
+    return data
+
+# Update the lines with random data
+def update_lines():
+    new_data = dict(
+        x=source.data['x'] + [source.data['x'][-1] + 1] if source.data['x'] else [0],
+        y1=source.data['y1'] + [randint(0, 10)],
+        y2=source.data['y2'] + [randint(0, 10)],
+        y3=source.data['y3'] + [randint(0, 10)],
+        y4=source.data['y4'] + [randint(0, 10)]
+    )
+    source.data = new_data
+
+    # Update the x-range of the plot to show the latest points
+    if len(source.data['x']) >= 10:
+        p.x_range.start = source.data['x'][-10]
+    p.x_range.end = source.data['x'][-1]
+
+    # Update the y-range of the plot
+    p.y_range.start = min(min(source.data['y1']), min(source.data['y2']), min(source.data['y3']), min(source.data['y4'])) - 1
+    p.y_range.end = max(max(source.data['y1']), max(source.data['y2']), max(source.data['y3']), max(source.data['y4'])) + 1
+
+# Create a callback to update the lines every 2 seconds
+callback = partial(update_lines)
+
+# Load the initial data from CSV
+source.data = load_data_from_csv()
+
+# Add the lines to the document
+curdoc().add_root(row(p))
+
+# Periodically update the lines every 2 seconds
+curdoc().add_periodic_callback(callback, 2000)
+
+
+
+
+
+
+
+# Implementation 5 - Maybe same as above 
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource
+from bokeh.plotting import figure
+from bokeh.layouts import row
+from random import randint
+from functools import partial
+import pandas as pd
+
+# Chunk size for loading data from CSV
+CHUNK_SIZE = 1000
+
+# Create a data source for the lines
+source = ColumnDataSource(data=dict(x=[], y1=[], y2=[], y3=[], y4=[]))
+
+# Create a figure
+p = figure(width=800, height=400, title='Updating Lines')
+
+# Create four line renderers
+renderer1 = p.line(x='x', y='y1', line_width=2, color='blue', legend_label='Line 1', source=source)
+renderer2 = p.line(x='x', y='y2', line_width=2, color='red', legend_label='Line 2', source=source)
+renderer3 = p.line(x='x', y='y3', line_width=2, color='green', legend_label='Line 3', source=source)
+renderer4 = p.line(x='x', y='y4', line_width=2, color='orange', legend_label='Line 4', source=source)
+
+# Function to load data from CSV in chunks
+def load_data_from_csv():
+    data = {
+        'x': [],
+        'y1': [],
+        'y2': [],
+        'y3': [],
+        'y4': []
+    }
+    for chunk in pd.read_csv('data.csv', chunksize=CHUNK_SIZE):
+        data['x'].extend(chunk['x'].tolist())
+        data['y1'].extend(chunk['y1'].tolist())
+        data['y2'].extend(chunk['y2'].tolist())
+        data['y3'].extend(chunk['y3'].tolist())
+        data['y4'].extend(chunk['y4'].tolist())
+    return data
+
+# Update the lines with random data
+def update_lines():
+    new_data = dict(
+        x=source.data['x'] + [source.data['x'][-1] + 1] if source.data['x'] else [0],
+        y1=source.data['y1'] + [randint(0, 10)],
+        y2=source.data['y2'] + [randint(0, 10)],
+        y3=source.data['y3'] + [randint(0, 10)],
+        y4=source.data['y4'] + [randint(0, 10)]
+    )
+    source.data = new_data
+
+    # Update the x-range of the plot to show the latest points
+    if len(source.data['x']) >= 10:
+        p.x_range.start = source.data['x'][-10]
+    p.x_range.end = source.data['x'][-1]
+
+    # Update the y-range of the plot
+    p.y_range.start = min(min(source.data['y1']), min(source.data['y2']), min(source.data['y3']), min(source.data['y4'])) - 1
+    p.y_range.end = max(max(source.data['y1']), max(source.data['y2']), max(source.data['y3']), max(source.data['y4'])) + 1
+
+# Create a callback to update the lines every 2 seconds
+callback = partial(update_lines)
+
+# Load the initial data from CSV
+source.data = load_data_from_csv()
+
+# Add the lines to the document
+curdoc().add_root(row(p))
+
+# Periodically update the lines every 2 seconds
+curdoc().add_periodic_callback(callback, 2000)
+ 
