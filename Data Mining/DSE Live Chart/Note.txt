@@ -1,5 +1,41 @@
-Get color mapper for 400 companies
+Get color mapper for 400 companies X
 
 Instantiate 400 lines with colors and 400 lists for companies
 
 Update data 
+
+
+from bokeh.plotting import figure, curdoc
+from bokeh.models import ColumnDataSource
+from bokeh.io import show
+
+# Create a Bokeh figure
+plot = figure(title="Live Streaming Bokeh Plot", x_axis_label="X", y_axis_label="Y")
+
+# Create data source for all lines
+source_data = {'x': []}
+for i in range(1, 401):
+    source_data[f'y{i}'] = []
+
+source = ColumnDataSource(data=source_data)
+
+# Initialize lines
+lines = []
+for i in range(1, 401):
+    line = plot.line(x='x', y=f'y{i}', source=source)
+    lines.append(line)
+
+# Periodic callback function
+def update_data():
+    # Generate or fetch new data for each line
+    for i in range(1, 401):
+        # Fetch or generate data for y{i}
+        # Replace `[]` with your actual data generation or fetching logic
+        y_values = []  # Example: Fetch or generate new y-values for y{i}
+        source.data[f'y{i}'] = y_values
+
+# Add periodic callback
+curdoc().add_periodic_callback(update_data, 1000)  # Update every 1 second
+
+# Show the plot
+show(plot)
