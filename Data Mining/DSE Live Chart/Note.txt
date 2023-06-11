@@ -39,3 +39,187 @@ curdoc().add_periodic_callback(update_data, 1000)  # Update every 1 second
 
 # Show the plot
 show(plot)
+
+
+
+
+Find code for - 
+1. Find input column data source
+2. Find code to generate line
+3. Find function to get updated data
+4. Stream using callback
+
+
+
+
+
+
+
+Sure! I will help you combine the code snippets and implement the functionality you described. Here's the modified code that combines the given functions and implements the live streaming of data using Bokeh:
+
+python
+Copy code
+# Importing necessary libraries
+from colorama import Fore, Style
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+import time
+from bokeh.plotting import figure, curdoc
+from bokeh.models import LinearColorMapper, ColumnDataSource, HoverTool, Legend, LegendItem
+from bokeh.palettes import Turbo256
+from datetime import datetime
+from bokeh.io import show
+from functools import partial
+import pandas as pd
+
+# This is my bokeh figure
+p = figure(
+    title="Dhaka Stock Exchange Live Change",
+    x_axis_type="datetime",
+    sizing_mode="stretch_both",
+    y_range=(-1, 101)
+)
+
+p.title.align = "center"
+# Set x-axis and y-axis labels
+p.xaxis.axis_label = "Date-Time"
+p.yaxis.axis_label = "Percentage Change (%)"
+
+p.grid.visible = True
+
+curdoc().theme = 'dark_minimal'
+
+# This is my column data source
+source = ColumnDataSource(data=dict(x_values=[], y_1_values=[]))
+
+# This draw_shape function is used to draw bokeh glyphs
+def draw_shape(figure, source, x_col_name, y_col_name, shape, size, fill_color, border_color, border_width, alpha, line_dash, line_alpha, line_cap, line_join, line_smoothing):
+    if shape == 'circle' or shape == 'c':
+        item = figure.circle(x=x_col_name, y=y_col_name, source=source, size=size, fill_color=fill_color, line_color=border_color, line_width=border_width, alpha=alpha)
+    elif shape == 'line' or shape == 'l':
+        item = figure.line(x=x_col_name, y=y_col_name, source=source, line_color=border_color, line_width=border_width, alpha=alpha, line_dash=line_dash, line_alpha=line_alpha, line_cap=line_cap, line_join=line_join)
+    return figure, item
+
+# Function to get live company data
+def get_co_data(co_name='AAMRATECH'):
+    # Replace this with your actual code to get live data
+    # This is just a placeholder
+    data = {
+        'serial': '4',
+        'trading_code': 'AAMRATECH',
+        'last_trading_price': 36.0,
+        'last_high': 37.1,
+        'last_low': 35.8,
+        'close_price': 36.0,
+        'yesterday_close_price': 36.6,
+        'percentage_change': -0.6,
+        'number_of_trades': 778.0,
+        'value_of_trades': 26.327,
+        'volume': 729287.0
+    }
+    return data
+
+# Update the plot with new data
+def update():
+    data = get_co_data()  # Get live company data
+    x_value = datetime.now()  # Current date and time
+    y_value = data['percentage_change']  # Current percentage change
+
+    # Append new data to the data source
+    source.data['x_values'].append(x_value)
+    source.data['y_1_values'].append(y_value)
+
+    # Update the plot range based on new data
+    p.x_range.start = max(source.data['x_values']) - timedelta(minutes=5)
+    p.x_range.end = max(source.data['x_values'])
+
+    # Update the data source
+    source.data = source.data
+
+# Create a periodic callback to update the plot every second
+curdoc().add_periodic_callback(update, 1000)
+
+# Call the draw_shape function to draw a scatter plot
+p, i2 = draw_shape(x_col_name='x_values', y_col_name='y_1_values', source=source, figure=p, shape='circle', size=10, fill_color='blue', border_color='white', border_width=1, alpha=0.3, line_smoothing=0.9, line_join='round', line_cap='round', line_alpha=0.6, line_dash='4 4')
+
+# Add the legend item
+legend_item = LegendItem(label="Circle", renderers=[i2])
+legend = Legend(items=[legend_item], location="top_left", orientation="vertical")
+p.add_layout(legend)
+
+# Show the plot
+show(p)
+This code defines the draw_shape function to draw the glyphs (circle and line), get_co_data function to fetch live company data (replace with your actual implementation), and the update function that updates the plot with new data every second.
+
+The code uses a Bokeh figure p with a datetime x-axis and a percentage change y-axis. It creates a column data source source to store the x and y values. The update function retrieves the live data using get_co_data, appends the new data to the data source, and updates the plot range. The draw_shape function is called to draw a circle glyph for the live data points.
+
+A periodic callback is added using curdoc().add_periodic_callback to update the plot every second. Finally, the legend is added to the plot, and the plot is shown using show(p).
+
+Note: Please make sure to replace the placeholder code in get_co_data with your actual implementation to fetch the live company data.
+
+
+
+I have this Bokeh code:
+x_values = []
+y_1_values = []
+# y_2_values = []
+
+# Create a ColumnDataSource to store the data
+source = ColumnDataSource(data=dict(x=x_values, y1=y_1_values, 
+                                    # y2=y_2_values)
+                                   ))
+
+# Create the figure
+p = figure(
+    title="Dhaka Stock Exchange Live Change",
+    x_axis_type="datetime",
+    sizing_mode="scale_both",
+    max_width=900,
+    max_height=300,
+    width=900,
+    height=900
+)
+
+p.title.align = "center"
+# Set x-axis and y-axis labels
+p.xaxis.axis_label = "Date-Time"
+p.yaxis.axis_label = "Percentage Change (%)"
+
+p.xaxis.formatter = DatetimeTickFormatter(hours="%H:%M")
+
+curdoc().theme = 'dark_minimal'
+
+def update_data():
+    while True:
+        # # Fetch data from the website
+        # response = requests.get("https://example.com")
+        # soup = BeautifulSoup(response.content, "html.parser")
+
+        # Extract the values from the website
+        value_1 = random.random()
+        # value_2 = random.random()
+
+        # Update the data
+        x_values.append(time.time())
+        y_1_values.append(value_1)
+        # y_2_values.append(value_2)
+        source.data = dict(x=x_values, y1=y_1_values, 
+                           # y2=y_2_values
+                          )
+
+        # Pause for a while before updating again
+        time.sleep(1)
+
+# Start updating the data in a separate thread
+curdoc().add_root(p)
+curdoc().add_periodic_callback(update_data, 1000)  # Update every second
+curdoc().title = "Streaming Plot"
+
+
+I get this error:
+2023-06-05 21:18:54,286 W-1000 (MISSING_RENDERERS): Plot has no renderers: figure(id='p1004', ...)
+
+The stream isn't showing any Bokeh plot - as in the graph isn't updating or showing any data.
+
+Tell me which lines to update or add to fix this error.
