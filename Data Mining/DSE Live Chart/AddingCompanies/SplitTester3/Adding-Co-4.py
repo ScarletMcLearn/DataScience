@@ -130,6 +130,26 @@ legend.spacing = 10  # Adjust the spacing between legend items
 legend.propagate_hover = True
 
 
+
+from datetime import datetime, timedelta
+from bokeh.models import DataRange1d
+
+# Update the x-axis range
+current_time = datetime.now()
+start_range = current_time 
+end_range = current_time + timedelta(hours=24)
+p.x_range.start = start_range - timedelta(minutes=30)
+p.x_range.end = end_range
+
+
+
+
+p.x_range = DataRange1d()
+# Set the y-range of the figure
+p.y_range = DataRange1d()
+
+
+
 def update_data():
                 
                 all_tr = get_all_data()
@@ -144,6 +164,7 @@ def update_data():
                               # 100
                               1000
                              )
+                
 
 # def update_data():
                 # # AAMRANET= get_co_data(co_name='AAMRANET')['percentage_change']
