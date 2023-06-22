@@ -11,16 +11,14 @@ from Utils.ColDataSource import *
 # end_time = start_time + timedelta(hours=24)
 
 p = figure(x_axis_type='datetime', 
-           y_range=(-100, 100),
-           # x_range = (0, 100),
+           # y_range=(-100, 100),
            width=2150, height=950, 
-           # tools='pan,reset'
            title="Dhaka Stock Exchange Live Change",
-           # sizing_mode='stretch_both',
-           # x_range=Range1d(datetime(2023, 1, 1), datetime(2023, 1, 2))
-           # x_range=(start_time, end_time)
           )
 
+y_range=(-100, 100)
+from bokeh.models import Range1d
+p.y_range = Range1d(*y_range)
 
 p.title.align = "center"
 # Set x-axis and y-axis labels
@@ -136,7 +134,7 @@ from bokeh.models import DataRange1d
 
 # Update the x-axis range
 current_time = datetime.now()
-start_range = current_time
+start_range = current_time - timedelta(minutes=30)
 end_range = current_time + timedelta(hours=24)
 p.x_range.start = start_range - timedelta(minutes=30)
 p.x_range.end = end_range
@@ -144,9 +142,7 @@ p.x_range.end = end_range
 
 
 
-p.x_range = DataRange1d()
-# Set the y-range of the figure
-p.y_range = DataRange1d()
+# p.x_range = DataRange1d()  # commented this to see if range works
 
 
 
@@ -159,8 +155,13 @@ def update_data():
                     stream_data.update(get_co_data(company_lst[i], all_tr)) 
                     
                 new_data = stream_data
+
+                # Added this
+                # start_range = start_time - timedelta(minutes=30)
+                # end_range = start_time + timedelta(hours=24)
+                # p.x_range.start = start_range
+                # p.x_range.end = end_range
     
-             
                 source.stream(new_data, 
                               # 100
                               1000
