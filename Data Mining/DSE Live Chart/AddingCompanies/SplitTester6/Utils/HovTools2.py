@@ -148,53 +148,53 @@ def draw_hovertool(renderer_1, renderer_2, company):
         tooltips="""
     <div>
         <div>
-            <span style="font-weight: bold; font-size:20px">Company Data</span>
+            <span style="font-weight: bold; font-size:17px; color:#00d2ff;">Company Data</span>
         </div>
         <div>
-            <span>Company Name: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Company Name: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Date time: </span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Date time: </span>
             
-            <span>@x{{%dth %B - %I:%M:%S %p}}</span>
+            <span style="font-weight: bold; font-size:15px">@x{{%dth %B - %I:%M:%S %p}}</span>
            
         </div>
         <div>
-            <span>Percentage Change: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Percentage Change: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Last Trading Price: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Last Trading Price: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Last High: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Last High: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Last Low: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Last Low: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Closing Price: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Closing Price: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Yesterday's Closing Price: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Yesterday's Closing Price: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Number of Trades: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Number of Trades: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Values of Trades: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Values of Trades: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
         <div>
-            <span>Volume of Trades: </span>
-            <span>{}</span>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Volume of Trades: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
     </div>
 """.format(company, pc, ltp, lh, ll, cp, ycp, nott, vot, vol),
