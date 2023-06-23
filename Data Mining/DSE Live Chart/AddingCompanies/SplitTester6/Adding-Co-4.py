@@ -12,7 +12,7 @@ from Utils.ColDataSource import *
 
 p = figure(x_axis_type='datetime', 
            # y_range=(-100, 100),
-           width=2150, height=950, 
+           width=2150, height=1400,    # 950 
            title="Dhaka Stock Exchange Live Change",
           )
 
