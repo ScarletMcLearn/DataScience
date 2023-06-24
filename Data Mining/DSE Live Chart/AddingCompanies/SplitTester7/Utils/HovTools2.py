@@ -18,6 +18,7 @@ def draw_hovertool(renderer_1, renderer_2, company):
     nott = '@' + company + '_NoT'
     vot = '@' + company + '_VoT'
     vol = '@' + company + '_Vol'
+    sz = '@' + company + '_Size'
     return HoverTool(
         renderers=[renderer_1, renderer_2],
         tooltips="""
@@ -71,8 +72,12 @@ def draw_hovertool(renderer_1, renderer_2, company):
             <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Volume of Trades: </span>
             <span style="font-weight: bold; font-size:15px">{}</span>
         </div>
+        <div>
+            <span style="font-weight: bold; font-size:15px; color:#00d2ff;">Size of Glyphs: </span>
+            <span style="font-weight: bold; font-size:15px">{}</span>
+        </div>
     </div>
-""".format(company, pc, ltp, lh, ll, cp, ycp, nott, vot, vol),
+""".format(company, pc, ltp, lh, ll, cp, ycp, nott, vot, vol, sz),
         formatters={
             # 'x'      : 'printf',
             '@x'      : 'datetime',

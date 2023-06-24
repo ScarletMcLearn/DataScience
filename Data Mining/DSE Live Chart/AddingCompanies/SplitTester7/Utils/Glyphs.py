@@ -41,8 +41,8 @@ def generate_gly_dictionary(source, figure, company_list, company_symbol_lst):
         shape = company_symbol_lst[i]
         line_no=i
 
-        sz_hlp = company_list[i] + '_VoT'
+        sz = company_list[i] + '_Size'
 
         
-        dictionary[key_l], dictionary[key_ia], dictionary[key_ib] = updated_draw_shape_line(x_col_name='x', y_col_name=pc, source=source, figure=figure, label=label, shape=shape, line_no=line_no, color=color[i], size_helper=sz_hlp)
+        dictionary[key_l], dictionary[key_ia], dictionary[key_ib] = updated_draw_shape_line(x_col_name='x', y_col_name=pc, source=source, figure=figure, label=label, shape=shape, line_no=line_no, color=color[i], size_helper=sz)
     return dictionary

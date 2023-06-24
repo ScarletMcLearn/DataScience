@@ -16,6 +16,7 @@ def company_columns_generator(company):
     vot = company + '_VoT'
     vol = company + '_Vol'
     cn = company + '_Company_Name'
+    sz = company + '_Size'
     return {
             sr : [],
             ltp : [],
@@ -28,6 +29,7 @@ def company_columns_generator(company):
             vot : [],
             vol : [],
             cn : [],
+            sz : [],
            }
 
 

@@ -222,6 +222,15 @@ def get_co_data(co_name, all_tr):
         val_9 = trading_code + '_NoT'
         val_10 = trading_code + '_VoT'
         val_11 = trading_code + '_Vol'
+        val_12 = trading_code + '_Size'
+
+        sz = 30 + float(value_of_trades/100) 
+        # vot = value_of_trades 
+        # if vot == 0:
+        #     vot = 1
+        # sz = 30 + (1.0 / float(vot))
+
+        
         
 
         curr_co_data = {
@@ -235,7 +244,8 @@ def get_co_data(co_name, all_tr):
                         val_8:[percentage_change],
                         val_9:[number_of_trades],
                         val_10:[value_of_trades],
-                        val_11:[volume],                    
+                        val_11:[volume],  
+                        val_12:[sz],
                         }
             # continue
         tmp_c=tmp_c+1
@@ -449,20 +459,13 @@ def updated_draw_shape(figure, source, x_col_name, y_col_name, shape, size, fill
 
 
 
+import sys
 
 def updated_draw_shape_line(x_col_name, y_col_name, source, figure, label, shape, line_no, color, size_helper):
-    try:
-        size_mod = source.data[size_helper][-1]
-        size_mod = size_mod/100 
-        print('Size: ', str(size_mod))
-    except Exception as e:
-        # Handling the exception
-        print("An exception occurred:", str(e))
-        # Optionally, you can perform additional actions or logging here
-        pass
+    
 
     size = 30
-    i2 = updated_draw_shape(x_col_name=x_col_name, y_col_name=y_col_name, source=source, figure=figure, shape=shape, size=size, fill_color=color, border_color='white', border_width=3, alpha=0.55, line_smoothing=0.9, line_join='round', line_cap='round', line_alpha=0.6, line_dash='4 4', )
+    i2 = updated_draw_shape(x_col_name=x_col_name, y_col_name=y_col_name, source=source, figure=figure, shape=shape, size=size_helper, fill_color=color, border_color='white', border_width=3, alpha=0.55, line_smoothing=0.9, line_join='round', line_cap='round', line_alpha=0.6, line_dash='4 4', )
 
     i3 = updated_draw_shape(x_col_name=x_col_name, y_col_name=y_col_name, source=source, figure=figure, shape='l', size=size, fill_color='blue', border_color='white', border_width=6, alpha=0.5, line_smoothing=0.9, line_join='round', line_cap='round', line_alpha=0.6, line_dash='10 10', )
     
