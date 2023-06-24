@@ -1,13 +1,10 @@
 from bokeh.models import HoverTool
 
 
-
     
 def draw_hovertools(renderer_1, renderer_2):
     return draw_hovertool(renderer_1, renderer_2, 'AAMRANET')
 # p.add_tools(hover_tool_2)
-
-
 
 
 
@@ -82,7 +79,6 @@ def draw_hovertool(renderer_1, renderer_2, company):
             
         }
     )
-
 
 
 

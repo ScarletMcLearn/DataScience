@@ -190,8 +190,7 @@ company_symbol_lst = [
 source = company_col_gen(company_lst)
 
 from Utils.Glyphs import generate_gly_dictionary
-# # l1, ia1, ib1, l2, ia2, ib2, l5, ia5, ib5, l6, ia6, ib6, l7, ia7, ib7, l3, ia3, ib3, l4, ia4, ib4 = glyph_renderer(source, figure=p)
-# l1, ia1, ib1 = glyph_renderer(source, figure=p)
+
 
 
 
@@ -292,82 +291,6 @@ def update_data():
                               1000
                              )
                 
-
-# def update_data():
-                # # AAMRANET= get_co_data(co_name='AAMRANET')['percentage_change']
-                # # time.sleep(random.randint(5, 10))
-                # # AAMRATECH= get_co_data(co_name='AAMRATECH')['percentage_change']
-                # # time.sleep(random.randint(5, 10))
-                # # ABBANK= get_co_data(co_name='ABBANK')['percentage_change']
-                # # time.sleep(random.randint(5, 10))
-
-                
-                # all_tr = get_all_data()
-                # stream_data = dict(x=[datetime.now()])
-                # for i in range(len(company_lst)):
-                #     stream_data.update(get_co_data(company_lst[i], all_tr)) 
-                    
-                # new_data = stream_data
-    
-                # # dict(
-                # # x=[datetime.now()],
-                # # # y1=[10],
-                # # # y2=[20],
-                # # # AAMRATECH= [40],
-                # # # ABBANK= [30],  
-
-
-                # # AAMRANET_Serial=[0],
-                # # AAMRANET_LTP=[100],
-                # # AAMRANET_LH=[99],
-                # # AAMRANET_LL=[98],
-                # # AAMRANET_CP=[97],
-                # # AAMRANET_YCP=[96],
-                # # AAMRANET_PC=[95],
-                # # AAMRANET_NoT=[94],
-                # # AAMRANET_VoT=[93],
-                # # AAMRANET_Vol=[92],
-
-
-                # # # UNITED_POWER_GENERATION_LTP=[100],
-                # # # UNITED_POWER_GENERATION_LH=[99],
-                # # # UNITED_POWER_GENERATION_LL=[98],
-                # # # UNITED_POWER_GENERATION_CP=[97],
-                # # # UNITED_POWER_GENERATION_YCP=[96],
-                # # # UNITED_POWER_GENERATION_PC=[34],
-                # # # UNITED_POWER_GENERATION_NoT=[94],
-                # # # UNITED_POWER_GENERATION_VoT=[93],
-                # # # UNITED_POWER_GENERATION_Vol=[92],
-
-
-                # # # SALVO_CHEMICAL_LTP=[100],
-                # # # SALVO_CHEMICAL_LH=[99],
-                # # # SALVO_CHEMICAL_LL=[98],
-                # # # SALVO_CHEMICAL_CP=[97],
-                # # # SALVO_CHEMICAL_YCP=[96],
-                # # # SALVO_CHEMICAL_PC=[10],
-                # # # SALVO_CHEMICAL_NoT=[94],
-                # # # SALVO_CHEMICAL_VoT=[93],
-                # # # SALVO_CHEMICAL_Vol=[92],
-
-
-                # # RAHIMA_FOOD_CORP_Serial=[10],
-                # # RAHIMA_FOOD_CORP_LTP=[100],
-                # # RAHIMA_FOOD_CORP_LH=[99],
-                # # RAHIMA_FOOD_CORP_LL=[98],
-                # # RAHIMA_FOOD_CORP_CP=[97],
-                # # RAHIMA_FOOD_CORP_YCP=[96],
-                # # RAHIMA_FOOD_CORP_PC=[1],
-                # # RAHIMA_FOOD_CORP_NoT=[94],
-                # # RAHIMA_FOOD_CORP_VoT=[93],
-                # # RAHIMA_FOOD_CORP_Vol=[92],
-                    
-              
-                # #                 )
-                # source.stream(new_data, 
-                #               # 100
-                #               1000
-                #              )
 
 # Configure the document
 curdoc().add_root(column(p))

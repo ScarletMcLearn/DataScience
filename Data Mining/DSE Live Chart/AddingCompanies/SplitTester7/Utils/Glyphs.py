@@ -4,23 +4,14 @@ import numpy as np
 
 
 def glyph_renderer(source, figure):
-    
     l1, ia1, ib1 = updated_draw_shape_line(x_col_name='x', y_col_name='AAMRANET_PC', source=source, figure=figure, label='AAMRANET', shape='s')
-    
     return l1, ia1, ib1
- 
 
-
+    
 
 def glyph_dict_generator(source, figure, company_lst):
-
-    
     l1, ia1, ib1 = updated_draw_shape_line(x_col_name='x', y_col_name='AAMRANET_PC', source=source, figure=figure, label='AAMRANET', shape='s')
-
-
     return l1, ia1, ib1
-
-
 
 
 
@@ -49,5 +40,9 @@ def generate_gly_dictionary(source, figure, company_list, company_symbol_lst):
         label = company_list[i]
         shape = company_symbol_lst[i]
         line_no=i
-        dictionary[key_l], dictionary[key_ia], dictionary[key_ib] = updated_draw_shape_line(x_col_name='x', y_col_name=pc, source=source, figure=figure, label=label, shape=shape, company_lst=company_list, line_no=line_no, color=color[i])
+
+        sz_hlp = company_list[i] + '_VoT'
+
+        
+        dictionary[key_l], dictionary[key_ia], dictionary[key_ib] = updated_draw_shape_line(x_col_name='x', y_col_name=pc, source=source, figure=figure, label=label, shape=shape, line_no=line_no, color=color[i], size_helper=sz_hlp)
     return dictionary
