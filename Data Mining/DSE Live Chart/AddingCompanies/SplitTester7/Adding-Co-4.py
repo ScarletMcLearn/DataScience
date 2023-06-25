@@ -16,15 +16,22 @@ def update_data():
                 # stream_data = dict(x=[datetime.now()])
                 stream_data = dict(x=[datetime.now()])
                 for i in range(len(company_lst)):
-                    stream_data.update(get_co_data(company_lst[i], all_tr)) 
+                    stream_data.update(get_co_data(company_lst[i], all_tr))
+                    # time.sleep(3)
                     
-                new_data = stream_data
+                # new_data = stream_data
 
     
-                source.stream(new_data, 
+                source.stream(stream_data, #new_data, 
                               # 100
                               1000
                              )
+
+
+
+
+
+
 ######################################################################
 #
 #
@@ -34,8 +41,9 @@ def update_data():
 ######################################################################
 p = figure(x_axis_type='datetime', 
            # y_range=(-100, 100),
-           width=2150, height=1400,    # 950 
+           width=2150, height=2500,    # 950  1400 2000
            title="Dhaka Stock Exchange Live Change",
+           output_backend="webgl"
           )
 
 y_range=(-100, 100)

@@ -58,122 +58,68 @@ company_lst = [
 
               ]
 
-# company_lst_2 = ['INTRACO',
-#  'APEXFOODS',
-#  'RAHIMAFOOD',
-#  'JAMUNAOIL',
-#  'NPOLYMER',
-#  'MJLBD',
-#  'DOREENPWR',
-#  'SPCL',
-#  'SALVOCHEM',
-#  'ANWARGALV',
-#  'PARAMOUNT',
-#  'BDCOM',
-#  'TRUSTBANK',
-#  'BERGERPBL',
-#  'LINDEBD',
-#  'MATINSPINN',
-#  'KPCL',
-#  'ACMELAB',
-#  'ARAMIT',
-#  'EHL',
-#  'SQUARETEXT',
-#  'MARICO',
-#  'ACI',
-#  'ACIFORMULA',
-#  'HWAWELLTEX',
-#  'PHARMAID',
-#  'IPDC',
-#  'GSPFINANCE']
 
-# company_lst_3 = ['MEGHNALIFE',
-#  'PAPERPROC',
-#  'ZAHINTEX',
-#  'STYLECRAFT',
-#  'NTLTUBES',
-#  'SAMORITA',
-#  'CENTRALPHL',
-#  'ICBIBANK',
-#  'CITYBANK',
-#  'ASIAINS',
-#  'PUBALIBANK',
-#  'ZEALBANGLA',
-#  'EXIMBANK',
-#  'HRTEX',
-#  'PRIMETEX',
-#  'STANCERAM',
-#  'NCCBANK',
-#  'GEMINISEA',
-#  'ALLTEX',
-#  'ENVOYTEX',
-#  'ICBEPMF1S1',
-#  'FINEFOODS',
-#  'PEOPLESINS',
-#  'RELIANCE1',
-#  'BDAUTOCA',
-#  'BBS',
-#  'MERCINS',
-#  'NRBCBANK',
-#  'EASTLAND',
-#  'AZIZPIPES',
-#  'RDFOOD',
-#  'WALTONHIL',
-#  'ACMEPL',
-#  'TILIL',
-#  'HFL',
-#  'DBH1STMF',
-#  'WATACHEM',
-#  'AMBEEPHA',
-#  'BENGALWTL',
-#  'AAMRANET',
-#  'SAVAREFR',
-#  'STANDARINS',
-#  'PLFSL',
-#  'PRIMEBANK',
-#  'SSSTEEL',
-#  'MONNOAGML',
-#  'ETL',
-#  'RELIANCINS',
-#  'ILFSL',
-#  'NFML',
-#  'FUWANGFOOD',
-#  'PREMIERBAN',
-#  'CONTININS',
-#  'DACCADYE',
-#  'BARKAPOWER',
-#  'BXSYNTH',
-#  'DUTCHBANGL',
-#  'WMSHIPYARD',
-#  'ATCSLGF',
-#  'MHSML',
-#  'MAKSONSPIN',
-#  'CLICL',
-#  'PHPMF1',
-#  'RECKITTBEN',
-#  'GHAIL',
-#  'SHASHADNIM',
-#  'TALLUSPIN',
-#  'COPPERTECH',
-#  'ICBAGRANI1',
-#  'SHURWID',
-#  'MPETROLEUM',
-#  'BDLAMPS',
-#  'MEGHNACEM',
-#  'LOVELLO',
-#  'FUWANGCER',
-#  'CVOPRL',
-#  'PHENIXINS',
-#  'PIONEERINS',
-#  'PURABIGEN',
-#  'SKICL',
-#  'UCB',
-#  'AIL',
-#  'EASTERNINS',
-#  'QUEENSO'
-#                 ]
+company_symbol_lst = [                   
+                     'd',
+                     'd',
+                     'd',
+                     'd',
+    
+                     'd',
+                     'd',
+                     'd',
+                     'd',
 
-company_lst_4 = ['MEGHNALIFE',
+                     'd',
+                     'd',
+                     'd',
+                     #################
+                     'd+',
+                     'd+',
+                     'd+',
+                     'd+',
+
+                     'd+',
+                     'd+',
+                     'd+',
+                     'd+',
+
+                     'd+',
+                     'd+',
+                     'd+',
+                     'd+',
+
+                     'd+',
+                     'd+',
+                     'd+',
+                     'd+',
+                     #################
+                     't',
+                     't',
+                     't',
+                     't',
+    
+                     't',
+                     #################
+                     'c',
+                     'c',
+                     'c',
+                     'c',
+
+                     'c',
+                     'c',
+                     'c',
+                     'c',
+
+                     'c',
+                     'c',
+                     'c',
+                    #################
+                     ]
+
+
+
+company_lst = company_lst + ['MEGHNALIFE',
  'PAPERPROC',
  'ZAHINTEX',
  'STYLECRAFT',
@@ -529,73 +475,5 @@ company_lst_4 = ['MEGHNALIFE',
  'CITYGENINS']
 
 
-company_lst = company_lst # + company_lst_4 #+ company_lst_3
-# + company_lst_2 
-
-
-
-company_symbol_lst = [                   
-                     'd',
-                     'd',
-                     'd',
-                     'd',
-    
-                     'd',
-                     'd',
-                     'd',
-                     'd',
-
-                     'd',
-                     'd',
-                     'd',
-                     #################
-                     'd+',
-                     'd+',
-                     'd+',
-                     'd+',
-
-                     'd+',
-                     'd+',
-                     'd+',
-                     'd+',
-
-                     'd+',
-                     'd+',
-                     'd+',
-                     'd+',
-
-                     'd+',
-                     'd+',
-                     'd+',
-                     'd+',
-                     #################
-                     't',
-                     't',
-                     't',
-                     't',
-    
-                     't',
-                     #################
-                     'c',
-                     'c',
-                     'c',
-                     'c',
-
-                     'c',
-                     'c',
-                     'c',
-                     'c',
-
-                     'c',
-                     'c',
-                     'c',
-                    #################
-                     ]
-
-
-# new_symb = ['c+']*len(company_lst_2)
-# new_symb_2 = ['c+']*len(company_lst_3)
-new_symb_3 = ['c+']*len(company_lst_4)
-company_symbol_lst = company_symbol_lst  # + new_symb_3  # + new_symb_2
-# + new_symb 
-
+new_symb = ['c+']*354
+company_symbol_lst = company_symbol_lst + new_symb

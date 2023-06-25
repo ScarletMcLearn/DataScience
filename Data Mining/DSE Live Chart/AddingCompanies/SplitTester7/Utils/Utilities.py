@@ -46,6 +46,11 @@ from requests.packages.urllib3.util.retry import Retry
 # New version
 debug = False
 
+
+
+# Added this - LRU Cache
+from functools import lru_cache
+@lru_cache(maxsize=10)
 def get_all_data():
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
