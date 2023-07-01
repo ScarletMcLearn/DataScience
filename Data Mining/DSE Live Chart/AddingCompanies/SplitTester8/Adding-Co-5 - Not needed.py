@@ -1,6 +1,6 @@
 from Utils.Utilities import *
 from Utils.ColDataSource import *
-from CompanyList4 import *
+from CompanyList5 import *
 from Utils.Glyphs import generate_gly_dictionary
 
 ######################################################################
@@ -70,9 +70,6 @@ p.xaxis.formatter = DatetimeTickFormatter(
                                          )
 
 curdoc().theme = 'dark_minimal'
-
-curdoc().title = "DSE Live Chart - SPCERAMICS-CITYGENINS"
-
 
 # Get the script start time
 start_time = datetime.now()
