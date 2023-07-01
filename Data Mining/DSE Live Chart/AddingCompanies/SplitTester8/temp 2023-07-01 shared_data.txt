@@ -1,0 +1,5908 @@
+[<tr>
+<th width="4%">#</th>
+<th width="12%">TRADING CODE</th>
+<th width="12%">LTP*</th>
+<th width="12%">HIGH</th>
+<th width="12%">LOW</th>
+<th width="12%">CLOSEP*</th>
+<th width="12%">YCP*</th>
+<th width="12%">CHANGE</th>
+<th width="12%">TRADE</th>
+<th width="12%">VALUE (mn)</th>
+<th width="12%">VOLUME</th>
+</tr>, <tr>
+<td width="4%">1</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=1JANATAMF">
+													1JANATAMF												</a>
+</td>
+<td width="10%">6.1</td>
+<td width="10%">6.1</td>
+<td width="12%">6.1</td>
+<td width="11%">6.1</td>
+<td width="12%">6.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">13</td>
+<td width="11%">0.014</td>
+<td width="11%">2,374</td>
+</tr>, <tr>
+<td width="4%">2</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=1STPRIMFMF">
+													1STPRIMFMF												</a>
+</td>
+<td width="10%">15.2</td>
+<td width="10%">15.3</td>
+<td width="12%">15</td>
+<td width="11%">15.2</td>
+<td width="12%">15.1</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">66</td>
+<td width="11%">0.784</td>
+<td width="11%">51,925</td>
+</tr>, <tr>
+<td width="4%">3</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AAMRANET">
+													AAMRANET												</a>
+</td>
+<td width="10%">70.1</td>
+<td width="10%">70.3</td>
+<td width="12%">68.6</td>
+<td width="11%">70.1</td>
+<td width="12%">68.6</td>
+<td style="color: green" width="12%">1.5</td>
+<td width="11%">1,271</td>
+<td width="11%">69.718</td>
+<td width="11%">1,000,299</td>
+</tr>, <tr>
+<td width="4%">4</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AAMRATECH">
+													AAMRATECH												</a>
+</td>
+<td width="10%">36.6</td>
+<td width="10%">36.8</td>
+<td width="12%">36.3</td>
+<td width="11%">36.6</td>
+<td width="12%">36.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">372</td>
+<td width="11%">7.525</td>
+<td width="11%">206,038</td>
+</tr>, <tr>
+<td width="4%">5</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ABB1STMF">
+													ABB1STMF												</a>
+</td>
+<td width="10%">5.2</td>
+<td width="10%">5.2</td>
+<td width="12%">5.2</td>
+<td width="11%">5.2</td>
+<td width="12%">5.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">9</td>
+<td width="11%">0.198</td>
+<td width="11%">38,150</td>
+</tr>, <tr>
+<td width="4%">6</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ABBANK">
+													ABBANK												</a>
+</td>
+<td width="10%">9.7</td>
+<td width="10%">9.7</td>
+<td width="12%">9.7</td>
+<td width="11%">9.7</td>
+<td width="12%">9.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.059</td>
+<td width="11%">6,085</td>
+</tr>, <tr>
+<td width="4%">7</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACFL">
+													ACFL												</a>
+</td>
+<td width="10%">26.5</td>
+<td width="10%">26.5</td>
+<td width="12%">26.5</td>
+<td width="11%">26.5</td>
+<td width="12%">26.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">1</td>
+</tr>, <tr>
+<td width="4%">8</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACI">
+													ACI												</a>
+</td>
+<td width="10%">260.2</td>
+<td width="10%">260.2</td>
+<td width="12%">260.2</td>
+<td width="11%">260.2</td>
+<td width="12%">260.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">17</td>
+<td width="11%">1.265</td>
+<td width="11%">4,863</td>
+</tr>, <tr>
+<td width="4%">9</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACIFORMULA">
+													ACIFORMULA												</a>
+</td>
+<td width="10%">156.2</td>
+<td width="10%">156.9</td>
+<td width="12%">155</td>
+<td width="11%">156.2</td>
+<td width="12%">155</td>
+<td style="color: green" width="12%">1.2</td>
+<td width="11%">337</td>
+<td width="11%">21.142</td>
+<td width="11%">135,872</td>
+</tr>, <tr>
+<td width="4%">10</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACMELAB">
+													ACMELAB												</a>
+</td>
+<td width="10%">86</td>
+<td width="10%">86.7</td>
+<td width="12%">85.6</td>
+<td width="11%">86</td>
+<td width="12%">85.7</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">694</td>
+<td width="11%">30.891</td>
+<td width="11%">358,362</td>
+</tr>, <tr>
+<td width="4%">11</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACMEPL">
+													ACMEPL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">35.4</td>
+<td width="12%">35.4</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">12</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ACTIVEFINE">
+													ACTIVEFINE												</a>
+</td>
+<td width="10%">19.3</td>
+<td width="10%">19.3</td>
+<td width="12%">19.3</td>
+<td width="11%">19.3</td>
+<td width="12%">19.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.002</td>
+<td width="11%">102</td>
+</tr>, <tr>
+<td width="4%">13</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ADNTEL">
+													ADNTEL												</a>
+</td>
+<td width="10%">131.7</td>
+<td width="10%">135.9</td>
+<td width="12%">130.4</td>
+<td width="11%">131.7</td>
+<td width="12%">131.9</td>
+<td style="color: red" width="12%">-0.2</td>
+<td width="11%">1,209</td>
+<td width="11%">59.039</td>
+<td width="11%">448,395</td>
+</tr>, <tr>
+<td width="4%">14</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ADVENT">
+													ADVENT												</a>
+</td>
+<td width="10%">26.4</td>
+<td width="10%">26.7</td>
+<td width="12%">25.8</td>
+<td width="11%">26.4</td>
+<td width="12%">26.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2,137</td>
+<td width="11%">81.863</td>
+<td width="11%">3,115,413</td>
+</tr>, <tr>
+<td width="4%">15</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AFCAGRO">
+													AFCAGRO												</a>
+</td>
+<td width="10%">23.5</td>
+<td width="10%">23.5</td>
+<td width="12%">23.5</td>
+<td width="11%">23.5</td>
+<td width="12%">23.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.004</td>
+<td width="11%">160</td>
+</tr>, <tr>
+<td width="4%">16</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AFTABAUTO">
+													AFTABAUTO												</a>
+</td>
+<td width="10%">27.5</td>
+<td width="10%">27.6</td>
+<td width="12%">27</td>
+<td width="11%">27.5</td>
+<td width="12%">27</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">344</td>
+<td width="11%">9.939</td>
+<td width="11%">363,297</td>
+</tr>, <tr>
+<td width="4%">17</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AGNISYSL">
+													AGNISYSL												</a>
+</td>
+<td width="10%">29.5</td>
+<td width="10%">30.3</td>
+<td width="12%">29.3</td>
+<td width="11%">29.5</td>
+<td width="12%">30</td>
+<td style="color: red" width="12%">-0.5</td>
+<td width="11%">1,468</td>
+<td width="11%">64.222</td>
+<td width="11%">2,158,228</td>
+</tr>, <tr>
+<td width="4%">18</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AGRANINS">
+													AGRANINS												</a>
+</td>
+<td width="10%">41.8</td>
+<td width="10%">42.1</td>
+<td width="12%">40.2</td>
+<td width="11%">41.8</td>
+<td width="12%">41.2</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">92</td>
+<td width="11%">1.802</td>
+<td width="11%">43,168</td>
+</tr>, <tr>
+<td width="4%">19</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AIBL1STIMF">
+													AIBL1STIMF												</a>
+</td>
+<td width="10%">7.3</td>
+<td width="10%">7.3</td>
+<td width="12%">7.3</td>
+<td width="11%">7.3</td>
+<td width="12%">7.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">30</td>
+</tr>, <tr>
+<td width="4%">20</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AIL">
+													AIL												</a>
+</td>
+<td width="10%">79.2</td>
+<td width="10%">79.7</td>
+<td width="12%">78.1</td>
+<td width="11%">79.2</td>
+<td width="12%">77.6</td>
+<td style="color: green" width="12%">1.6</td>
+<td width="11%">852</td>
+<td width="11%">31.031</td>
+<td width="11%">393,162</td>
+</tr>, <tr>
+<td width="4%">21</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AL-HAJTEX">
+													AL-HAJTEX												</a>
+</td>
+<td width="10%">172.3</td>
+<td width="10%">174.4</td>
+<td width="12%">167</td>
+<td width="11%">172.3</td>
+<td width="12%">171.3</td>
+<td style="color: green" width="12%">1</td>
+<td width="11%">1,396</td>
+<td width="11%">94.362</td>
+<td width="11%">552,609</td>
+</tr>, <tr>
+<td width="4%">22</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ALARABANK">
+													ALARABANK												</a>
+</td>
+<td width="10%">24.1</td>
+<td width="10%">24.4</td>
+<td width="12%">23.8</td>
+<td width="11%">24.1</td>
+<td width="12%">24.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">46</td>
+<td width="11%">1.735</td>
+<td width="11%">72,032</td>
+</tr>, <tr>
+<td width="4%">23</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ALIF">
+													ALIF												</a>
+</td>
+<td width="10%">13.3</td>
+<td width="10%">13.3</td>
+<td width="12%">13.3</td>
+<td width="11%">13.3</td>
+<td width="12%">13.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">21</td>
+<td width="11%">0.229</td>
+<td width="11%">17,183</td>
+</tr>, <tr>
+<td width="4%">24</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ALLTEX">
+													ALLTEX												</a>
+</td>
+<td width="10%">17.5</td>
+<td width="10%">17.5</td>
+<td width="12%">17.5</td>
+<td width="11%">17.5</td>
+<td width="12%">17.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">95</td>
+<td width="11%">1.814</td>
+<td width="11%">103,647</td>
+</tr>, <tr>
+<td width="4%">25</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AMANFEED">
+													AMANFEED												</a>
+</td>
+<td width="10%">33.5</td>
+<td width="10%">33.5</td>
+<td width="12%">33.5</td>
+<td width="11%">33.5</td>
+<td width="12%">33.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">14</td>
+<td width="11%">0.464</td>
+<td width="11%">13,852</td>
+</tr>, <tr>
+<td width="4%">26</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AMBEEPHA">
+													AMBEEPHA												</a>
+</td>
+<td width="10%">549.1</td>
+<td width="10%">555</td>
+<td width="12%">544</td>
+<td width="11%">549.1</td>
+<td width="12%">551.6</td>
+<td style="color: red" width="12%">-2.5</td>
+<td width="11%">160</td>
+<td width="11%">2.923</td>
+<td width="11%">5,322</td>
+</tr>, <tr>
+<td width="4%">27</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AMCL(PRAN)">
+													AMCL(PRAN)												</a>
+</td>
+<td width="10%">271.3</td>
+<td width="10%">274</td>
+<td width="12%">264</td>
+<td width="11%">271.3</td>
+<td width="12%">264.6</td>
+<td style="color: green" width="12%">6.7</td>
+<td width="11%">549</td>
+<td width="11%">18.148</td>
+<td width="11%">67,376</td>
+</tr>, <tr>
+<td width="4%">28</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ANLIMAYARN">
+													ANLIMAYARN												</a>
+</td>
+<td width="10%">36.2</td>
+<td width="10%">36.4</td>
+<td width="12%">35.8</td>
+<td width="11%">36.2</td>
+<td width="12%">35.8</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">245</td>
+<td width="11%">5.289</td>
+<td width="11%">146,200</td>
+</tr>, <tr>
+<td width="4%">29</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ANWARGALV">
+													ANWARGALV												</a>
+</td>
+<td width="10%">213.3</td>
+<td width="10%">213.3</td>
+<td width="12%">213.3</td>
+<td width="11%">213.3</td>
+<td width="12%">213.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.339</td>
+<td width="11%">1,587</td>
+</tr>, <tr>
+<td width="4%">30</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AOL">
+													AOL												</a>
+</td>
+<td width="10%">36.5</td>
+<td width="10%">36.5</td>
+<td width="12%">36.5</td>
+<td width="11%">36.5</td>
+<td width="12%">36.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.703</td>
+<td width="11%">19,272</td>
+</tr>, <tr>
+<td width="4%">31</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=APEXFOODS">
+													APEXFOODS												</a>
+</td>
+<td width="10%">428.8</td>
+<td width="10%">437</td>
+<td width="12%">421.1</td>
+<td width="11%">428.8</td>
+<td width="12%">424.9</td>
+<td style="color: green" width="12%">3.9</td>
+<td width="11%">1,576</td>
+<td width="11%">50.406</td>
+<td width="11%">116,779</td>
+</tr>, <tr>
+<td width="4%">32</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=APEXFOOT">
+													APEXFOOT												</a>
+</td>
+<td width="10%">314.4</td>
+<td width="10%">318.8</td>
+<td width="12%">313.7</td>
+<td width="11%">314.4</td>
+<td width="12%">314.6</td>
+<td style="color: red" width="12%">-0.2</td>
+<td width="11%">1,142</td>
+<td width="11%">36.338</td>
+<td width="11%">115,204</td>
+</tr>, <tr>
+<td width="4%">33</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=APEXSPINN">
+													APEXSPINN												</a>
+</td>
+<td width="10%">140.3</td>
+<td width="10%">141.6</td>
+<td width="12%">136</td>
+<td width="11%">140.3</td>
+<td width="12%">136.7</td>
+<td style="color: green" width="12%">3.6</td>
+<td width="11%">450</td>
+<td width="11%">8.26</td>
+<td width="11%">59,423</td>
+</tr>, <tr>
+<td width="4%">34</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=APEXTANRY">
+													APEXTANRY												</a>
+</td>
+<td width="10%">118.5</td>
+<td width="10%">121</td>
+<td width="12%">117.1</td>
+<td width="11%">117.8</td>
+<td width="12%">118.9</td>
+<td style="color: red" width="12%">-0.4</td>
+<td width="11%">314</td>
+<td width="11%">6.294</td>
+<td width="11%">53,259</td>
+</tr>, <tr>
+<td width="4%">35</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=APOLOISPAT">
+													APOLOISPAT												</a>
+</td>
+<td width="10%">8.2</td>
+<td width="10%">8.2</td>
+<td width="12%">8.2</td>
+<td width="11%">8.2</td>
+<td width="12%">8.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">41</td>
+<td width="11%">0.383</td>
+<td width="11%">46,710</td>
+</tr>, <tr>
+<td width="4%">36</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ARAMIT">
+													ARAMIT												</a>
+</td>
+<td width="10%">269.5</td>
+<td width="10%">271</td>
+<td width="12%">267.4</td>
+<td width="11%">269.9</td>
+<td width="12%">267.9</td>
+<td style="color: green" width="12%">1.6</td>
+<td width="11%">99</td>
+<td width="11%">1.681</td>
+<td width="11%">6,247</td>
+</tr>, <tr>
+<td width="4%">37</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ARAMITCEM">
+													ARAMITCEM												</a>
+</td>
+<td width="10%">26.5</td>
+<td width="10%">26.8</td>
+<td width="12%">26.3</td>
+<td width="11%">26.4</td>
+<td width="12%">26.4</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">268</td>
+<td width="11%">2.311</td>
+<td width="11%">87,339</td>
+</tr>, <tr>
+<td width="4%">38</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ARGONDENIM">
+													ARGONDENIM												</a>
+</td>
+<td width="10%">18.9</td>
+<td width="10%">19.1</td>
+<td width="12%">18.6</td>
+<td width="11%">18.9</td>
+<td width="12%">18.6</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">410</td>
+<td width="11%">13.035</td>
+<td width="11%">687,316</td>
+</tr>, <tr>
+<td width="4%">39</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ASIAINS">
+													ASIAINS												</a>
+</td>
+<td width="10%">48.9</td>
+<td width="10%">48.9</td>
+<td width="12%">48.9</td>
+<td width="11%">48.9</td>
+<td width="12%">48.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.046</td>
+<td width="11%">950</td>
+</tr>, <tr>
+<td width="4%">40</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ASIAPACINS">
+													ASIAPACINS												</a>
+</td>
+<td width="10%">49.1</td>
+<td width="10%">49.8</td>
+<td width="12%">48</td>
+<td width="11%">48.8</td>
+<td width="12%">48.1</td>
+<td style="color: green" width="12%">1</td>
+<td width="11%">66</td>
+<td width="11%">0.929</td>
+<td width="11%">19,212</td>
+</tr>, <tr>
+<td width="4%">41</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ATCSLGF">
+													ATCSLGF												</a>
+</td>
+<td width="10%">9.7</td>
+<td width="10%">9.7</td>
+<td width="12%">9.7</td>
+<td width="11%">9.7</td>
+<td width="12%">9.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">30</td>
+</tr>, <tr>
+<td width="4%">42</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ATLASBANG">
+													ATLASBANG												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">104.2</td>
+<td width="12%">104.2</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">43</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=AZIZPIPES">
+													AZIZPIPES												</a>
+</td>
+<td width="10%">111.1</td>
+<td width="10%">115.9</td>
+<td width="12%">109.8</td>
+<td width="11%">111.1</td>
+<td width="12%">112</td>
+<td style="color: red" width="12%">-0.9</td>
+<td width="11%">1,138</td>
+<td width="11%">23.543</td>
+<td width="11%">211,263</td>
+</tr>, <tr>
+<td width="4%">44</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BANGAS">
+													BANGAS												</a>
+</td>
+<td width="10%">148.6</td>
+<td width="10%">154</td>
+<td width="12%">147</td>
+<td width="11%">148.6</td>
+<td width="12%">152</td>
+<td style="color: red" width="12%">-3.4</td>
+<td width="11%">1,583</td>
+<td width="11%">32.85</td>
+<td width="11%">220,837</td>
+</tr>, <tr>
+<td width="4%">45</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BANKASIA">
+													BANKASIA												</a>
+</td>
+<td width="10%">20.2</td>
+<td width="10%">20.2</td>
+<td width="12%">20.2</td>
+<td width="11%">20.2</td>
+<td width="12%">20.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.432</td>
+<td width="11%">21,395</td>
+</tr>, <tr>
+<td width="4%">46</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BARKAPOWER">
+													BARKAPOWER												</a>
+</td>
+<td width="10%">21.3</td>
+<td width="10%">21.3</td>
+<td width="12%">21.3</td>
+<td width="11%">21.3</td>
+<td width="12%">21.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.019</td>
+<td width="11%">887</td>
+</tr>, <tr>
+<td width="4%">47</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BATASHOE">
+													BATASHOE												</a>
+</td>
+<td width="10%">1,016.8</td>
+<td width="10%">1,019.9</td>
+<td width="12%">1,005</td>
+<td width="11%">1,016.8</td>
+<td width="12%">1,018.7</td>
+<td style="color: red" width="12%">-1.9</td>
+<td width="11%">47</td>
+<td width="11%">1.688</td>
+<td width="11%">1,664</td>
+</tr>, <tr>
+<td width="4%">48</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BATBC">
+													BATBC												</a>
+</td>
+<td width="10%">518.7</td>
+<td width="10%">518.7</td>
+<td width="12%">518.7</td>
+<td width="11%">518.7</td>
+<td width="12%">518.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">127</td>
+<td width="11%">7.244</td>
+<td width="11%">13,965</td>
+</tr>, <tr>
+<td width="4%">49</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BAYLEASING">
+													BAYLEASING												</a>
+</td>
+<td width="10%">23.9</td>
+<td width="10%">23.9</td>
+<td width="12%">23.9</td>
+<td width="11%">23.9</td>
+<td width="12%">23.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.001</td>
+<td width="11%">59</td>
+</tr>, <tr>
+<td width="4%">50</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BBS">
+													BBS												</a>
+</td>
+<td width="10%">21.6</td>
+<td width="10%">21.6</td>
+<td width="12%">21.6</td>
+<td width="11%">21.6</td>
+<td width="12%">21.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">18</td>
+<td width="11%">0.357</td>
+<td width="11%">16,537</td>
+</tr>, <tr>
+<td width="4%">51</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BBSCABLES">
+													BBSCABLES												</a>
+</td>
+<td width="10%">49.9</td>
+<td width="10%">49.9</td>
+<td width="12%">49.9</td>
+<td width="11%">49.9</td>
+<td width="12%">49.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">17</td>
+<td width="11%">0.205</td>
+<td width="11%">4,099</td>
+</tr>, <tr>
+<td width="4%">52</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDAUTOCA">
+													BDAUTOCA												</a>
+</td>
+<td width="10%">153.8</td>
+<td width="10%">161</td>
+<td width="12%">151</td>
+<td width="11%">153.8</td>
+<td width="12%">154.6</td>
+<td style="color: red" width="12%">-0.8</td>
+<td width="11%">590</td>
+<td width="11%">12.839</td>
+<td width="11%">83,917</td>
+</tr>, <tr>
+<td width="4%">53</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDCOM">
+													BDCOM												</a>
+</td>
+<td width="10%">39.1</td>
+<td width="10%">39.6</td>
+<td width="12%">39</td>
+<td width="11%">39.1</td>
+<td width="12%">39.2</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">822</td>
+<td width="11%">28.607</td>
+<td width="11%">729,557</td>
+</tr>, <tr>
+<td width="4%">54</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDFINANCE">
+													BDFINANCE												</a>
+</td>
+<td width="10%">44.1</td>
+<td width="10%">44.1</td>
+<td width="12%">44.1</td>
+<td width="11%">44.1</td>
+<td width="12%">44.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.001</td>
+<td width="11%">15</td>
+</tr>, <tr>
+<td width="4%">55</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDLAMPS">
+													BDLAMPS												</a>
+</td>
+<td width="10%">252.2</td>
+<td width="10%">252.2</td>
+<td width="12%">252.2</td>
+<td width="11%">252.2</td>
+<td width="12%">252.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.004</td>
+<td width="11%">14</td>
+</tr>, <tr>
+<td width="4%">56</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDSERVICE">
+													BDSERVICE												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">5.2</td>
+<td width="12%">5.2</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">57</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDTHAI">
+													BDTHAI												</a>
+</td>
+<td width="10%">14.9</td>
+<td width="10%">15.4</td>
+<td width="12%">14.9</td>
+<td width="11%">14.9</td>
+<td width="12%">15.1</td>
+<td style="color: red" width="12%">-0.2</td>
+<td width="11%">589</td>
+<td width="11%">18.9</td>
+<td width="11%">1,257,615</td>
+</tr>, <tr>
+<td width="4%">58</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDTHAIFOOD">
+													BDTHAIFOOD												</a>
+</td>
+<td width="10%">34.8</td>
+<td width="10%">34.8</td>
+<td width="12%">34.8</td>
+<td width="11%">34.8</td>
+<td width="12%">34.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.058</td>
+<td width="11%">1,656</td>
+</tr>, <tr>
+<td width="4%">59</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BDWELDING">
+													BDWELDING												</a>
+</td>
+<td width="10%">24.5</td>
+<td width="10%">24.7</td>
+<td width="12%">24</td>
+<td width="11%">24.5</td>
+<td width="12%">23.9</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">247</td>
+<td width="11%">4.294</td>
+<td width="11%">177,439</td>
+</tr>, <tr>
+<td width="4%">60</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BEACHHATCH">
+													BEACHHATCH												</a>
+</td>
+<td width="10%">43</td>
+<td width="10%">44</td>
+<td width="12%">42.8</td>
+<td width="11%">43</td>
+<td width="12%">43.6</td>
+<td style="color: red" width="12%">-0.6</td>
+<td width="11%">836</td>
+<td width="11%">34.601</td>
+<td width="11%">797,097</td>
+</tr>, <tr>
+<td width="4%">61</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BEACONPHAR">
+													BEACONPHAR												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">245</td>
+<td width="12%">245</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">62</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BENGALWTL">
+													BENGALWTL												</a>
+</td>
+<td width="10%">26.9</td>
+<td width="10%">27.4</td>
+<td width="12%">26.8</td>
+<td width="11%">26.9</td>
+<td width="12%">27</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">576</td>
+<td width="11%">15.332</td>
+<td width="11%">568,196</td>
+</tr>, <tr>
+<td width="4%">63</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BERGERPBL">
+													BERGERPBL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">1,793.9</td>
+<td width="12%">1,793.9</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">64</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BEXIMCO">
+													BEXIMCO												</a>
+</td>
+<td width="10%">115.6</td>
+<td width="10%">115.6</td>
+<td width="12%">115.6</td>
+<td width="11%">115.6</td>
+<td width="12%">115.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">14</td>
+<td width="11%">0.434</td>
+<td width="11%">3,750</td>
+</tr>, <tr>
+<td width="4%">65</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BGIC">
+													BGIC												</a>
+</td>
+<td width="10%">53.6</td>
+<td width="10%">56.3</td>
+<td width="12%">52.6</td>
+<td width="11%">54</td>
+<td width="12%">53.8</td>
+<td style="color: red" width="12%">-0.2</td>
+<td width="11%">122</td>
+<td width="11%">1.34</td>
+<td width="11%">25,014</td>
+</tr>, <tr>
+<td width="4%">66</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BIFC">
+													BIFC												</a>
+</td>
+<td width="10%">9.5</td>
+<td width="10%">9.5</td>
+<td width="12%">9.5</td>
+<td width="11%">9.5</td>
+<td width="12%">9.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">25</td>
+</tr>, <tr>
+<td width="4%">67</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BNICL">
+													BNICL												</a>
+</td>
+<td width="10%">56.7</td>
+<td width="10%">56.7</td>
+<td width="12%">56.7</td>
+<td width="11%">56.7</td>
+<td width="12%">56.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">17</td>
+<td width="11%">0.546</td>
+<td width="11%">9,621</td>
+</tr>, <tr>
+<td width="4%">68</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BPML">
+													BPML												</a>
+</td>
+<td width="10%">81.2</td>
+<td width="10%">81.9</td>
+<td width="12%">80.6</td>
+<td width="11%">81.2</td>
+<td width="12%">80.8</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">1,798</td>
+<td width="11%">76.859</td>
+<td width="11%">945,087</td>
+</tr>, <tr>
+<td width="4%">69</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BPPL">
+													BPPL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">29.3</td>
+<td width="12%">29.3</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">70</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BRACBANK">
+													BRACBANK												</a>
+</td>
+<td width="10%">35.8</td>
+<td width="10%">35.8</td>
+<td width="12%">35.8</td>
+<td width="11%">35.8</td>
+<td width="12%">35.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">29</td>
+<td width="11%">0.361</td>
+<td width="11%">10,097</td>
+</tr>, <tr>
+<td width="4%">71</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BSC">
+													BSC												</a>
+</td>
+<td width="10%">126.4</td>
+<td width="10%">127</td>
+<td width="12%">125</td>
+<td width="11%">126.4</td>
+<td width="12%">125.1</td>
+<td style="color: green" width="12%">1.3</td>
+<td width="11%">1,565</td>
+<td width="11%">129.354</td>
+<td width="11%">1,026,595</td>
+</tr>, <tr>
+<td width="4%">72</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BSCCL">
+													BSCCL												</a>
+</td>
+<td width="10%">218.9</td>
+<td width="10%">218.9</td>
+<td width="12%">218.9</td>
+<td width="11%">218.9</td>
+<td width="12%">218.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">13</td>
+<td width="11%">0.575</td>
+<td width="11%">2,628</td>
+</tr>, <tr>
+<td width="4%">73</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BSRMLTD">
+													BSRMLTD												</a>
+</td>
+<td width="10%">90</td>
+<td width="10%">90</td>
+<td width="12%">90</td>
+<td width="11%">90</td>
+<td width="12%">90</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.071</td>
+<td width="11%">787</td>
+</tr>, <tr>
+<td width="4%">74</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BSRMSTEEL">
+													BSRMSTEEL												</a>
+</td>
+<td width="10%">63.9</td>
+<td width="10%">64.7</td>
+<td width="12%">63.9</td>
+<td width="11%">63.9</td>
+<td width="12%">64</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">87</td>
+<td width="11%">1.706</td>
+<td width="11%">26,599</td>
+</tr>, <tr>
+<td width="4%">75</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BXPHARMA">
+													BXPHARMA												</a>
+</td>
+<td width="10%">146.2</td>
+<td width="10%">146.2</td>
+<td width="12%">146.2</td>
+<td width="11%">146.2</td>
+<td width="12%">146.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">22</td>
+<td width="11%">0.782</td>
+<td width="11%">5,346</td>
+</tr>, <tr>
+<td width="4%">76</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=BXSYNTH">
+													BXSYNTH												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">8.4</td>
+<td width="12%">8.4</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">77</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CAPMBDBLMF">
+													CAPMBDBLMF												</a>
+</td>
+<td width="10%">10</td>
+<td width="10%">10.1</td>
+<td width="12%">9.9</td>
+<td width="11%">10</td>
+<td width="12%">9.9</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">104</td>
+<td width="11%">3.869</td>
+<td width="11%">389,086</td>
+</tr>, <tr>
+<td width="4%">78</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CAPMIBBLMF">
+													CAPMIBBLMF												</a>
+</td>
+<td width="10%">13.8</td>
+<td width="10%">14.1</td>
+<td width="12%">13.7</td>
+<td width="11%">13.8</td>
+<td width="12%">13.9</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">227</td>
+<td width="11%">6.076</td>
+<td width="11%">437,434</td>
+</tr>, <tr>
+<td width="4%">79</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CENTRALINS">
+													CENTRALINS												</a>
+</td>
+<td width="10%">36.9</td>
+<td width="10%">37.4</td>
+<td width="12%">36.2</td>
+<td width="11%">36.9</td>
+<td width="12%">36.4</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">60</td>
+<td width="11%">0.718</td>
+<td width="11%">19,587</td>
+</tr>, <tr>
+<td width="4%">80</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CENTRALPHL">
+													CENTRALPHL												</a>
+</td>
+<td width="10%">12.4</td>
+<td width="10%">13.1</td>
+<td width="12%">12.3</td>
+<td width="11%">12.4</td>
+<td width="12%">12.7</td>
+<td style="color: red" width="12%">-0.3</td>
+<td width="11%">1,071</td>
+<td width="11%">30.939</td>
+<td width="11%">2,465,306</td>
+</tr>, <tr>
+<td width="4%">81</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CITYBANK">
+													CITYBANK												</a>
+</td>
+<td width="10%">21.4</td>
+<td width="10%">21.4</td>
+<td width="12%">21.4</td>
+<td width="11%">21.4</td>
+<td width="12%">21.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">13</td>
+<td width="11%">0.077</td>
+<td width="11%">3,588</td>
+</tr>, <tr>
+<td width="4%">82</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CITYGENINS">
+													CITYGENINS												</a>
+</td>
+<td width="10%">46.6</td>
+<td width="10%">47.8</td>
+<td width="12%">46.2</td>
+<td width="11%">46.5</td>
+<td width="12%">46.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">416</td>
+<td width="11%">42.821</td>
+<td width="11%">915,167</td>
+</tr>, <tr>
+<td width="4%">83</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CLICL">
+													CLICL												</a>
+</td>
+<td width="10%">78.7</td>
+<td width="10%">80.2</td>
+<td width="12%">77.2</td>
+<td width="11%">78.7</td>
+<td width="12%">76.7</td>
+<td style="color: green" width="12%">2</td>
+<td width="11%">1,040</td>
+<td width="11%">32.745</td>
+<td width="11%">414,824</td>
+</tr>, <tr>
+<td width="4%">84</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CNATEX">
+													CNATEX												</a>
+</td>
+<td width="10%">11.4</td>
+<td width="10%">11.6</td>
+<td width="12%">10.7</td>
+<td width="11%">11.4</td>
+<td width="12%">10.7</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">1,480</td>
+<td width="11%">108.071</td>
+<td width="11%">9,631,940</td>
+</tr>, <tr>
+<td width="4%">85</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CONFIDCEM">
+													CONFIDCEM												</a>
+</td>
+<td width="10%">89</td>
+<td width="10%">89</td>
+<td width="12%">89</td>
+<td width="11%">89</td>
+<td width="12%">89</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">48</td>
+<td width="11%">5.116</td>
+<td width="11%">57,482</td>
+</tr>, <tr>
+<td width="4%">86</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CONTININS">
+													CONTININS												</a>
+</td>
+<td width="10%">32.4</td>
+<td width="10%">33.3</td>
+<td width="12%">31.7</td>
+<td width="11%">32.4</td>
+<td width="12%">32</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">120</td>
+<td width="11%">1.225</td>
+<td width="11%">38,063</td>
+</tr>, <tr>
+<td width="4%">87</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=COPPERTECH">
+													COPPERTECH												</a>
+</td>
+<td width="10%">36.9</td>
+<td width="10%">36.9</td>
+<td width="12%">36.9</td>
+<td width="11%">36.9</td>
+<td width="12%">36.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.019</td>
+<td width="11%">521</td>
+</tr>, <tr>
+<td width="4%">88</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CROWNCEMNT">
+													CROWNCEMNT												</a>
+</td>
+<td width="10%">74.4</td>
+<td width="10%">74.4</td>
+<td width="12%">74.4</td>
+<td width="11%">74.4</td>
+<td width="12%">74.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.019</td>
+<td width="11%">250</td>
+</tr>, <tr>
+<td width="4%">89</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CRYSTALINS">
+													CRYSTALINS												</a>
+</td>
+<td width="10%">46.5</td>
+<td width="10%">46.8</td>
+<td width="12%">45.9</td>
+<td width="11%">46.5</td>
+<td width="12%">45.5</td>
+<td style="color: green" width="12%">1</td>
+<td width="11%">377</td>
+<td width="11%">9.224</td>
+<td width="11%">198,899</td>
+</tr>, <tr>
+<td width="4%">90</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=CVOPRL">
+													CVOPRL												</a>
+</td>
+<td width="10%">191</td>
+<td width="10%">194.8</td>
+<td width="12%">190.3</td>
+<td width="11%">191</td>
+<td width="12%">192.2</td>
+<td style="color: red" width="12%">-1.2</td>
+<td width="11%">1,677</td>
+<td width="11%">42.483</td>
+<td width="11%">221,710</td>
+</tr>, <tr>
+<td width="4%">91</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DACCADYE">
+													DACCADYE												</a>
+</td>
+<td width="10%">15.1</td>
+<td width="10%">15.1</td>
+<td width="12%">14</td>
+<td width="11%">15.1</td>
+<td width="12%">13.8</td>
+<td style="color: green" width="12%">1.3</td>
+<td width="11%">1,159</td>
+<td width="11%">43.265</td>
+<td width="11%">2,909,543</td>
+</tr>, <tr>
+<td width="4%">92</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DAFODILCOM">
+													DAFODILCOM												</a>
+</td>
+<td width="10%">66.1</td>
+<td width="10%">68.3</td>
+<td width="12%">66.1</td>
+<td width="11%">66.1</td>
+<td width="12%">67.3</td>
+<td style="color: red" width="12%">-1.2</td>
+<td width="11%">109</td>
+<td width="11%">2.032</td>
+<td width="11%">30,383</td>
+</tr>, <tr>
+<td width="4%">93</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DBH">
+													DBH												</a>
+</td>
+<td width="10%">56.7</td>
+<td width="10%">56.7</td>
+<td width="12%">56.7</td>
+<td width="11%">56.7</td>
+<td width="12%">56.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.095</td>
+<td width="11%">1,674</td>
+</tr>, <tr>
+<td width="4%">94</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DBH1STMF">
+													DBH1STMF												</a>
+</td>
+<td width="10%">6.9</td>
+<td width="10%">6.9</td>
+<td width="12%">6.9</td>
+<td width="11%">6.9</td>
+<td width="12%">6.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.072</td>
+<td width="11%">10,405</td>
+</tr>, <tr>
+<td width="4%">95</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DELTALIFE">
+													DELTALIFE												</a>
+</td>
+<td width="10%">146.9</td>
+<td width="10%">147.1</td>
+<td width="12%">144</td>
+<td width="11%">146.9</td>
+<td width="12%">145</td>
+<td style="color: green" width="12%">1.9</td>
+<td width="11%">737</td>
+<td width="11%">32.673</td>
+<td width="11%">222,915</td>
+</tr>, <tr>
+<td width="4%">96</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DELTASPINN">
+													DELTASPINN												</a>
+</td>
+<td width="10%">8.5</td>
+<td width="10%">8.5</td>
+<td width="12%">8.5</td>
+<td width="11%">8.5</td>
+<td width="12%">8.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">112</td>
+<td width="11%">1.919</td>
+<td width="11%">225,822</td>
+</tr>, <tr>
+<td width="4%">97</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DESCO">
+													DESCO												</a>
+</td>
+<td width="10%">36.6</td>
+<td width="10%">36.6</td>
+<td width="12%">36.6</td>
+<td width="11%">36.6</td>
+<td width="12%">36.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">2</td>
+</tr>, <tr>
+<td width="4%">98</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DESHBANDHU">
+													DESHBANDHU												</a>
+</td>
+<td width="10%">23.5</td>
+<td width="10%">24</td>
+<td width="12%">23.3</td>
+<td width="11%">23.5</td>
+<td width="12%">23.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1,011</td>
+<td width="11%">34.163</td>
+<td width="11%">1,444,882</td>
+</tr>, <tr>
+<td width="4%">99</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DGIC">
+													DGIC												</a>
+</td>
+<td width="10%">31.1</td>
+<td width="10%">31.8</td>
+<td width="12%">30.5</td>
+<td width="11%">31.5</td>
+<td width="12%">31.2</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">345</td>
+<td width="11%">6.367</td>
+<td width="11%">204,367</td>
+</tr>, <tr>
+<td width="4%">100</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DHAKABANK">
+													DHAKABANK												</a>
+</td>
+<td width="10%">12.5</td>
+<td width="10%">12.5</td>
+<td width="12%">12.5</td>
+<td width="11%">12.5</td>
+<td width="12%">12.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.019</td>
+<td width="11%">1,485</td>
+</tr>, <tr>
+<td width="4%">101</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DHAKAINS">
+													DHAKAINS												</a>
+</td>
+<td width="10%">57.4</td>
+<td width="10%">58</td>
+<td width="12%">57</td>
+<td width="11%">57.5</td>
+<td width="12%">57.3</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">227</td>
+<td width="11%">4.685</td>
+<td width="11%">81,491</td>
+</tr>, <tr>
+<td width="4%">102</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DOMINAGE">
+													DOMINAGE												</a>
+</td>
+<td width="10%">16.2</td>
+<td width="10%">16.2</td>
+<td width="12%">16.2</td>
+<td width="11%">16.2</td>
+<td width="12%">16.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">114</td>
+<td width="11%">4.318</td>
+<td width="11%">266,515</td>
+</tr>, <tr>
+<td width="4%">103</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DOREENPWR">
+													DOREENPWR												</a>
+</td>
+<td width="10%">61</td>
+<td width="10%">61</td>
+<td width="12%">61</td>
+<td width="11%">61</td>
+<td width="12%">61</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.199</td>
+<td width="11%">3,270</td>
+</tr>, <tr>
+<td width="4%">104</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DSHGARME">
+													DSHGARME												</a>
+</td>
+<td width="10%">121</td>
+<td width="10%">124.5</td>
+<td width="12%">120</td>
+<td width="11%">121</td>
+<td width="12%">121.2</td>
+<td style="color: red" width="12%">-0.2</td>
+<td width="11%">194</td>
+<td width="11%">3.535</td>
+<td width="11%">29,136</td>
+</tr>, <tr>
+<td width="4%">105</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DSSL">
+													DSSL												</a>
+</td>
+<td width="10%">17</td>
+<td width="10%">17</td>
+<td width="12%">17</td>
+<td width="11%">17</td>
+<td width="12%">17</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">15</td>
+<td width="11%">0.045</td>
+<td width="11%">2,625</td>
+</tr>, <tr>
+<td width="4%">106</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DULAMIACOT">
+													DULAMIACOT												</a>
+</td>
+<td width="10%">72</td>
+<td width="10%">75.2</td>
+<td width="12%">72</td>
+<td width="11%">73.1</td>
+<td width="12%">75</td>
+<td style="color: red" width="12%">-3</td>
+<td width="11%">30</td>
+<td width="11%">0.343</td>
+<td width="11%">4,639</td>
+</tr>, <tr>
+<td width="4%">107</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=DUTCHBANGL">
+													DUTCHBANGL												</a>
+</td>
+<td width="10%">59.1</td>
+<td width="10%">59.1</td>
+<td width="12%">59.1</td>
+<td width="11%">59.1</td>
+<td width="12%">59.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">36</td>
+<td width="11%">1.397</td>
+<td width="11%">23,637</td>
+</tr>, <tr>
+<td width="4%">108</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EASTERNINS">
+													EASTERNINS												</a>
+</td>
+<td width="10%">50.5</td>
+<td width="10%">50.7</td>
+<td width="12%">49.8</td>
+<td width="11%">50.5</td>
+<td width="12%">50.2</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">128</td>
+<td width="11%">1.975</td>
+<td width="11%">39,317</td>
+</tr>, <tr>
+<td width="4%">109</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EASTLAND">
+													EASTLAND												</a>
+</td>
+<td width="10%">26.3</td>
+<td width="10%">26.3</td>
+<td width="12%">26</td>
+<td width="11%">26.3</td>
+<td width="12%">25.7</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">156</td>
+<td width="11%">3.613</td>
+<td width="11%">137,859</td>
+</tr>, <tr>
+<td width="4%">110</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EASTRNLUB">
+													EASTRNLUB												</a>
+</td>
+<td width="10%">1,841.4</td>
+<td width="10%">1,874.8</td>
+<td width="12%">1,805</td>
+<td width="11%">1,841.4</td>
+<td width="12%">1,802.2</td>
+<td style="color: green" width="12%">39.2</td>
+<td width="11%">910</td>
+<td width="11%">19.032</td>
+<td width="11%">10,367</td>
+</tr>, <tr>
+<td width="4%">111</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EBL">
+													EBL												</a>
+</td>
+<td width="10%">29.4</td>
+<td width="10%">29.4</td>
+<td width="12%">29.4</td>
+<td width="11%">29.4</td>
+<td width="12%">29.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">28</td>
+<td width="11%">1.102</td>
+<td width="11%">37,487</td>
+</tr>, <tr>
+<td width="4%">112</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EBL1STMF">
+													EBL1STMF												</a>
+</td>
+<td width="10%">7.4</td>
+<td width="10%">7.4</td>
+<td width="12%">7.4</td>
+<td width="11%">7.4</td>
+<td width="12%">7.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0</td>
+<td width="11%">23</td>
+</tr>, <tr>
+<td width="4%">113</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EBLNRBMF">
+													EBLNRBMF												</a>
+</td>
+<td width="10%">6.5</td>
+<td width="10%">6.5</td>
+<td width="12%">6.5</td>
+<td width="11%">6.5</td>
+<td width="12%">6.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.134</td>
+<td width="11%">20,554</td>
+</tr>, <tr>
+<td width="4%">114</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ECABLES">
+													ECABLES												</a>
+</td>
+<td width="10%">200.2</td>
+<td width="10%">202</td>
+<td width="12%">196.1</td>
+<td width="11%">200.2</td>
+<td width="12%">195.3</td>
+<td style="color: green" width="12%">4.9</td>
+<td width="11%">357</td>
+<td width="11%">8.144</td>
+<td width="11%">41,024</td>
+</tr>, <tr>
+<td width="4%">115</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EGEN">
+													EGEN												</a>
+</td>
+<td width="10%">45.2</td>
+<td width="10%">45.2</td>
+<td width="12%">45.2</td>
+<td width="11%">45.2</td>
+<td width="12%">45.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.156</td>
+<td width="11%">3,446</td>
+</tr>, <tr>
+<td width="4%">116</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EHL">
+													EHL												</a>
+</td>
+<td width="10%">104.4</td>
+<td width="10%">106.8</td>
+<td width="12%">103.5</td>
+<td width="11%">104.4</td>
+<td width="12%">105.5</td>
+<td style="color: red" width="12%">-1.1</td>
+<td width="11%">2,816</td>
+<td width="11%">129.167</td>
+<td width="11%">1,231,011</td>
+</tr>, <tr>
+<td width="4%">117</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EIL">
+													EIL												</a>
+</td>
+<td width="10%">27.3</td>
+<td width="10%">27.4</td>
+<td width="12%">26.8</td>
+<td width="11%">27.3</td>
+<td width="12%">26.9</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">255</td>
+<td width="11%">4.24</td>
+<td width="11%">156,743</td>
+</tr>, <tr>
+<td width="4%">118</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EMERALDOIL">
+													EMERALDOIL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">138.7</td>
+<td width="12%">138.7</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">119</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ENVOYTEX">
+													ENVOYTEX												</a>
+</td>
+<td width="10%">43.9</td>
+<td width="10%">43.9</td>
+<td width="12%">43.9</td>
+<td width="11%">43.9</td>
+<td width="12%">43.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.005</td>
+<td width="11%">104</td>
+</tr>, <tr>
+<td width="4%">120</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EPGL">
+													EPGL												</a>
+</td>
+<td width="10%">35.3</td>
+<td width="10%">35.6</td>
+<td width="12%">34.9</td>
+<td width="11%">35.2</td>
+<td width="12%">35</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">264</td>
+<td width="11%">6.11</td>
+<td width="11%">174,000</td>
+</tr>, <tr>
+<td width="4%">121</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ESQUIRENIT">
+													ESQUIRENIT												</a>
+</td>
+<td width="10%">34.5</td>
+<td width="10%">34.5</td>
+<td width="12%">34.5</td>
+<td width="11%">34.5</td>
+<td width="12%">34.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.001</td>
+<td width="11%">30</td>
+</tr>, <tr>
+<td width="4%">122</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ETL">
+													ETL												</a>
+</td>
+<td width="10%">10.4</td>
+<td width="10%">10.4</td>
+<td width="12%">9.5</td>
+<td width="11%">10.4</td>
+<td width="12%">9.5</td>
+<td style="color: green" width="12%">0.9</td>
+<td width="11%">1,466</td>
+<td width="11%">46.57</td>
+<td width="11%">4,544,198</td>
+</tr>, <tr>
+<td width="4%">123</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EXIM1STMF">
+													EXIM1STMF												</a>
+</td>
+<td width="10%">5.8</td>
+<td width="10%">5.8</td>
+<td width="12%">5.8</td>
+<td width="11%">5.8</td>
+<td width="12%">5.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.019</td>
+<td width="11%">3,190</td>
+</tr>, <tr>
+<td width="4%">124</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=EXIMBANK">
+													EXIMBANK												</a>
+</td>
+<td width="10%">10.4</td>
+<td width="10%">10.4</td>
+<td width="12%">10.4</td>
+<td width="11%">10.4</td>
+<td width="12%">10.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">27</td>
+<td width="11%">1.827</td>
+<td width="11%">175,657</td>
+</tr>, <tr>
+<td width="4%">125</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FAMILYTEX">
+													FAMILYTEX												</a>
+</td>
+<td width="10%">4.9</td>
+<td width="10%">4.9</td>
+<td width="12%">4.9</td>
+<td width="11%">4.9</td>
+<td width="12%">4.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.173</td>
+<td width="11%">35,372</td>
+</tr>, <tr>
+<td width="4%">126</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FARCHEM">
+													FARCHEM												</a>
+</td>
+<td width="10%">11.3</td>
+<td width="10%">11.4</td>
+<td width="12%">11</td>
+<td width="11%">11.3</td>
+<td width="12%">11</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">925</td>
+<td width="11%">27.422</td>
+<td width="11%">2,433,393</td>
+</tr>, <tr>
+<td width="4%">127</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FAREASTFIN">
+													FAREASTFIN												</a>
+</td>
+<td width="10%">5.9</td>
+<td width="10%">5.9</td>
+<td width="12%">5.9</td>
+<td width="11%">5.9</td>
+<td width="12%">5.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">15</td>
+</tr>, <tr>
+<td width="4%">128</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FAREASTLIF">
+													FAREASTLIF												</a>
+</td>
+<td width="10%">76.2</td>
+<td width="10%">76.8</td>
+<td width="12%">75</td>
+<td width="11%">76.2</td>
+<td width="12%">75.1</td>
+<td style="color: green" width="12%">1.1</td>
+<td width="11%">1,560</td>
+<td width="11%">87.575</td>
+<td width="11%">1,158,288</td>
+</tr>, <tr>
+<td width="4%">129</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FASFIN">
+													FASFIN												</a>
+</td>
+<td width="10%">5.4</td>
+<td width="10%">5.5</td>
+<td width="12%">5.4</td>
+<td width="11%">5.4</td>
+<td width="12%">5.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">408</td>
+<td width="11%">7.22</td>
+<td width="11%">1,336,267</td>
+</tr>, <tr>
+<td width="4%">130</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FBFIF">
+													FBFIF												</a>
+</td>
+<td width="10%">5</td>
+<td width="10%">5</td>
+<td width="12%">5</td>
+<td width="11%">5</td>
+<td width="12%">5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.189</td>
+<td width="11%">37,745</td>
+</tr>, <tr>
+<td width="4%">131</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FEDERALINS">
+													FEDERALINS												</a>
+</td>
+<td width="10%">26.9</td>
+<td width="10%">26.9</td>
+<td width="12%">25.9</td>
+<td width="11%">26.6</td>
+<td width="12%">26.4</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">197</td>
+<td width="11%">3.413</td>
+<td width="11%">129,040</td>
+</tr>, <tr>
+<td width="4%">132</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FEKDIL">
+													FEKDIL												</a>
+</td>
+<td width="10%">19.2</td>
+<td width="10%">19.4</td>
+<td width="12%">18.5</td>
+<td width="11%">19.2</td>
+<td width="12%">18.5</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">2,118</td>
+<td width="11%">88.44</td>
+<td width="11%">4,617,593</td>
+</tr>, <tr>
+<td width="4%">133</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FINEFOODS">
+													FINEFOODS												</a>
+</td>
+<td width="10%">117.7</td>
+<td width="10%">126.8</td>
+<td width="12%">116.9</td>
+<td width="11%">117.7</td>
+<td width="12%">123.3</td>
+<td style="color: red" width="12%">-5.6</td>
+<td width="11%">1,791</td>
+<td width="11%">70.83</td>
+<td width="11%">585,216</td>
+</tr>, <tr>
+<td width="4%">134</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FIRSTFIN">
+													FIRSTFIN												</a>
+</td>
+<td width="10%">5.5</td>
+<td width="10%">5.5</td>
+<td width="12%">5.5</td>
+<td width="11%">5.5</td>
+<td width="12%">5.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.014</td>
+<td width="11%">2,515</td>
+</tr>, <tr>
+<td width="4%">135</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FIRSTSBANK">
+													FIRSTSBANK												</a>
+</td>
+<td width="10%">8.9</td>
+<td width="10%">8.9</td>
+<td width="12%">8.9</td>
+<td width="11%">8.9</td>
+<td width="12%">8.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">25</td>
+<td width="11%">0.549</td>
+<td width="11%">61,658</td>
+</tr>, <tr>
+<td width="4%">136</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FORTUNE">
+													FORTUNE												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">75.7</td>
+<td width="12%">75.7</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">137</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FUWANGCER">
+													FUWANGCER												</a>
+</td>
+<td width="10%">17.4</td>
+<td width="10%">17.4</td>
+<td width="12%">17.4</td>
+<td width="11%">17.4</td>
+<td width="12%">17.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">334</td>
+<td width="11%">18.773</td>
+<td width="11%">1,078,935</td>
+</tr>, <tr>
+<td width="4%">138</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=FUWANGFOOD">
+													FUWANGFOOD												</a>
+</td>
+<td width="10%">23.5</td>
+<td width="10%">23.5</td>
+<td width="12%">23.5</td>
+<td width="11%">23.5</td>
+<td width="12%">23.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.098</td>
+<td width="11%">4,165</td>
+</tr>, <tr>
+<td width="4%">139</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GBBPOWER">
+													GBBPOWER												</a>
+</td>
+<td width="10%">15.3</td>
+<td width="10%">15.3</td>
+<td width="12%">15.1</td>
+<td width="11%">15.3</td>
+<td width="12%">15.2</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">235</td>
+<td width="11%">5.042</td>
+<td width="11%">330,730</td>
+</tr>, <tr>
+<td width="4%">140</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GEMINISEA">
+													GEMINISEA												</a>
+</td>
+<td width="10%">825.9</td>
+<td width="10%">838.8</td>
+<td width="12%">812.5</td>
+<td width="11%">825.9</td>
+<td width="12%">822.9</td>
+<td style="color: green" width="12%">3</td>
+<td width="11%">3,033</td>
+<td width="11%">116.818</td>
+<td width="11%">141,953</td>
+</tr>, <tr>
+<td width="4%">141</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GENEXIL">
+													GENEXIL												</a>
+</td>
+<td width="10%">86.1</td>
+<td width="10%">87.1</td>
+<td width="12%">85.4</td>
+<td width="11%">86.1</td>
+<td width="12%">86.2</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">1,998</td>
+<td width="11%">90.367</td>
+<td width="11%">1,047,513</td>
+</tr>, <tr>
+<td width="4%">142</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GENNEXT">
+													GENNEXT												</a>
+</td>
+<td width="10%">6.4</td>
+<td width="10%">6.5</td>
+<td width="12%">6.1</td>
+<td width="11%">6.4</td>
+<td width="12%">6.1</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">1,815</td>
+<td width="11%">79.842</td>
+<td width="11%">12,549,969</td>
+</tr>, <tr>
+<td width="4%">143</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GHAIL">
+													GHAIL												</a>
+</td>
+<td width="10%">17.5</td>
+<td width="10%">17.5</td>
+<td width="12%">17.5</td>
+<td width="11%">17.5</td>
+<td width="12%">17.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">47</td>
+<td width="11%">2.172</td>
+<td width="11%">124,087</td>
+</tr>, <tr>
+<td width="4%">144</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GHCL">
+													GHCL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">35.1</td>
+<td width="12%">35.1</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">145</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GIB">
+													GIB												</a>
+</td>
+<td width="10%">8.6</td>
+<td width="10%">8.6</td>
+<td width="12%">8.6</td>
+<td width="11%">8.6</td>
+<td width="12%">8.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">17</td>
+<td width="11%">0.23</td>
+<td width="11%">26,776</td>
+</tr>, <tr>
+<td width="4%">146</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GLDNJMF">
+													GLDNJMF												</a>
+</td>
+<td width="10%">9</td>
+<td width="10%">9</td>
+<td width="12%">9</td>
+<td width="11%">9</td>
+<td width="12%">9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">2</td>
+</tr>, <tr>
+<td width="4%">147</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GLOBALINS">
+													GLOBALINS												</a>
+</td>
+<td width="10%">33.2</td>
+<td width="10%">33.5</td>
+<td width="12%">32.7</td>
+<td width="11%">33.2</td>
+<td width="12%">32.6</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">304</td>
+<td width="11%">5.378</td>
+<td width="11%">162,035</td>
+</tr>, <tr>
+<td width="4%">148</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GOLDENSON">
+													GOLDENSON												</a>
+</td>
+<td width="10%">18.2</td>
+<td width="10%">18.2</td>
+<td width="12%">18.2</td>
+<td width="11%">18.2</td>
+<td width="12%">18.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.002</td>
+<td width="11%">109</td>
+</tr>, <tr>
+<td width="4%">149</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GP">
+													GP												</a>
+</td>
+<td width="10%">286.6</td>
+<td width="10%">286.6</td>
+<td width="12%">286.6</td>
+<td width="11%">286.6</td>
+<td width="12%">286.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">97</td>
+<td width="11%">6.755</td>
+<td width="11%">23,568</td>
+</tr>, <tr>
+<td width="4%">150</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GPHISPAT">
+													GPHISPAT												</a>
+</td>
+<td width="10%">44.8</td>
+<td width="10%">44.8</td>
+<td width="12%">44.8</td>
+<td width="11%">44.8</td>
+<td width="12%">44.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">9</td>
+<td width="11%">0.104</td>
+<td width="11%">2,331</td>
+</tr>, <tr>
+<td width="4%">151</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GQBALLPEN">
+													GQBALLPEN												</a>
+</td>
+<td width="10%">135.3</td>
+<td width="10%">136.8</td>
+<td width="12%">129.1</td>
+<td width="11%">135.3</td>
+<td width="12%">132.9</td>
+<td style="color: green" width="12%">2.4</td>
+<td width="11%">1,147</td>
+<td width="11%">27.454</td>
+<td width="11%">205,676</td>
+</tr>, <tr>
+<td width="4%">152</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GRAMEENS2">
+													GRAMEENS2												</a>
+</td>
+<td width="10%">15.2</td>
+<td width="10%">15.2</td>
+<td width="12%">15.2</td>
+<td width="11%">15.2</td>
+<td width="12%">15.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.389</td>
+<td width="11%">25,596</td>
+</tr>, <tr>
+<td width="4%">153</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GREENDELMF">
+													GREENDELMF												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">6.9</td>
+<td width="12%">6.9</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">154</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GREENDELT">
+													GREENDELT												</a>
+</td>
+<td width="10%">66.9</td>
+<td width="10%">67</td>
+<td width="12%">65.2</td>
+<td width="11%">66.9</td>
+<td width="12%">65.6</td>
+<td style="color: green" width="12%">1.3</td>
+<td width="11%">108</td>
+<td width="11%">2.665</td>
+<td width="11%">40,104</td>
+</tr>, <tr>
+<td width="4%">155</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=GSPFINANCE">
+													GSPFINANCE												</a>
+</td>
+<td width="10%">30.3</td>
+<td width="10%">30.3</td>
+<td width="12%">30.3</td>
+<td width="11%">30.3</td>
+<td width="12%">30.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">16</td>
+</tr>, <tr>
+<td width="4%">156</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=HAKKANIPUL">
+													HAKKANIPUL												</a>
+</td>
+<td width="10%">66.5</td>
+<td width="10%">66.7</td>
+<td width="12%">65.2</td>
+<td width="11%">66.5</td>
+<td width="12%">65.3</td>
+<td style="color: green" width="12%">1.2</td>
+<td width="11%">479</td>
+<td width="11%">11.798</td>
+<td width="11%">178,761</td>
+</tr>, <tr>
+<td width="4%">157</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=HEIDELBCEM">
+													HEIDELBCEM												</a>
+</td>
+<td width="10%">266.5</td>
+<td width="10%">267.9</td>
+<td width="12%">260.7</td>
+<td width="11%">266.5</td>
+<td width="12%">262.4</td>
+<td style="color: green" width="12%">4.1</td>
+<td width="11%">556</td>
+<td width="11%">13.755</td>
+<td width="11%">51,743</td>
+</tr>, <tr>
+<td width="4%">158</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=HFL">
+													HFL												</a>
+</td>
+<td width="10%">18.6</td>
+<td width="10%">18.8</td>
+<td width="12%">18</td>
+<td width="11%">18.6</td>
+<td width="12%">18</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">604</td>
+<td width="11%">18.742</td>
+<td width="11%">1,012,840</td>
+</tr>, <tr>
+<td width="4%">159</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=HRTEX">
+													HRTEX												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">115.9</td>
+<td width="12%">115.9</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">160</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=HWAWELLTEX">
+													HWAWELLTEX												</a>
+</td>
+<td width="10%">59.1</td>
+<td width="10%">60</td>
+<td width="12%">56</td>
+<td width="11%">59.3</td>
+<td width="12%">59.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">102</td>
+<td width="11%">2.489</td>
+<td width="11%">42,018</td>
+</tr>, <tr>
+<td width="4%">161</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IBNSINA">
+													IBNSINA												</a>
+</td>
+<td width="10%">286.6</td>
+<td width="10%">286.6</td>
+<td width="12%">286.6</td>
+<td width="11%">286.6</td>
+<td width="12%">286.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">111</td>
+<td width="11%">1.899</td>
+<td width="11%">6,626</td>
+</tr>, <tr>
+<td width="4%">162</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IBP">
+													IBP												</a>
+</td>
+<td width="10%">17</td>
+<td width="10%">17</td>
+<td width="12%">17</td>
+<td width="11%">17</td>
+<td width="12%">17</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">31</td>
+<td width="11%">0.568</td>
+<td width="11%">33,398</td>
+</tr>, <tr>
+<td width="4%">163</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICB">
+													ICB												</a>
+</td>
+<td width="10%">87.6</td>
+<td width="10%">87.6</td>
+<td width="12%">87.6</td>
+<td width="11%">87.6</td>
+<td width="12%">87.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.027</td>
+<td width="11%">307</td>
+</tr>, <tr>
+<td width="4%">164</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICB3RDNRB">
+													ICB3RDNRB												</a>
+</td>
+<td width="10%">6.5</td>
+<td width="10%">6.5</td>
+<td width="12%">6.5</td>
+<td width="11%">6.5</td>
+<td width="12%">6.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.035</td>
+<td width="11%">5,422</td>
+</tr>, <tr>
+<td width="4%">165</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICBAGRANI1">
+													ICBAGRANI1												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">9.2</td>
+<td width="12%">9.2</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">166</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICBAMCL2ND">
+													ICBAMCL2ND												</a>
+</td>
+<td width="10%">8.7</td>
+<td width="10%">8.7</td>
+<td width="12%">8.7</td>
+<td width="11%">8.7</td>
+<td width="12%">8.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.001</td>
+<td width="11%">59</td>
+</tr>, <tr>
+<td width="4%">167</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICBEPMF1S1">
+													ICBEPMF1S1												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">7.1</td>
+<td width="12%">7.1</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">168</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICBIBANK">
+													ICBIBANK												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">5.4</td>
+<td width="12%">5.4</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">169</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICBSONALI1">
+													ICBSONALI1												</a>
+</td>
+<td width="10%">7.8</td>
+<td width="10%">7.8</td>
+<td width="12%">7.8</td>
+<td width="11%">7.8</td>
+<td width="12%">7.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.008</td>
+<td width="11%">973</td>
+</tr>, <tr>
+<td width="4%">170</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ICICL">
+													ICICL												</a>
+</td>
+<td width="10%">35.4</td>
+<td width="10%">36.4</td>
+<td width="12%">34.4</td>
+<td width="11%">35.4</td>
+<td width="12%">35.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">837</td>
+<td width="11%">16.631</td>
+<td width="11%">466,558</td>
+</tr>, <tr>
+<td width="4%">171</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IDLC">
+													IDLC												</a>
+</td>
+<td width="10%">46.5</td>
+<td width="10%">46.5</td>
+<td width="12%">46.5</td>
+<td width="11%">46.5</td>
+<td width="12%">46.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">12</td>
+<td width="11%">0.25</td>
+<td width="11%">5,385</td>
+</tr>, <tr>
+<td width="4%">172</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IFADAUTOS">
+													IFADAUTOS												</a>
+</td>
+<td width="10%">44.1</td>
+<td width="10%">44.1</td>
+<td width="12%">44.1</td>
+<td width="11%">44.1</td>
+<td width="12%">44.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.002</td>
+<td width="11%">55</td>
+</tr>, <tr>
+<td width="4%">173</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IFIC">
+													IFIC												</a>
+</td>
+<td width="10%">11.2</td>
+<td width="10%">11.2</td>
+<td width="12%">11.2</td>
+<td width="11%">11.2</td>
+<td width="12%">11.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">19</td>
+<td width="11%">0.247</td>
+<td width="11%">22,047</td>
+</tr>, <tr>
+<td width="4%">174</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IFIC1STMF">
+													IFIC1STMF												</a>
+</td>
+<td width="10%">5.1</td>
+<td width="10%">5.1</td>
+<td width="12%">5.1</td>
+<td width="11%">5.1</td>
+<td width="12%">5.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.001</td>
+<td width="11%">196</td>
+</tr>, <tr>
+<td width="4%">175</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IFILISLMF1">
+													IFILISLMF1												</a>
+</td>
+<td width="10%">6.4</td>
+<td width="10%">6.4</td>
+<td width="12%">6.4</td>
+<td width="11%">6.4</td>
+<td width="12%">6.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">22</td>
+</tr>, <tr>
+<td width="4%">176</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ILFSL">
+													ILFSL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">5.6</td>
+<td width="12%">5.6</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">177</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IMAMBUTTON">
+													IMAMBUTTON												</a>
+</td>
+<td width="10%">138.1</td>
+<td width="10%">139</td>
+<td width="12%">126</td>
+<td width="11%">138.1</td>
+<td width="12%">126.5</td>
+<td style="color: green" width="12%">11.6</td>
+<td width="11%">900</td>
+<td width="11%">18.08</td>
+<td width="11%">133,767</td>
+</tr>, <tr>
+<td width="4%">178</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=INDEXAGRO">
+													INDEXAGRO												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">103.6</td>
+<td width="12%">103.6</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">179</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=INTECH">
+													INTECH												</a>
+</td>
+<td width="10%">26.5</td>
+<td width="10%">26.7</td>
+<td width="12%">26</td>
+<td width="11%">26.4</td>
+<td width="12%">26.4</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">197</td>
+<td width="11%">3.177</td>
+<td width="11%">120,643</td>
+</tr>, <tr>
+<td width="4%">180</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=INTRACO">
+													INTRACO												</a>
+</td>
+<td width="10%">48.6</td>
+<td width="10%">49</td>
+<td width="12%">46.5</td>
+<td width="11%">48.6</td>
+<td width="12%">46.3</td>
+<td style="color: green" width="12%">2.3</td>
+<td width="11%">3,062</td>
+<td width="11%">160.132</td>
+<td width="11%">3,357,000</td>
+</tr>, <tr>
+<td width="4%">181</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=IPDC">
+													IPDC												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">57.6</td>
+<td width="12%">57.6</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">182</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ISLAMIBANK">
+													ISLAMIBANK												</a>
+</td>
+<td width="10%">32.6</td>
+<td width="10%">32.6</td>
+<td width="12%">32.6</td>
+<td width="11%">32.6</td>
+<td width="12%">32.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">47</td>
+<td width="11%">2.819</td>
+<td width="11%">86,483</td>
+</tr>, <tr>
+<td width="4%">183</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ISLAMICFIN">
+													ISLAMICFIN												</a>
+</td>
+<td width="10%">19.7</td>
+<td width="10%">19.7</td>
+<td width="12%">19.7</td>
+<td width="11%">19.7</td>
+<td width="12%">19.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">15</td>
+</tr>, <tr>
+<td width="4%">184</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ISLAMIINS">
+													ISLAMIINS												</a>
+</td>
+<td width="10%">57.6</td>
+<td width="10%">58</td>
+<td width="12%">57.5</td>
+<td width="11%">57.6</td>
+<td width="12%">57.9</td>
+<td style="color: red" width="12%">-0.3</td>
+<td width="11%">203</td>
+<td width="11%">7.073</td>
+<td width="11%">122,483</td>
+</tr>, <tr>
+<td width="4%">185</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ISNLTD">
+													ISNLTD												</a>
+</td>
+<td width="10%">56.9</td>
+<td width="10%">58.4</td>
+<td width="12%">56.5</td>
+<td width="11%">56.9</td>
+<td width="12%">57.7</td>
+<td style="color: red" width="12%">-0.8</td>
+<td width="11%">373</td>
+<td width="11%">11.647</td>
+<td width="11%">202,841</td>
+</tr>, <tr>
+<td width="4%">186</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ITC">
+													ITC												</a>
+</td>
+<td width="10%">43.1</td>
+<td width="10%">44</td>
+<td width="12%">42.3</td>
+<td width="11%">43.1</td>
+<td width="12%">43.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1,665</td>
+<td width="11%">108.591</td>
+<td width="11%">2,530,836</td>
+</tr>, <tr>
+<td width="4%">187</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JAMUNABANK">
+													JAMUNABANK												</a>
+</td>
+<td width="10%">20.9</td>
+<td width="10%">20.9</td>
+<td width="12%">20.9</td>
+<td width="11%">20.9</td>
+<td width="12%">20.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">29</td>
+<td width="11%">1.151</td>
+<td width="11%">55,095</td>
+</tr>, <tr>
+<td width="4%">188</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JAMUNAOIL">
+													JAMUNAOIL												</a>
+</td>
+<td width="10%">179.8</td>
+<td width="10%">180</td>
+<td width="12%">179</td>
+<td width="11%">179.9</td>
+<td width="12%">179.6</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">173</td>
+<td width="11%">5.475</td>
+<td width="11%">30,465</td>
+</tr>, <tr>
+<td width="4%">189</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JANATAINS">
+													JANATAINS												</a>
+</td>
+<td width="10%">29</td>
+<td width="10%">29.3</td>
+<td width="12%">28.5</td>
+<td width="11%">29</td>
+<td width="12%">28.6</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">100</td>
+<td width="11%">0.987</td>
+<td width="11%">34,021</td>
+</tr>, <tr>
+<td width="4%">190</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JHRML">
+													JHRML												</a>
+</td>
+<td width="10%">79.8</td>
+<td width="10%">80.6</td>
+<td width="12%">79.5</td>
+<td width="11%">79.8</td>
+<td width="12%">79.4</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">1,370</td>
+<td width="11%">43.048</td>
+<td width="11%">538,546</td>
+</tr>, <tr>
+<td width="4%">191</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JMISMDL">
+													JMISMDL												</a>
+</td>
+<td width="10%">255.5</td>
+<td width="10%">255.5</td>
+<td width="12%">255.5</td>
+<td width="11%">255.5</td>
+<td width="12%">255.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.005</td>
+<td width="11%">20</td>
+</tr>, <tr>
+<td width="4%">192</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=JUTESPINN">
+													JUTESPINN												</a>
+</td>
+<td width="10%">417.5</td>
+<td width="10%">428</td>
+<td width="12%">400</td>
+<td width="11%">417.5</td>
+<td width="12%">414.7</td>
+<td style="color: green" width="12%">2.8</td>
+<td width="11%">277</td>
+<td width="11%">3.445</td>
+<td width="11%">8,242</td>
+</tr>, <tr>
+<td width="4%">193</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KARNAPHULI">
+													KARNAPHULI												</a>
+</td>
+<td width="10%">30.9</td>
+<td width="10%">31.6</td>
+<td width="12%">30.8</td>
+<td width="11%">30.9</td>
+<td width="12%">30.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">181</td>
+<td width="11%">5.022</td>
+<td width="11%">162,034</td>
+</tr>, <tr>
+<td width="4%">194</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KAY&amp;QUE">
+													KAY&amp;QUE												</a>
+</td>
+<td width="10%">239.7</td>
+<td width="10%">247.8</td>
+<td width="12%">236.1</td>
+<td width="11%">239.7</td>
+<td width="12%">240</td>
+<td style="color: red" width="12%">-0.3</td>
+<td width="11%">560</td>
+<td width="11%">12.595</td>
+<td width="11%">52,393</td>
+</tr>, <tr>
+<td width="4%">195</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KBPPWBIL">
+													KBPPWBIL												</a>
+</td>
+<td width="10%">23.2</td>
+<td width="10%">23.2</td>
+<td width="12%">20.7</td>
+<td width="11%">23.2</td>
+<td width="12%">21.1</td>
+<td style="color: green" width="12%">2.1</td>
+<td width="11%">2,996</td>
+<td width="11%">203.788</td>
+<td width="11%">9,038,056</td>
+</tr>, <tr>
+<td width="4%">196</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KDSALTD">
+													KDSALTD												</a>
+</td>
+<td width="10%">77</td>
+<td width="10%">77</td>
+<td width="12%">77</td>
+<td width="11%">77</td>
+<td width="12%">77</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.011</td>
+<td width="11%">148</td>
+</tr>, <tr>
+<td width="4%">197</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KEYACOSMET">
+													KEYACOSMET												</a>
+</td>
+<td width="10%">6.4</td>
+<td width="10%">6.6</td>
+<td width="12%">6.4</td>
+<td width="11%">6.4</td>
+<td width="12%">6.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1,855</td>
+<td width="11%">50.658</td>
+<td width="11%">7,887,589</td>
+</tr>, <tr>
+<td width="4%">198</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KOHINOOR">
+													KOHINOOR												</a>
+</td>
+<td width="10%">458.8</td>
+<td width="10%">461.5</td>
+<td width="12%">454.1</td>
+<td width="11%">458.8</td>
+<td width="12%">453.2</td>
+<td style="color: green" width="12%">5.6</td>
+<td width="11%">568</td>
+<td width="11%">15.593</td>
+<td width="11%">33,986</td>
+</tr>, <tr>
+<td width="4%">199</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KPCL">
+													KPCL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">26.6</td>
+<td width="12%">26.6</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">200</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KPPL">
+													KPPL												</a>
+</td>
+<td width="10%">14.2</td>
+<td width="10%">14.5</td>
+<td width="12%">13.2</td>
+<td width="11%">14.2</td>
+<td width="12%">13.3</td>
+<td style="color: green" width="12%">0.9</td>
+<td width="11%">1,850</td>
+<td width="11%">70.737</td>
+<td width="11%">5,049,043</td>
+</tr>, <tr>
+<td width="4%">201</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=KTL">
+													KTL												</a>
+</td>
+<td width="10%">23.7</td>
+<td width="10%">23.7</td>
+<td width="12%">23.7</td>
+<td width="11%">23.7</td>
+<td width="12%">23.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">2</td>
+</tr>, <tr>
+<td width="4%">202</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LANKABAFIN">
+													LANKABAFIN												</a>
+</td>
+<td width="10%">26</td>
+<td width="10%">26</td>
+<td width="12%">26</td>
+<td width="11%">26</td>
+<td width="12%">26</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">18</td>
+<td width="11%">1.085</td>
+<td width="11%">41,740</td>
+</tr>, <tr>
+<td width="4%">203</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LEGACYFOOT">
+													LEGACYFOOT												</a>
+</td>
+<td width="10%">106.3</td>
+<td width="10%">108.9</td>
+<td width="12%">105</td>
+<td width="11%">106.3</td>
+<td width="12%">106.1</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">1,815</td>
+<td width="11%">44.878</td>
+<td width="11%">419,705</td>
+</tr>, <tr>
+<td width="4%">204</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LHBL">
+													LHBL												</a>
+</td>
+<td width="10%">69.5</td>
+<td width="10%">70.3</td>
+<td width="12%">68.8</td>
+<td width="11%">69.5</td>
+<td width="12%">68.8</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">1,838</td>
+<td width="11%">135.831</td>
+<td width="11%">1,949,285</td>
+</tr>, <tr>
+<td width="4%">205</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LIBRAINFU">
+													LIBRAINFU												</a>
+</td>
+<td width="10%">673.3</td>
+<td width="10%">678.5</td>
+<td width="12%">671</td>
+<td width="11%">673.3</td>
+<td width="12%">676.4</td>
+<td style="color: red" width="12%">-3.1</td>
+<td width="11%">197</td>
+<td width="11%">2.601</td>
+<td width="11%">3,864</td>
+</tr>, <tr>
+<td width="4%">206</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LINDEBD">
+													LINDEBD												</a>
+</td>
+<td width="10%">1,397.7</td>
+<td width="10%">1,397.7</td>
+<td width="12%">1,397.7</td>
+<td width="11%">1,397.7</td>
+<td width="12%">1,397.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.123</td>
+<td width="11%">88</td>
+</tr>, <tr>
+<td width="4%">207</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LOVELLO">
+													LOVELLO												</a>
+</td>
+<td width="10%">37.9</td>
+<td width="10%">37.9</td>
+<td width="12%">37.9</td>
+<td width="11%">37.9</td>
+<td width="12%">37.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.005</td>
+<td width="11%">124</td>
+</tr>, <tr>
+<td width="4%">208</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LRBDL">
+													LRBDL												</a>
+</td>
+<td width="10%">35.1</td>
+<td width="10%">35.1</td>
+<td width="12%">35.1</td>
+<td width="11%">35.1</td>
+<td width="12%">35.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">21</td>
+<td width="11%">0.216</td>
+<td width="11%">6,144</td>
+</tr>, <tr>
+<td width="4%">209</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=LRGLOBMF1">
+													LRGLOBMF1												</a>
+</td>
+<td width="10%">6.4</td>
+<td width="10%">6.4</td>
+<td width="12%">6.4</td>
+<td width="11%">6.4</td>
+<td width="12%">6.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.007</td>
+<td width="11%">1,020</td>
+</tr>, <tr>
+<td width="4%">210</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MAKSONSPIN">
+													MAKSONSPIN												</a>
+</td>
+<td width="10%">22.3</td>
+<td width="10%">22.3</td>
+<td width="12%">22.3</td>
+<td width="11%">22.3</td>
+<td width="12%">22.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.183</td>
+<td width="11%">8,192</td>
+</tr>, <tr>
+<td width="4%">211</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MALEKSPIN">
+													MALEKSPIN												</a>
+</td>
+<td width="10%">27.1</td>
+<td width="10%">27.1</td>
+<td width="12%">27.1</td>
+<td width="11%">27.1</td>
+<td width="12%">27.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">9</td>
+<td width="11%">0.148</td>
+<td width="11%">5,445</td>
+</tr>, <tr>
+<td width="4%">212</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MARICO">
+													MARICO												</a>
+</td>
+<td width="10%">2,421.5</td>
+<td width="10%">2,421.5</td>
+<td width="12%">2,421.5</td>
+<td width="11%">2,421.5</td>
+<td width="12%">2,421.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">30</td>
+<td width="11%">2.547</td>
+<td width="11%">1,052</td>
+</tr>, <tr>
+<td width="4%">213</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MATINSPINN">
+													MATINSPINN												</a>
+</td>
+<td width="10%">77.6</td>
+<td width="10%">77.6</td>
+<td width="12%">77.6</td>
+<td width="11%">77.6</td>
+<td width="12%">77.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.008</td>
+<td width="11%">107</td>
+</tr>, <tr>
+<td width="4%">214</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MBL1STMF">
+													MBL1STMF												</a>
+</td>
+<td width="10%">6.6</td>
+<td width="10%">6.6</td>
+<td width="12%">6.6</td>
+<td width="11%">6.6</td>
+<td width="12%">6.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.012</td>
+<td width="11%">1,804</td>
+</tr>, <tr>
+<td width="4%">215</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MEGCONMILK">
+													MEGCONMILK												</a>
+</td>
+<td width="10%">31.9</td>
+<td width="10%">33</td>
+<td width="12%">31.5</td>
+<td width="11%">32</td>
+<td width="12%">32.4</td>
+<td style="color: red" width="12%">-0.5</td>
+<td width="11%">204</td>
+<td width="11%">2.045</td>
+<td width="11%">63,522</td>
+</tr>, <tr>
+<td width="4%">216</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MEGHNACEM">
+													MEGHNACEM												</a>
+</td>
+<td width="10%">71.6</td>
+<td width="10%">72.9</td>
+<td width="12%">70.1</td>
+<td width="11%">71.6</td>
+<td width="12%">71.7</td>
+<td style="color: red" width="12%">-0.1</td>
+<td width="11%">236</td>
+<td width="11%">5.045</td>
+<td width="11%">70,379</td>
+</tr>, <tr>
+<td width="4%">217</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MEGHNAINS">
+													MEGHNAINS												</a>
+</td>
+<td width="10%">50.4</td>
+<td width="10%">51</td>
+<td width="12%">49</td>
+<td width="11%">50.4</td>
+<td width="12%">48.7</td>
+<td style="color: green" width="12%">1.7</td>
+<td width="11%">2,330</td>
+<td width="11%">48.423</td>
+<td width="11%">962,737</td>
+</tr>, <tr>
+<td width="4%">218</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MEGHNALIFE">
+													MEGHNALIFE												</a>
+</td>
+<td width="10%">105.3</td>
+<td width="10%">107</td>
+<td width="12%">101.5</td>
+<td width="11%">105.3</td>
+<td width="12%">100.9</td>
+<td style="color: green" width="12%">4.4</td>
+<td width="11%">2,942</td>
+<td width="11%">145.712</td>
+<td width="11%">1,392,635</td>
+</tr>, <tr>
+<td width="4%">219</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MEGHNAPET">
+													MEGHNAPET												</a>
+</td>
+<td width="10%">44.2</td>
+<td width="10%">46.8</td>
+<td width="12%">44</td>
+<td width="11%">44.2</td>
+<td width="12%">44</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">287</td>
+<td width="11%">4.098</td>
+<td width="11%">91,674</td>
+</tr>, <tr>
+<td width="4%">220</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MERCANBANK">
+													MERCANBANK												</a>
+</td>
+<td width="10%">13.3</td>
+<td width="10%">13.3</td>
+<td width="12%">13.3</td>
+<td width="11%">13.3</td>
+<td width="12%">13.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">25</td>
+<td width="11%">0.556</td>
+<td width="11%">41,821</td>
+</tr>, <tr>
+<td width="4%">221</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MERCINS">
+													MERCINS												</a>
+</td>
+<td width="10%">31</td>
+<td width="10%">33</td>
+<td width="12%">30.6</td>
+<td width="11%">31</td>
+<td width="12%">31</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">49</td>
+<td width="11%">1.09</td>
+<td width="11%">35,070</td>
+</tr>, <tr>
+<td width="4%">222</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=METROSPIN">
+													METROSPIN												</a>
+</td>
+<td width="10%">38.4</td>
+<td width="10%">39.3</td>
+<td width="12%">37.8</td>
+<td width="11%">38.4</td>
+<td width="12%">39.1</td>
+<td style="color: red" width="12%">-0.7</td>
+<td width="11%">1,414</td>
+<td width="11%">65.794</td>
+<td width="11%">1,713,023</td>
+</tr>, <tr>
+<td width="4%">223</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MHSML">
+													MHSML												</a>
+</td>
+<td width="10%">26.5</td>
+<td width="10%">26.5</td>
+<td width="12%">26.5</td>
+<td width="11%">26.5</td>
+<td width="12%">26.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.022</td>
+<td width="11%">815</td>
+</tr>, <tr>
+<td width="4%">224</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MIDASFIN">
+													MIDASFIN												</a>
+</td>
+<td width="10%">11.8</td>
+<td width="10%">12.1</td>
+<td width="12%">11.3</td>
+<td width="11%">11.8</td>
+<td width="12%">11.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">181</td>
+<td width="11%">3.49</td>
+<td width="11%">298,375</td>
+</tr>, <tr>
+<td width="4%">225</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MIDLANDBNK">
+													MIDLANDBNK												</a>
+</td>
+<td width="10%">12.7</td>
+<td width="10%">12.9</td>
+<td width="12%">12.5</td>
+<td width="11%">12.7</td>
+<td width="12%">12.6</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">619</td>
+<td width="11%">29.076</td>
+<td width="11%">2,288,020</td>
+</tr>, <tr>
+<td width="4%">226</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MIRACLEIND">
+													MIRACLEIND												</a>
+</td>
+<td width="10%">30.4</td>
+<td width="10%">31.1</td>
+<td width="12%">30.2</td>
+<td width="11%">30.4</td>
+<td width="12%">30.3</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">445</td>
+<td width="11%">8.783</td>
+<td width="11%">286,986</td>
+</tr>, <tr>
+<td width="4%">227</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MIRAKHTER">
+													MIRAKHTER												</a>
+</td>
+<td width="10%">53.8</td>
+<td width="10%">54.8</td>
+<td width="12%">53.2</td>
+<td width="11%">53.8</td>
+<td width="12%">54.2</td>
+<td style="color: red" width="12%">-0.4</td>
+<td width="11%">367</td>
+<td width="11%">9.338</td>
+<td width="11%">173,330</td>
+</tr>, <tr>
+<td width="4%">228</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MITHUNKNIT">
+													MITHUNKNIT												</a>
+</td>
+<td width="10%">15.6</td>
+<td width="10%">15.6</td>
+<td width="12%">15.6</td>
+<td width="11%">15.6</td>
+<td width="12%">15.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">10</td>
+</tr>, <tr>
+<td width="4%">229</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MJLBD">
+													MJLBD												</a>
+</td>
+<td width="10%">86.7</td>
+<td width="10%">86.7</td>
+<td width="12%">86.7</td>
+<td width="11%">86.7</td>
+<td width="12%">86.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">57</td>
+<td width="11%">1.7</td>
+<td width="11%">19,603</td>
+</tr>, <tr>
+<td width="4%">230</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MLDYEING">
+													MLDYEING												</a>
+</td>
+<td width="10%">24.8</td>
+<td width="10%">24.8</td>
+<td width="12%">24.8</td>
+<td width="11%">24.8</td>
+<td width="12%">24.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">10</td>
+<td width="11%">0.136</td>
+<td width="11%">5,473</td>
+</tr>, <tr>
+<td width="4%">231</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MONNOAGML">
+													MONNOAGML												</a>
+</td>
+<td width="10%">1,031.5</td>
+<td width="10%">1,084</td>
+<td width="12%">1,022</td>
+<td width="11%">1,031.5</td>
+<td width="12%">1,078.2</td>
+<td style="color: red" width="12%">-46.7</td>
+<td width="11%">1,745</td>
+<td width="11%">43.316</td>
+<td width="11%">41,447</td>
+</tr>, <tr>
+<td width="4%">232</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MONNOCERA">
+													MONNOCERA												</a>
+</td>
+<td width="10%">111.9</td>
+<td width="10%">113</td>
+<td width="12%">110.7</td>
+<td width="11%">111.9</td>
+<td width="12%">111.4</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">665</td>
+<td width="11%">20.49</td>
+<td width="11%">183,783</td>
+</tr>, <tr>
+<td width="4%">233</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MONNOFABR">
+													MONNOFABR												</a>
+</td>
+<td width="10%">24.1</td>
+<td width="10%">24.1</td>
+<td width="12%">24.1</td>
+<td width="11%">24.1</td>
+<td width="12%">24.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.009</td>
+<td width="11%">369</td>
+</tr>, <tr>
+<td width="4%">234</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MONOSPOOL">
+													MONOSPOOL												</a>
+</td>
+<td width="10%">296.8</td>
+<td width="10%">301.8</td>
+<td width="12%">296</td>
+<td width="11%">296.8</td>
+<td width="12%">297.8</td>
+<td style="color: red" width="12%">-1</td>
+<td width="11%">877</td>
+<td width="11%">17.192</td>
+<td width="11%">57,790</td>
+</tr>, <tr>
+<td width="4%">235</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MPETROLEUM">
+													MPETROLEUM												</a>
+</td>
+<td width="10%">203.2</td>
+<td width="10%">204</td>
+<td width="12%">202</td>
+<td width="11%">203.2</td>
+<td width="12%">201.9</td>
+<td style="color: green" width="12%">1.3</td>
+<td width="11%">243</td>
+<td width="11%">8.44</td>
+<td width="11%">41,550</td>
+</tr>, <tr>
+<td width="4%">236</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=MTB">
+													MTB												</a>
+</td>
+<td width="10%">15.7</td>
+<td width="10%">15.8</td>
+<td width="12%">15.5</td>
+<td width="11%">15.7</td>
+<td width="12%">15.5</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">64</td>
+<td width="11%">3.311</td>
+<td width="11%">211,998</td>
+</tr>, <tr>
+<td width="4%">237</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NAHEEACP">
+													NAHEEACP												</a>
+</td>
+<td width="10%">65.3</td>
+<td width="10%">65.3</td>
+<td width="12%">65.3</td>
+<td width="11%">65.3</td>
+<td width="12%">65.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.131</td>
+<td width="11%">2,005</td>
+</tr>, <tr>
+<td width="4%">238</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NATLIFEINS">
+													NATLIFEINS												</a>
+</td>
+<td width="10%">179</td>
+<td width="10%">179</td>
+<td width="12%">179</td>
+<td width="11%">179</td>
+<td width="12%">179</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.006</td>
+<td width="11%">35</td>
+</tr>, <tr>
+<td width="4%">239</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NAVANACNG">
+													NAVANACNG												</a>
+</td>
+<td width="10%">26.9</td>
+<td width="10%">27.8</td>
+<td width="12%">26.3</td>
+<td width="11%">26.9</td>
+<td width="12%">26.5</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">280</td>
+<td width="11%">5.958</td>
+<td width="11%">221,649</td>
+</tr>, <tr>
+<td width="4%">240</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NAVANAPHAR">
+													NAVANAPHAR												</a>
+</td>
+<td width="10%">116.8</td>
+<td width="10%">120.3</td>
+<td width="12%">115.9</td>
+<td width="11%">116.8</td>
+<td width="12%">118.9</td>
+<td style="color: red" width="12%">-2.1</td>
+<td width="11%">2,310</td>
+<td width="11%">177.045</td>
+<td width="11%">1,498,645</td>
+</tr>, <tr>
+<td width="4%">241</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NBL">
+													NBL												</a>
+</td>
+<td width="10%">8.3</td>
+<td width="10%">8.3</td>
+<td width="12%">8.3</td>
+<td width="11%">8.3</td>
+<td width="12%">8.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.039</td>
+<td width="11%">4,725</td>
+</tr>, <tr>
+<td width="4%">242</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NCCBANK">
+													NCCBANK												</a>
+</td>
+<td width="10%">13.1</td>
+<td width="10%">13.1</td>
+<td width="12%">13.1</td>
+<td width="11%">13.1</td>
+<td width="12%">13.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.051</td>
+<td width="11%">3,855</td>
+</tr>, <tr>
+<td width="4%">243</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NCCBLMF1">
+													NCCBLMF1												</a>
+</td>
+<td width="10%">6.8</td>
+<td width="10%">6.8</td>
+<td width="12%">6.8</td>
+<td width="11%">6.8</td>
+<td width="12%">6.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.009</td>
+<td width="11%">1,254</td>
+</tr>, <tr>
+<td width="4%">244</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NEWLINE">
+													NEWLINE												</a>
+</td>
+<td width="10%">45.1</td>
+<td width="10%">45.1</td>
+<td width="12%">45.1</td>
+<td width="11%">45.1</td>
+<td width="12%">45.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.001</td>
+<td width="11%">22</td>
+</tr>, <tr>
+<td width="4%">245</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NFML">
+													NFML												</a>
+</td>
+<td width="10%">17.9</td>
+<td width="10%">18.2</td>
+<td width="12%">17.7</td>
+<td width="11%">17.9</td>
+<td width="12%">17.8</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">850</td>
+<td width="11%">23.836</td>
+<td width="11%">1,329,065</td>
+</tr>, <tr>
+<td width="4%">246</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NHFIL">
+													NHFIL												</a>
+</td>
+<td width="10%">43.7</td>
+<td width="10%">44</td>
+<td width="12%">42.8</td>
+<td width="11%">43.7</td>
+<td width="12%">42.8</td>
+<td style="color: green" width="12%">0.9</td>
+<td width="11%">1,290</td>
+<td width="11%">61.763</td>
+<td width="11%">1,416,007</td>
+</tr>, <tr>
+<td width="4%">247</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NITOLINS">
+													NITOLINS												</a>
+</td>
+<td width="10%">39</td>
+<td width="10%">40.5</td>
+<td width="12%">37</td>
+<td width="11%">39.8</td>
+<td width="12%">37.1</td>
+<td style="color: green" width="12%">1.9</td>
+<td width="11%">122</td>
+<td width="11%">2.542</td>
+<td width="11%">65,039</td>
+</tr>, <tr>
+<td width="4%">248</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NLI1STMF">
+													NLI1STMF												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">0</td>
+<td width="12%">14.4</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">249</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NORTHERN">
+													NORTHERN												</a>
+</td>
+<td width="10%">234.1</td>
+<td width="10%">251</td>
+<td width="12%">234.1</td>
+<td width="11%">234.1</td>
+<td width="12%">256.5</td>
+<td style="color: red" width="12%">-22.4</td>
+<td width="11%">448</td>
+<td width="11%">8.221</td>
+<td width="11%">34,905</td>
+</tr>, <tr>
+<td width="4%">250</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NORTHRNINS">
+													NORTHRNINS												</a>
+</td>
+<td width="10%">48.1</td>
+<td width="10%">48.4</td>
+<td width="12%">47.8</td>
+<td width="11%">48.2</td>
+<td width="12%">47.7</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">27</td>
+<td width="11%">0.524</td>
+<td width="11%">10,886</td>
+</tr>, <tr>
+<td width="4%">251</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NPOLYMER">
+													NPOLYMER												</a>
+</td>
+<td width="10%">51</td>
+<td width="10%">51</td>
+<td width="12%">51</td>
+<td width="11%">51</td>
+<td width="12%">51</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">26</td>
+<td width="11%">0.772</td>
+<td width="11%">15,135</td>
+</tr>, <tr>
+<td width="4%">252</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NRBCBANK">
+													NRBCBANK												</a>
+</td>
+<td width="10%">16.8</td>
+<td width="10%">16.8</td>
+<td width="12%">16.8</td>
+<td width="11%">16.8</td>
+<td width="12%">16.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.01</td>
+<td width="11%">596</td>
+</tr>, <tr>
+<td width="4%">253</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NTC">
+													NTC												</a>
+</td>
+<td width="10%">434.7</td>
+<td width="10%">439.8</td>
+<td width="12%">426.5</td>
+<td width="11%">434.7</td>
+<td width="12%">428.8</td>
+<td style="color: green" width="12%">5.9</td>
+<td width="11%">180</td>
+<td width="11%">2.249</td>
+<td width="11%">5,211</td>
+</tr>, <tr>
+<td width="4%">254</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NTLTUBES">
+													NTLTUBES												</a>
+</td>
+<td width="10%">84.3</td>
+<td width="10%">84.8</td>
+<td width="12%">83.9</td>
+<td width="11%">84.1</td>
+<td width="12%">84.1</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">401</td>
+<td width="11%">8.823</td>
+<td width="11%">104,939</td>
+</tr>, <tr>
+<td width="4%">255</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=NURANI">
+													NURANI												</a>
+</td>
+<td width="10%">7</td>
+<td width="10%">7</td>
+<td width="12%">7</td>
+<td width="11%">7</td>
+<td width="12%">7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.2</td>
+<td width="11%">28,577</td>
+</tr>, <tr>
+<td width="4%">256</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=OAL">
+													OAL												</a>
+</td>
+<td width="10%">13.1</td>
+<td width="10%">13.7</td>
+<td width="12%">12.8</td>
+<td width="11%">13.1</td>
+<td width="12%">13</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">3,306</td>
+<td width="11%">96.973</td>
+<td width="11%">7,312,083</td>
+</tr>, <tr>
+<td width="4%">257</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=OIMEX">
+													OIMEX												</a>
+</td>
+<td width="10%">25.6</td>
+<td width="10%">25.9</td>
+<td width="12%">25.2</td>
+<td width="11%">25.6</td>
+<td width="12%">25.5</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">415</td>
+<td width="11%">13.756</td>
+<td width="11%">538,985</td>
+</tr>, <tr>
+<td width="4%">258</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=OLYMPIC">
+													OLYMPIC												</a>
+</td>
+<td width="10%">153.6</td>
+<td width="10%">157</td>
+<td width="12%">152.8</td>
+<td width="11%">153.6</td>
+<td width="12%">154.6</td>
+<td style="color: red" width="12%">-1</td>
+<td width="11%">1,252</td>
+<td width="11%">65.562</td>
+<td width="11%">422,923</td>
+</tr>, <tr>
+<td width="4%">259</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ONEBANKLTD">
+													ONEBANKLTD												</a>
+</td>
+<td width="10%">9.5</td>
+<td width="10%">9.5</td>
+<td width="12%">9.5</td>
+<td width="11%">9.5</td>
+<td width="12%">9.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">19</td>
+<td width="11%">1.662</td>
+<td width="11%">174,955</td>
+</tr>, <tr>
+<td width="4%">260</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ORIONINFU">
+													ORIONINFU												</a>
+</td>
+<td width="10%">336.5</td>
+<td width="10%">338</td>
+<td width="12%">331.5</td>
+<td width="11%">336.5</td>
+<td width="12%">331.7</td>
+<td style="color: green" width="12%">4.8</td>
+<td width="11%">1,570</td>
+<td width="11%">44.06</td>
+<td width="11%">131,480</td>
+</tr>, <tr>
+<td width="4%">261</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ORIONPHARM">
+													ORIONPHARM												</a>
+</td>
+<td width="10%">79.6</td>
+<td width="10%">79.6</td>
+<td width="12%">79.6</td>
+<td width="11%">79.6</td>
+<td width="12%">79.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">49</td>
+<td width="11%">0.629</td>
+<td width="11%">7,907</td>
+</tr>, <tr>
+<td width="4%">262</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PADMALIFE">
+													PADMALIFE												</a>
+</td>
+<td width="10%">44.5</td>
+<td width="10%">44.8</td>
+<td width="12%">43.5</td>
+<td width="11%">44.5</td>
+<td width="12%">43.4</td>
+<td style="color: green" width="12%">1.1</td>
+<td width="11%">492</td>
+<td width="11%">9.987</td>
+<td width="11%">225,842</td>
+</tr>, <tr>
+<td width="4%">263</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PADMAOIL">
+													PADMAOIL												</a>
+</td>
+<td width="10%">209.2</td>
+<td width="10%">209.2</td>
+<td width="12%">209.2</td>
+<td width="11%">209.2</td>
+<td width="12%">209.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.343</td>
+<td width="11%">1,640</td>
+</tr>, <tr>
+<td width="4%">264</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PAPERPROC">
+													PAPERPROC												</a>
+</td>
+<td width="10%">273.6</td>
+<td width="10%">276.5</td>
+<td width="12%">271</td>
+<td width="11%">273.6</td>
+<td width="12%">271.6</td>
+<td style="color: green" width="12%">2</td>
+<td width="11%">1,461</td>
+<td width="11%">58.166</td>
+<td width="11%">212,499</td>
+</tr>, <tr>
+<td width="4%">265</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PARAMOUNT">
+													PARAMOUNT												</a>
+</td>
+<td width="10%">48.2</td>
+<td width="10%">49.4</td>
+<td width="12%">47.6</td>
+<td width="11%">48.3</td>
+<td width="12%">47.6</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">354</td>
+<td width="11%">8.525</td>
+<td width="11%">175,647</td>
+</tr>, <tr>
+<td width="4%">266</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PDL">
+													PDL												</a>
+</td>
+<td width="10%">10.4</td>
+<td width="10%">10.5</td>
+<td width="12%">9.9</td>
+<td width="11%">10.4</td>
+<td width="12%">9.9</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">1,863</td>
+<td width="11%">52.605</td>
+<td width="11%">5,132,449</td>
+</tr>, <tr>
+<td width="4%">267</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PENINSULA">
+													PENINSULA												</a>
+</td>
+<td width="10%">27.4</td>
+<td width="10%">27.4</td>
+<td width="12%">27.4</td>
+<td width="11%">27.4</td>
+<td width="12%">27.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.181</td>
+<td width="11%">6,595</td>
+</tr>, <tr>
+<td width="4%">268</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PEOPLESINS">
+													PEOPLESINS												</a>
+</td>
+<td width="10%">32.6</td>
+<td width="10%">32.7</td>
+<td width="12%">32.3</td>
+<td width="11%">32.6</td>
+<td width="12%">32.4</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">133</td>
+<td width="11%">2.223</td>
+<td width="11%">68,428</td>
+</tr>, <tr>
+<td width="4%">269</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PF1STMF">
+													PF1STMF												</a>
+</td>
+<td width="10%">10.4</td>
+<td width="10%">10.5</td>
+<td width="12%">9.9</td>
+<td width="11%">10.4</td>
+<td width="12%">10.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">296</td>
+<td width="11%">12.268</td>
+<td width="11%">1,204,874</td>
+</tr>, <tr>
+<td width="4%">270</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PHARMAID">
+													PHARMAID												</a>
+</td>
+<td width="10%">790.7</td>
+<td width="10%">790.7</td>
+<td width="12%">790.7</td>
+<td width="11%">790.7</td>
+<td width="12%">790.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.008</td>
+<td width="11%">10</td>
+</tr>, <tr>
+<td width="4%">271</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PHENIXINS">
+													PHENIXINS												</a>
+</td>
+<td width="10%">34</td>
+<td width="10%">34.2</td>
+<td width="12%">33.6</td>
+<td width="11%">34</td>
+<td width="12%">33.7</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">94</td>
+<td width="11%">0.726</td>
+<td width="11%">21,398</td>
+</tr>, <tr>
+<td width="4%">272</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PHOENIXFIN">
+													PHOENIXFIN												</a>
+</td>
+<td width="10%">16.3</td>
+<td width="10%">16.3</td>
+<td width="12%">16.3</td>
+<td width="11%">16.3</td>
+<td width="12%">16.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.001</td>
+<td width="11%">75</td>
+</tr>, <tr>
+<td width="4%">273</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PHPMF1">
+													PHPMF1												</a>
+</td>
+<td width="10%">5.2</td>
+<td width="10%">5.2</td>
+<td width="12%">5.2</td>
+<td width="11%">5.2</td>
+<td width="12%">5.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.19</td>
+<td width="11%">36,460</td>
+</tr>, <tr>
+<td width="4%">274</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PIONEERINS">
+													PIONEERINS												</a>
+</td>
+<td width="10%">72</td>
+<td width="10%">74</td>
+<td width="12%">69.6</td>
+<td width="11%">72</td>
+<td width="12%">70.1</td>
+<td style="color: green" width="12%">1.9</td>
+<td width="11%">302</td>
+<td width="11%">8.781</td>
+<td width="11%">122,020</td>
+</tr>, <tr>
+<td width="4%">275</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PLFSL">
+													PLFSL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">3</td>
+<td width="12%">3</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">276</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=POPULAR1MF">
+													POPULAR1MF												</a>
+</td>
+<td width="10%">5.1</td>
+<td width="10%">5.1</td>
+<td width="12%">5.1</td>
+<td width="11%">5.1</td>
+<td width="12%">5.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.051</td>
+<td width="11%">10,008</td>
+</tr>, <tr>
+<td width="4%">277</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=POPULARLIF">
+													POPULARLIF												</a>
+</td>
+<td width="10%">82.2</td>
+<td width="10%">82.8</td>
+<td width="12%">79.6</td>
+<td width="11%">82.2</td>
+<td width="12%">78.8</td>
+<td style="color: green" width="12%">3.4</td>
+<td width="11%">1,096</td>
+<td width="11%">46.424</td>
+<td width="11%">573,872</td>
+</tr>, <tr>
+<td width="4%">278</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=POWERGRID">
+													POWERGRID												</a>
+</td>
+<td width="10%">52.4</td>
+<td width="10%">52.4</td>
+<td width="12%">52.4</td>
+<td width="11%">52.4</td>
+<td width="12%">52.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.029</td>
+<td width="11%">550</td>
+</tr>, <tr>
+<td width="4%">279</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRAGATIINS">
+													PRAGATIINS												</a>
+</td>
+<td width="10%">61.7</td>
+<td width="10%">62</td>
+<td width="12%">61.1</td>
+<td width="11%">61.7</td>
+<td width="12%">60.9</td>
+<td style="color: green" width="12%">0.8</td>
+<td width="11%">122</td>
+<td width="11%">2.516</td>
+<td width="11%">40,798</td>
+</tr>, <tr>
+<td width="4%">280</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRAGATILIF">
+													PRAGATILIF												</a>
+</td>
+<td width="10%">132.1</td>
+<td width="10%">134</td>
+<td width="12%">128</td>
+<td width="11%">132.1</td>
+<td width="12%">126.7</td>
+<td style="color: green" width="12%">5.4</td>
+<td width="11%">1,076</td>
+<td width="11%">32.221</td>
+<td width="11%">245,133</td>
+</tr>, <tr>
+<td width="4%">281</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PREMIERBAN">
+													PREMIERBAN												</a>
+</td>
+<td width="10%">12.8</td>
+<td width="10%">12.8</td>
+<td width="12%">12.8</td>
+<td width="11%">12.8</td>
+<td width="12%">12.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">61</td>
+<td width="11%">4.605</td>
+<td width="11%">359,737</td>
+</tr>, <tr>
+<td width="4%">282</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PREMIERCEM">
+													PREMIERCEM												</a>
+</td>
+<td width="10%">56.7</td>
+<td width="10%">57.2</td>
+<td width="12%">55.9</td>
+<td width="11%">56.7</td>
+<td width="12%">55.9</td>
+<td style="color: green" width="12%">0.8</td>
+<td width="11%">469</td>
+<td width="11%">13.115</td>
+<td width="11%">231,809</td>
+</tr>, <tr>
+<td width="4%">283</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PREMIERLEA">
+													PREMIERLEA												</a>
+</td>
+<td width="10%">6.9</td>
+<td width="10%">7</td>
+<td width="12%">6.8</td>
+<td width="11%">6.8</td>
+<td width="12%">6.8</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">155</td>
+<td width="11%">2.363</td>
+<td width="11%">344,961</td>
+</tr>, <tr>
+<td width="4%">284</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIME1ICBA">
+													PRIME1ICBA												</a>
+</td>
+<td width="10%">7.7</td>
+<td width="10%">7.7</td>
+<td width="12%">7.7</td>
+<td width="11%">7.7</td>
+<td width="12%">7.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">12</td>
+</tr>, <tr>
+<td width="4%">285</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIMEBANK">
+													PRIMEBANK												</a>
+</td>
+<td width="10%">19.8</td>
+<td width="10%">19.9</td>
+<td width="12%">19.5</td>
+<td width="11%">19.8</td>
+<td width="12%">19.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">47</td>
+<td width="11%">1.989</td>
+<td width="11%">100,585</td>
+</tr>, <tr>
+<td width="4%">286</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIMEFIN">
+													PRIMEFIN												</a>
+</td>
+<td width="10%">11.5</td>
+<td width="10%">11.5</td>
+<td width="12%">11.5</td>
+<td width="11%">11.5</td>
+<td width="12%">11.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">15</td>
+<td width="11%">0.171</td>
+<td width="11%">14,840</td>
+</tr>, <tr>
+<td width="4%">287</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIMEINSUR">
+													PRIMEINSUR												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">82.8</td>
+<td width="12%">82.8</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">288</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIMELIFE">
+													PRIMELIFE												</a>
+</td>
+<td width="10%">80.3</td>
+<td width="10%">83.4</td>
+<td width="12%">76</td>
+<td width="11%">80.3</td>
+<td width="12%">76.9</td>
+<td style="color: green" width="12%">3.4</td>
+<td width="11%">2,470</td>
+<td width="11%">145.476</td>
+<td width="11%">1,790,583</td>
+</tr>, <tr>
+<td width="4%">289</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PRIMETEX">
+													PRIMETEX												</a>
+</td>
+<td width="10%">29.2</td>
+<td width="10%">29.2</td>
+<td width="12%">29.2</td>
+<td width="11%">29.2</td>
+<td width="12%">29.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">3</td>
+</tr>, <tr>
+<td width="4%">290</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PROGRESLIF">
+													PROGRESLIF												</a>
+</td>
+<td width="10%">98</td>
+<td width="10%">100</td>
+<td width="12%">92.7</td>
+<td width="11%">98</td>
+<td width="12%">92.8</td>
+<td style="color: green" width="12%">5.2</td>
+<td width="11%">1,481</td>
+<td width="11%">40.284</td>
+<td width="11%">415,073</td>
+</tr>, <tr>
+<td width="4%">291</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PROVATIINS">
+													PROVATIINS												</a>
+</td>
+<td width="10%">58.9</td>
+<td width="10%">58.9</td>
+<td width="12%">58.9</td>
+<td width="11%">58.9</td>
+<td width="12%">58.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.011</td>
+<td width="11%">194</td>
+</tr>, <tr>
+<td width="4%">292</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PTL">
+													PTL												</a>
+</td>
+<td width="10%">77</td>
+<td width="10%">77</td>
+<td width="12%">77</td>
+<td width="11%">77</td>
+<td width="12%">77</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">15</td>
+<td width="11%">0.18</td>
+<td width="11%">2,338</td>
+</tr>, <tr>
+<td width="4%">293</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PUBALIBANK">
+													PUBALIBANK												</a>
+</td>
+<td width="10%">26.9</td>
+<td width="10%">27</td>
+<td width="12%">25.8</td>
+<td width="11%">26.8</td>
+<td width="12%">26.2</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">75</td>
+<td width="11%">0.632</td>
+<td width="11%">23,778</td>
+</tr>, <tr>
+<td width="4%">294</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=PURABIGEN">
+													PURABIGEN												</a>
+</td>
+<td width="10%">29.3</td>
+<td width="10%">29.8</td>
+<td width="12%">28.9</td>
+<td width="11%">29.3</td>
+<td width="12%">28.8</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">299</td>
+<td width="11%">5.878</td>
+<td width="11%">200,955</td>
+</tr>, <tr>
+<td width="4%">295</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=QUASEMIND">
+													QUASEMIND												</a>
+</td>
+<td width="10%">58.4</td>
+<td width="10%">58.4</td>
+<td width="12%">58.4</td>
+<td width="11%">58.4</td>
+<td width="12%">58.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.007</td>
+<td width="11%">121</td>
+</tr>, <tr>
+<td width="4%">296</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=QUEENSOUTH">
+													QUEENSOUTH												</a>
+</td>
+<td width="10%">23.3</td>
+<td width="10%">23.3</td>
+<td width="12%">23.3</td>
+<td width="11%">23.3</td>
+<td width="12%">23.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.014</td>
+<td width="11%">610</td>
+</tr>, <tr>
+<td width="4%">297</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RAHIMAFOOD">
+													RAHIMAFOOD												</a>
+</td>
+<td width="10%">239.8</td>
+<td width="10%">243.4</td>
+<td width="12%">239.3</td>
+<td width="11%">239.8</td>
+<td width="12%">240.1</td>
+<td style="color: red" width="12%">-0.3</td>
+<td width="11%">982</td>
+<td width="11%">26.855</td>
+<td width="11%">111,796</td>
+</tr>, <tr>
+<td width="4%">298</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RAHIMTEXT">
+													RAHIMTEXT												</a>
+</td>
+<td width="10%">144</td>
+<td width="10%">144.4</td>
+<td width="12%">142.5</td>
+<td width="11%">144</td>
+<td width="12%">143.9</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">41</td>
+<td width="11%">0.345</td>
+<td width="11%">2,394</td>
+</tr>, <tr>
+<td width="4%">299</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RAKCERAMIC">
+													RAKCERAMIC												</a>
+</td>
+<td width="10%">42.9</td>
+<td width="10%">42.9</td>
+<td width="12%">42.9</td>
+<td width="11%">42.9</td>
+<td width="12%">42.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.05</td>
+<td width="11%">1,161</td>
+</tr>, <tr>
+<td width="4%">300</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RANFOUNDRY">
+													RANFOUNDRY												</a>
+</td>
+<td width="10%">169.8</td>
+<td width="10%">171.9</td>
+<td width="12%">165.2</td>
+<td width="11%">170.5</td>
+<td width="12%">167.7</td>
+<td style="color: green" width="12%">2.1</td>
+<td width="11%">557</td>
+<td width="11%">9.569</td>
+<td width="11%">56,484</td>
+</tr>, <tr>
+<td width="4%">301</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RDFOOD">
+													RDFOOD												</a>
+</td>
+<td width="10%">51.5</td>
+<td width="10%">51.8</td>
+<td width="12%">50.7</td>
+<td width="11%">51.5</td>
+<td width="12%">50.7</td>
+<td style="color: green" width="12%">0.8</td>
+<td width="11%">775</td>
+<td width="11%">67.709</td>
+<td width="11%">1,321,063</td>
+</tr>, <tr>
+<td width="4%">302</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RECKITTBEN">
+													RECKITTBEN												</a>
+</td>
+<td width="10%">4,873.7</td>
+<td width="10%">4,879.9</td>
+<td width="12%">4,820</td>
+<td width="11%">4,873.7</td>
+<td width="12%">4,856.1</td>
+<td style="color: green" width="12%">17.6</td>
+<td width="11%">39</td>
+<td width="11%">1.196</td>
+<td width="11%">246</td>
+</tr>, <tr>
+<td width="4%">303</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=REGENTTEX">
+													REGENTTEX												</a>
+</td>
+<td width="10%">9.8</td>
+<td width="10%">9.8</td>
+<td width="12%">9.8</td>
+<td width="11%">9.8</td>
+<td width="12%">9.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.022</td>
+<td width="11%">2,202</td>
+</tr>, <tr>
+<td width="4%">304</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RELIANCE1">
+													RELIANCE1												</a>
+</td>
+<td width="10%">10</td>
+<td width="10%">10.1</td>
+<td width="12%">9.9</td>
+<td width="11%">9.9</td>
+<td width="12%">9.9</td>
+<td style="color: green" width="12%">0.1</td>
+<td width="11%">40</td>
+<td width="11%">1.387</td>
+<td width="11%">139,798</td>
+</tr>, <tr>
+<td width="4%">305</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RELIANCINS">
+													RELIANCINS												</a>
+</td>
+<td width="10%">61</td>
+<td width="10%">61</td>
+<td width="12%">58.5</td>
+<td width="11%">60.9</td>
+<td width="12%">58.5</td>
+<td style="color: green" width="12%">2.5</td>
+<td width="11%">92</td>
+<td width="11%">2.849</td>
+<td width="11%">47,346</td>
+</tr>, <tr>
+<td width="4%">306</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RENATA">
+													RENATA												</a>
+</td>
+<td width="10%">1,217.9</td>
+<td width="10%">1,217.9</td>
+<td width="12%">1,217.9</td>
+<td width="11%">1,217.9</td>
+<td width="12%">1,217.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">19</td>
+<td width="11%">1.025</td>
+<td width="11%">842</td>
+</tr>, <tr>
+<td width="4%">307</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RENWICKJA">
+													RENWICKJA												</a>
+</td>
+<td width="10%">776.8</td>
+<td width="10%">785.5</td>
+<td width="12%">760.1</td>
+<td width="11%">762.5</td>
+<td width="12%">776.4</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">37</td>
+<td width="11%">0.293</td>
+<td width="11%">385</td>
+</tr>, <tr>
+<td width="4%">308</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=REPUBLIC">
+													REPUBLIC												</a>
+</td>
+<td width="10%">33.9</td>
+<td width="10%">34</td>
+<td width="12%">33.2</td>
+<td width="11%">33.9</td>
+<td width="12%">33.7</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">57</td>
+<td width="11%">0.663</td>
+<td width="11%">19,725</td>
+</tr>, <tr>
+<td width="4%">309</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RINGSHINE">
+													RINGSHINE												</a>
+</td>
+<td width="10%">9.8</td>
+<td width="10%">9.8</td>
+<td width="12%">9.8</td>
+<td width="11%">9.8</td>
+<td width="12%">9.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">10</td>
+<td width="11%">0.013</td>
+<td width="11%">1,312</td>
+</tr>, <tr>
+<td width="4%">310</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RNSPIN">
+													RNSPIN												</a>
+</td>
+<td width="10%">6.2</td>
+<td width="10%">6.2</td>
+<td width="12%">6.2</td>
+<td width="11%">6.2</td>
+<td width="12%">6.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">14</td>
+<td width="11%">0.051</td>
+<td width="11%">8,297</td>
+</tr>, <tr>
+<td width="4%">311</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ROBI">
+													ROBI												</a>
+</td>
+<td width="10%">30</td>
+<td width="10%">30</td>
+<td width="12%">30</td>
+<td width="11%">30</td>
+<td width="12%">30</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">21</td>
+<td width="11%">0.842</td>
+<td width="11%">28,066</td>
+</tr>, <tr>
+<td width="4%">312</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RSRMSTEEL">
+													RSRMSTEEL												</a>
+</td>
+<td width="10%">19</td>
+<td width="10%">19.6</td>
+<td width="12%">18.5</td>
+<td width="11%">19</td>
+<td width="12%">20.3</td>
+<td style="color: red" width="12%">-1.3</td>
+<td width="11%">754</td>
+<td width="11%">12.58</td>
+<td width="11%">667,726</td>
+</tr>, <tr>
+<td width="4%">313</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RUNNERAUTO">
+													RUNNERAUTO												</a>
+</td>
+<td width="10%">48.4</td>
+<td width="10%">48.4</td>
+<td width="12%">48.4</td>
+<td width="11%">48.4</td>
+<td width="12%">48.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.003</td>
+<td width="11%">60</td>
+</tr>, <tr>
+<td width="4%">314</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RUPALIBANK">
+													RUPALIBANK												</a>
+</td>
+<td width="10%">25.2</td>
+<td width="10%">25.2</td>
+<td width="12%">25.2</td>
+<td width="11%">25.2</td>
+<td width="12%">25.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.001</td>
+<td width="11%">36</td>
+</tr>, <tr>
+<td width="4%">315</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RUPALIINS">
+													RUPALIINS												</a>
+</td>
+<td width="10%">29</td>
+<td width="10%">29.3</td>
+<td width="12%">28.1</td>
+<td width="11%">29</td>
+<td width="12%">28.8</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">259</td>
+<td width="11%">7.055</td>
+<td width="11%">243,026</td>
+</tr>, <tr>
+<td width="4%">316</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=RUPALILIFE">
+													RUPALILIFE												</a>
+</td>
+<td width="10%">229.8</td>
+<td width="10%">230.9</td>
+<td width="12%">218.2</td>
+<td width="11%">229.8</td>
+<td width="12%">216</td>
+<td style="color: green" width="12%">13.8</td>
+<td width="11%">2,332</td>
+<td width="11%">156.183</td>
+<td width="11%">690,462</td>
+</tr>, <tr>
+<td width="4%">317</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAFKOSPINN">
+													SAFKOSPINN												</a>
+</td>
+<td width="10%">19.4</td>
+<td width="10%">19.4</td>
+<td width="12%">19.4</td>
+<td width="11%">19.4</td>
+<td width="12%">19.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">24</td>
+<td width="11%">0.155</td>
+<td width="11%">7,996</td>
+</tr>, <tr>
+<td width="4%">318</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAIFPOWER">
+													SAIFPOWER												</a>
+</td>
+<td width="10%">29.7</td>
+<td width="10%">29.7</td>
+<td width="12%">29.7</td>
+<td width="11%">29.7</td>
+<td width="12%">29.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.088</td>
+<td width="11%">2,950</td>
+</tr>, <tr>
+<td width="4%">319</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAIHAMCOT">
+													SAIHAMCOT												</a>
+</td>
+<td width="10%">16.4</td>
+<td width="10%">16.4</td>
+<td width="12%">16.4</td>
+<td width="11%">16.4</td>
+<td width="12%">16.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">10</td>
+<td width="11%">0.076</td>
+<td width="11%">4,650</td>
+</tr>, <tr>
+<td width="4%">320</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAIHAMTEX">
+													SAIHAMTEX												</a>
+</td>
+<td width="10%">17.6</td>
+<td width="10%">17.6</td>
+<td width="12%">17.6</td>
+<td width="11%">17.6</td>
+<td width="12%">17.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">40</td>
+<td width="11%">1.509</td>
+<td width="11%">85,731</td>
+</tr>, <tr>
+<td width="4%">321</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SALAMCRST">
+													SALAMCRST												</a>
+</td>
+<td width="10%">33.3</td>
+<td width="10%">33.3</td>
+<td width="12%">33.3</td>
+<td width="11%">33.3</td>
+<td width="12%">33.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.167</td>
+<td width="11%">5,000</td>
+</tr>, <tr>
+<td width="4%">322</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SALVOCHEM">
+													SALVOCHEM												</a>
+</td>
+<td width="10%">61.8</td>
+<td width="10%">61.8</td>
+<td width="12%">61.8</td>
+<td width="11%">61.8</td>
+<td width="12%">61.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.021</td>
+<td width="11%">340</td>
+</tr>, <tr>
+<td width="4%">323</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAMATALETH">
+													SAMATALETH												</a>
+</td>
+<td width="10%">67.8</td>
+<td width="10%">69.9</td>
+<td width="12%">67.1</td>
+<td width="11%">67.8</td>
+<td width="12%">69.3</td>
+<td style="color: red" width="12%">-1.5</td>
+<td width="11%">398</td>
+<td width="11%">7.158</td>
+<td width="11%">105,295</td>
+</tr>, <tr>
+<td width="4%">324</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAMORITA">
+													SAMORITA												</a>
+</td>
+<td width="10%">74.6</td>
+<td width="10%">74.8</td>
+<td width="12%">73.5</td>
+<td width="11%">74.6</td>
+<td width="12%">73.8</td>
+<td style="color: green" width="12%">0.8</td>
+<td width="11%">285</td>
+<td width="11%">4.53</td>
+<td width="11%">61,008</td>
+</tr>, <tr>
+<td width="4%">325</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SANDHANINS">
+													SANDHANINS												</a>
+</td>
+<td width="10%">30.9</td>
+<td width="10%">31</td>
+<td width="12%">30.3</td>
+<td width="11%">30.9</td>
+<td width="12%">30.3</td>
+<td style="color: green" width="12%">0.6</td>
+<td width="11%">533</td>
+<td width="11%">15.592</td>
+<td width="11%">507,192</td>
+</tr>, <tr>
+<td width="4%">326</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAPORTL">
+													SAPORTL												</a>
+</td>
+<td width="10%">28.8</td>
+<td width="10%">29.1</td>
+<td width="12%">28.6</td>
+<td width="11%">28.8</td>
+<td width="12%">28.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">467</td>
+<td width="11%">12.784</td>
+<td width="11%">443,002</td>
+</tr>, <tr>
+<td width="4%">327</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SAVAREFR">
+													SAVAREFR												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">215.5</td>
+<td width="12%">215.5</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">328</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SBACBANK">
+													SBACBANK												</a>
+</td>
+<td width="10%">10.5</td>
+<td width="10%">10.5</td>
+<td width="12%">10.5</td>
+<td width="11%">10.5</td>
+<td width="12%">10.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">15</td>
+<td width="11%">0.059</td>
+<td width="11%">5,645</td>
+</tr>, <tr>
+<td width="4%">329</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SEAPEARL">
+													SEAPEARL												</a>
+</td>
+<td width="10%">211.1</td>
+<td width="10%">214.5</td>
+<td width="12%">209.3</td>
+<td width="11%">211.1</td>
+<td width="12%">211.8</td>
+<td style="color: red" width="12%">-0.7</td>
+<td width="11%">2,811</td>
+<td width="11%">195.556</td>
+<td width="11%">922,409</td>
+</tr>, <tr>
+<td width="4%">330</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SEMLFBSLGF">
+													SEMLFBSLGF												</a>
+</td>
+<td width="10%">8.4</td>
+<td width="10%">8.4</td>
+<td width="12%">8.4</td>
+<td width="11%">8.4</td>
+<td width="12%">8.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0</td>
+<td width="11%">20</td>
+</tr>, <tr>
+<td width="4%">331</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SEMLIBBLSF">
+													SEMLIBBLSF												</a>
+</td>
+<td width="10%">8.5</td>
+<td width="10%">8.5</td>
+<td width="12%">8.5</td>
+<td width="11%">8.5</td>
+<td width="12%">8.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">11</td>
+<td width="11%">0.131</td>
+<td width="11%">15,388</td>
+</tr>, <tr>
+<td width="4%">332</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SEMLLECMF">
+													SEMLLECMF												</a>
+</td>
+<td width="10%">9.1</td>
+<td width="10%">9.1</td>
+<td width="12%">9.1</td>
+<td width="11%">9.1</td>
+<td width="12%">9.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.018</td>
+<td width="11%">2,008</td>
+</tr>, <tr>
+<td width="4%">333</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SHAHJABANK">
+													SHAHJABANK												</a>
+</td>
+<td width="10%">18.3</td>
+<td width="10%">18.6</td>
+<td width="12%">18.3</td>
+<td width="11%">18.3</td>
+<td width="12%">18.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">90</td>
+<td width="11%">4.055</td>
+<td width="11%">220,914</td>
+</tr>, <tr>
+<td width="4%">334</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SHASHADNIM">
+													SHASHADNIM												</a>
+</td>
+<td width="10%">27</td>
+<td width="10%">27</td>
+<td width="12%">27</td>
+<td width="11%">27</td>
+<td width="12%">27</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.016</td>
+<td width="11%">600</td>
+</tr>, <tr>
+<td width="4%">335</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SHEPHERD">
+													SHEPHERD												</a>
+</td>
+<td width="10%">24</td>
+<td width="10%">24</td>
+<td width="12%">24</td>
+<td width="11%">24</td>
+<td width="12%">24</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">20</td>
+</tr>, <tr>
+<td width="4%">336</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SHURWID">
+													SHURWID												</a>
+</td>
+<td width="10%">15.6</td>
+<td width="10%">16.3</td>
+<td width="12%">15.6</td>
+<td width="11%">15.6</td>
+<td width="12%">17.3</td>
+<td style="color: red" width="12%">-1.7</td>
+<td width="11%">236</td>
+<td width="11%">11.92</td>
+<td width="11%">763,135</td>
+</tr>, <tr>
+<td width="4%">337</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SHYAMPSUG">
+													SHYAMPSUG												</a>
+</td>
+<td width="10%">95.7</td>
+<td width="10%">97.2</td>
+<td width="12%">94</td>
+<td width="11%">95.7</td>
+<td width="12%">93.6</td>
+<td style="color: green" width="12%">2.1</td>
+<td width="11%">259</td>
+<td width="11%">4.221</td>
+<td width="11%">44,042</td>
+</tr>, <tr>
+<td width="4%">338</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SIBL">
+													SIBL												</a>
+</td>
+<td width="10%">11.7</td>
+<td width="10%">11.7</td>
+<td width="12%">11.7</td>
+<td width="11%">11.7</td>
+<td width="12%">11.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.018</td>
+<td width="11%">1,571</td>
+</tr>, <tr>
+<td width="4%">339</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SILCOPHL">
+													SILCOPHL												</a>
+</td>
+<td width="10%">24.4</td>
+<td width="10%">24.5</td>
+<td width="12%">24</td>
+<td width="11%">24.4</td>
+<td width="12%">24.1</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">222</td>
+<td width="11%">3.786</td>
+<td width="11%">155,499</td>
+</tr>, <tr>
+<td width="4%">340</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SILVAPHL">
+													SILVAPHL												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">21.6</td>
+<td width="12%">21.6</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">341</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SIMTEX">
+													SIMTEX												</a>
+</td>
+<td width="10%">23.7</td>
+<td width="10%">24.3</td>
+<td width="12%">22.7</td>
+<td width="11%">23.7</td>
+<td width="12%">23.3</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">2,007</td>
+<td width="11%">110.508</td>
+<td width="11%">4,659,729</td>
+</tr>, <tr>
+<td width="4%">342</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SINGERBD">
+													SINGERBD												</a>
+</td>
+<td width="10%">151.9</td>
+<td width="10%">151.9</td>
+<td width="12%">151.9</td>
+<td width="11%">151.9</td>
+<td width="12%">151.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.18</td>
+<td width="11%">1,183</td>
+</tr>, <tr>
+<td width="4%">343</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SINOBANGLA">
+													SINOBANGLA												</a>
+</td>
+<td width="10%">72.8</td>
+<td width="10%">73.3</td>
+<td width="12%">72.2</td>
+<td width="11%">72.8</td>
+<td width="12%">72.1</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">627</td>
+<td width="11%">17.695</td>
+<td width="11%">243,308</td>
+</tr>, <tr>
+<td width="4%">344</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SKICL">
+													SKICL												</a>
+</td>
+<td width="10%">48.5</td>
+<td width="10%">48.7</td>
+<td width="12%">48</td>
+<td width="11%">48.5</td>
+<td width="12%">48.3</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">263</td>
+<td width="11%">3.277</td>
+<td width="11%">67,669</td>
+</tr>, <tr>
+<td width="4%">345</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SKTRIMS">
+													SKTRIMS												</a>
+</td>
+<td width="10%">29.2</td>
+<td width="10%">29.7</td>
+<td width="12%">28.3</td>
+<td width="11%">29.2</td>
+<td width="12%">28.3</td>
+<td style="color: green" width="12%">0.9</td>
+<td width="11%">545</td>
+<td width="11%">16.893</td>
+<td width="11%">580,730</td>
+</tr>, <tr>
+<td width="4%">346</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SONALIANSH">
+													SONALIANSH												</a>
+</td>
+<td width="10%">462.5</td>
+<td width="10%">473.2</td>
+<td width="12%">453</td>
+<td width="11%">462.5</td>
+<td width="12%">464.2</td>
+<td style="color: red" width="12%">-1.7</td>
+<td width="11%">1,125</td>
+<td width="11%">23.686</td>
+<td width="11%">51,358</td>
+</tr>, <tr>
+<td width="4%">347</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SONALILIFE">
+													SONALILIFE												</a>
+</td>
+<td width="10%">96.8</td>
+<td width="10%">97.8</td>
+<td width="12%">93.5</td>
+<td width="11%">96.8</td>
+<td width="12%">92.4</td>
+<td style="color: green" width="12%">4.4</td>
+<td width="11%">1,488</td>
+<td width="11%">74.59</td>
+<td width="11%">775,762</td>
+</tr>, <tr>
+<td width="4%">348</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SONALIPAPR">
+													SONALIPAPR												</a>
+</td>
+<td width="10%">615.1</td>
+<td width="10%">615.1</td>
+<td width="12%">615.1</td>
+<td width="11%">615.1</td>
+<td width="12%">615.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.015</td>
+<td width="11%">25</td>
+</tr>, <tr>
+<td width="4%">349</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SONARBAINS">
+													SONARBAINS												</a>
+</td>
+<td width="10%">53.9</td>
+<td width="10%">54.4</td>
+<td width="12%">53.2</td>
+<td width="11%">53.9</td>
+<td width="12%">53.4</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">308</td>
+<td width="11%">9.253</td>
+<td width="11%">171,627</td>
+</tr>, <tr>
+<td width="4%">350</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SONARGAON">
+													SONARGAON												</a>
+</td>
+<td width="10%">33.1</td>
+<td width="10%">33.1</td>
+<td width="12%">33.1</td>
+<td width="11%">33.1</td>
+<td width="12%">33.1</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">71</td>
+<td width="11%">1.362</td>
+<td width="11%">41,155</td>
+</tr>, <tr>
+<td width="4%">351</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SOUTHEASTB">
+													SOUTHEASTB												</a>
+</td>
+<td width="10%">13.3</td>
+<td width="10%">13.3</td>
+<td width="12%">13.3</td>
+<td width="11%">13.3</td>
+<td width="12%">13.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">15</td>
+<td width="11%">0.954</td>
+<td width="11%">71,733</td>
+</tr>, <tr>
+<td width="4%">352</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SPCERAMICS">
+													SPCERAMICS												</a>
+</td>
+<td width="10%">43</td>
+<td width="10%">43</td>
+<td width="12%">43</td>
+<td width="11%">43</td>
+<td width="12%">43</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.005</td>
+<td width="11%">105</td>
+</tr>, <tr>
+<td width="4%">353</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SPCL">
+													SPCL												</a>
+</td>
+<td width="10%">65.5</td>
+<td width="10%">65.5</td>
+<td width="12%">65.5</td>
+<td width="11%">65.5</td>
+<td width="12%">65.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">6</td>
+<td width="11%">0.018</td>
+<td width="11%">277</td>
+</tr>, <tr>
+<td width="4%">354</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SQUARETEXT">
+													SQUARETEXT												</a>
+</td>
+<td width="10%">67.5</td>
+<td width="10%">67.5</td>
+<td width="12%">67.5</td>
+<td width="11%">67.5</td>
+<td width="12%">67.5</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.015</td>
+<td width="11%">223</td>
+</tr>, <tr>
+<td width="4%">355</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SQURPHARMA">
+													SQURPHARMA												</a>
+</td>
+<td width="10%">209.8</td>
+<td width="10%">209.8</td>
+<td width="12%">209.8</td>
+<td width="11%">209.8</td>
+<td width="12%">209.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">348</td>
+<td width="11%">27.013</td>
+<td width="11%">128,758</td>
+</tr>, <tr>
+<td width="4%">356</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SSSTEEL">
+													SSSTEEL												</a>
+</td>
+<td width="10%">16.6</td>
+<td width="10%">16.6</td>
+<td width="12%">16.6</td>
+<td width="11%">16.6</td>
+<td width="12%">16.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.024</td>
+<td width="11%">1,418</td>
+</tr>, <tr>
+<td width="4%">357</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=STANCERAM">
+													STANCERAM												</a>
+</td>
+<td width="10%">117.7</td>
+<td width="10%">119</td>
+<td width="12%">115.3</td>
+<td width="11%">117.7</td>
+<td width="12%">117</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">128</td>
+<td width="11%">1.41</td>
+<td width="11%">12,058</td>
+</tr>, <tr>
+<td width="4%">358</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=STANDARINS">
+													STANDARINS												</a>
+</td>
+<td width="10%">43.3</td>
+<td width="10%">43.3</td>
+<td width="12%">43.3</td>
+<td width="11%">43.3</td>
+<td width="12%">43.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.009</td>
+<td width="11%">211</td>
+</tr>, <tr>
+<td width="4%">359</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=STANDBANKL">
+													STANDBANKL												</a>
+</td>
+<td width="10%">8.6</td>
+<td width="10%">8.7</td>
+<td width="12%">8.6</td>
+<td width="11%">8.7</td>
+<td width="12%">8.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">40</td>
+<td width="11%">1.103</td>
+<td width="11%">127,617</td>
+</tr>, <tr>
+<td width="4%">360</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=STYLECRAFT">
+													STYLECRAFT												</a>
+</td>
+<td width="10%">99.5</td>
+<td width="10%">102.8</td>
+<td width="12%">99.2</td>
+<td width="11%">99.5</td>
+<td width="12%">100.4</td>
+<td style="color: red" width="12%">-0.9</td>
+<td width="11%">554</td>
+<td width="11%">10.384</td>
+<td width="11%">103,387</td>
+</tr>, <tr>
+<td width="4%">361</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SUMITPOWER">
+													SUMITPOWER												</a>
+</td>
+<td width="10%">34</td>
+<td width="10%">34</td>
+<td width="12%">34</td>
+<td width="11%">34</td>
+<td width="12%">34</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">17</td>
+<td width="11%">0.93</td>
+<td width="11%">27,357</td>
+</tr>, <tr>
+<td width="4%">362</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=SUNLIFEINS">
+													SUNLIFEINS												</a>
+</td>
+<td width="10%">52.9</td>
+<td width="10%">52.9</td>
+<td width="12%">52.9</td>
+<td width="11%">52.9</td>
+<td width="12%">52.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">122</td>
+<td width="11%">10.476</td>
+<td width="11%">198,028</td>
+</tr>, <tr>
+<td width="4%">363</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TAKAFULINS">
+													TAKAFULINS												</a>
+</td>
+<td width="10%">43.2</td>
+<td width="10%">43.2</td>
+<td width="12%">42.1</td>
+<td width="11%">43.2</td>
+<td width="12%">42.3</td>
+<td style="color: green" width="12%">0.9</td>
+<td width="11%">136</td>
+<td width="11%">2.034</td>
+<td width="11%">47,677</td>
+</tr>, <tr>
+<td width="4%">364</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TALLUSPIN">
+													TALLUSPIN												</a>
+</td>
+<td width="10%">9.9</td>
+<td width="10%">9.9</td>
+<td width="12%">9.9</td>
+<td width="11%">9.9</td>
+<td width="12%">9.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.001</td>
+<td width="11%">100</td>
+</tr>, <tr>
+<td width="4%">365</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TAMIJTEX">
+													TAMIJTEX												</a>
+</td>
+<td width="10%">184</td>
+<td width="10%">184</td>
+<td width="12%">181.3</td>
+<td width="11%">182.8</td>
+<td width="12%">181.9</td>
+<td style="color: green" width="12%">2.1</td>
+<td width="11%">342</td>
+<td width="11%">7.794</td>
+<td width="11%">42,741</td>
+</tr>, <tr>
+<td width="4%">366</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TILIL">
+													TILIL												</a>
+</td>
+<td width="10%">76.7</td>
+<td width="10%">77.9</td>
+<td width="12%">75.3</td>
+<td width="11%">76.7</td>
+<td width="12%">75.3</td>
+<td style="color: green" width="12%">1.4</td>
+<td width="11%">3,334</td>
+<td width="11%">77.237</td>
+<td width="11%">1,006,313</td>
+</tr>, <tr>
+<td width="4%">367</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TITASGAS">
+													TITASGAS												</a>
+</td>
+<td width="10%">40.9</td>
+<td width="10%">40.9</td>
+<td width="12%">40.9</td>
+<td width="11%">40.9</td>
+<td width="12%">40.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.176</td>
+<td width="11%">4,309</td>
+</tr>, <tr>
+<td width="4%">368</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TOSRIFA">
+													TOSRIFA												</a>
+</td>
+<td width="10%">28.4</td>
+<td width="10%">28.5</td>
+<td width="12%">27.8</td>
+<td width="11%">28.4</td>
+<td width="12%">28.1</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">194</td>
+<td width="11%">11.766</td>
+<td width="11%">416,712</td>
+</tr>, <tr>
+<td width="4%">369</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TRUSTB1MF">
+													TRUSTB1MF												</a>
+</td>
+<td width="10%">5.6</td>
+<td width="10%">5.6</td>
+<td width="12%">5.6</td>
+<td width="11%">5.6</td>
+<td width="12%">5.6</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0.001</td>
+<td width="11%">100</td>
+</tr>, <tr>
+<td width="4%">370</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TRUSTBANK">
+													TRUSTBANK												</a>
+</td>
+<td width="10%">31.7</td>
+<td width="10%">31.7</td>
+<td width="12%">31.7</td>
+<td width="11%">31.7</td>
+<td width="12%">31.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">8</td>
+<td width="11%">0.201</td>
+<td width="11%">6,346</td>
+</tr>, <tr>
+<td width="4%">371</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=TUNGHAI">
+													TUNGHAI												</a>
+</td>
+<td width="10%">5.8</td>
+<td width="10%">5.8</td>
+<td width="12%">5.8</td>
+<td width="11%">5.8</td>
+<td width="12%">5.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">5</td>
+<td width="11%">0.015</td>
+<td width="11%">2,557</td>
+</tr>, <tr>
+<td width="4%">372</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UCB">
+													UCB												</a>
+</td>
+<td width="10%">12.4</td>
+<td width="10%">12.4</td>
+<td width="12%">12.4</td>
+<td width="11%">12.4</td>
+<td width="12%">12.4</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">12</td>
+<td width="11%">0.12</td>
+<td width="11%">9,691</td>
+</tr>, <tr>
+<td width="4%">373</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNILEVERCL">
+													UNILEVERCL												</a>
+</td>
+<td width="10%">2,089.6</td>
+<td width="10%">2,105</td>
+<td width="12%">2,044.7</td>
+<td width="11%">2,089.6</td>
+<td width="12%">2,083.8</td>
+<td style="color: green" width="12%">5.8</td>
+<td width="11%">359</td>
+<td width="11%">9.251</td>
+<td width="11%">4,476</td>
+</tr>, <tr>
+<td width="4%">374</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNIONBANK">
+													UNIONBANK												</a>
+</td>
+<td width="10%">8.9</td>
+<td width="10%">8.9</td>
+<td width="12%">8.9</td>
+<td width="11%">8.9</td>
+<td width="12%">8.9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">13</td>
+<td width="11%">0.015</td>
+<td width="11%">1,693</td>
+</tr>, <tr>
+<td width="4%">375</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNIONCAP">
+													UNIONCAP												</a>
+</td>
+<td width="10%">9.7</td>
+<td width="10%">9.8</td>
+<td width="12%">9.4</td>
+<td width="11%">9.7</td>
+<td width="12%">9.4</td>
+<td style="color: green" width="12%">0.3</td>
+<td width="11%">983</td>
+<td width="11%">33.104</td>
+<td width="11%">3,436,807</td>
+</tr>, <tr>
+<td width="4%">376</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNIONINS">
+													UNIONINS												</a>
+</td>
+<td width="10%">56.2</td>
+<td width="10%">56.6</td>
+<td width="12%">55.4</td>
+<td width="11%">56.2</td>
+<td width="12%">55.7</td>
+<td style="color: green" width="12%">0.5</td>
+<td width="11%">496</td>
+<td width="11%">14.821</td>
+<td width="11%">264,614</td>
+</tr>, <tr>
+<td width="4%">377</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNIQUEHRL">
+													UNIQUEHRL												</a>
+</td>
+<td width="10%">72.3</td>
+<td width="10%">72.5</td>
+<td width="12%">69.5</td>
+<td width="11%">72.3</td>
+<td width="12%">69.5</td>
+<td style="color: green" width="12%">2.8</td>
+<td width="11%">2,675</td>
+<td width="11%">99.581</td>
+<td width="11%">1,393,514</td>
+</tr>, <tr>
+<td width="4%">378</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNITEDFIN">
+													UNITEDFIN												</a>
+</td>
+<td width="10%">15.8</td>
+<td width="10%">15.8</td>
+<td width="12%">15.8</td>
+<td width="11%">15.8</td>
+<td width="12%">15.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.037</td>
+<td width="11%">2,315</td>
+</tr>, <tr>
+<td width="4%">379</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UNITEDINS">
+													UNITEDINS												</a>
+</td>
+<td width="10%">38.5</td>
+<td width="10%">39</td>
+<td width="12%">37.9</td>
+<td width="11%">38.1</td>
+<td width="12%">38.1</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">33</td>
+<td width="11%">0.526</td>
+<td width="11%">13,775</td>
+</tr>, <tr>
+<td width="4%">380</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UPGDCL">
+													UPGDCL												</a>
+</td>
+<td width="10%">233.7</td>
+<td width="10%">233.7</td>
+<td width="12%">233.7</td>
+<td width="11%">233.7</td>
+<td width="12%">233.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">7</td>
+<td width="11%">0.276</td>
+<td width="11%">1,182</td>
+</tr>, <tr>
+<td width="4%">381</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=USMANIAGL">
+													USMANIAGL												</a>
+</td>
+<td width="10%">58.6</td>
+<td width="10%">58.6</td>
+<td width="12%">57.1</td>
+<td width="11%">58.5</td>
+<td width="12%">58.2</td>
+<td style="color: green" width="12%">0.4</td>
+<td width="11%">59</td>
+<td width="11%">0.353</td>
+<td width="11%">6,047</td>
+</tr>, <tr>
+<td width="4%">382</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UTTARABANK">
+													UTTARABANK												</a>
+</td>
+<td width="10%">22.4</td>
+<td width="10%">22.9</td>
+<td width="12%">22.1</td>
+<td width="11%">22.4</td>
+<td width="12%">22.2</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">190</td>
+<td width="11%">8.278</td>
+<td width="11%">371,270</td>
+</tr>, <tr>
+<td width="4%">383</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=UTTARAFIN">
+													UTTARAFIN												</a>
+</td>
+<td width="10%">33.8</td>
+<td width="10%">33.8</td>
+<td width="12%">33.8</td>
+<td width="11%">33.8</td>
+<td width="12%">33.8</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">3</td>
+<td width="11%">0.006</td>
+<td width="11%">165</td>
+</tr>, <tr>
+<td width="4%">384</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=VAMLBDMF1">
+													VAMLBDMF1												</a>
+</td>
+<td width="10%">7.3</td>
+<td width="10%">7.3</td>
+<td width="12%">7.3</td>
+<td width="11%">7.3</td>
+<td width="12%">7.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1</td>
+<td width="11%">0</td>
+<td width="11%">2</td>
+</tr>, <tr>
+<td width="4%">385</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=VAMLRBBF">
+													VAMLRBBF												</a>
+</td>
+<td width="10%">0</td>
+<td width="10%">0</td>
+<td width="12%">0</td>
+<td width="11%">7.4</td>
+<td width="12%">7.4</td>
+<td style="color: black" width="12%">--</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+<td width="11%">0</td>
+</tr>, <tr>
+<td width="4%">386</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=VFSTDL">
+													VFSTDL												</a>
+</td>
+<td width="10%">22.2</td>
+<td width="10%">22.2</td>
+<td width="12%">22.2</td>
+<td width="11%">22.2</td>
+<td width="12%">22.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">2</td>
+<td width="11%">0.016</td>
+<td width="11%">702</td>
+</tr>, <tr>
+<td width="4%">387</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=WALTONHIL">
+													WALTONHIL												</a>
+</td>
+<td width="10%">1,047.7</td>
+<td width="10%">1,047.7</td>
+<td width="12%">1,047.7</td>
+<td width="11%">1,047.7</td>
+<td width="12%">1,047.7</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.117</td>
+<td width="11%">112</td>
+</tr>, <tr>
+<td width="4%">388</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=WATACHEM">
+													WATACHEM												</a>
+</td>
+<td width="10%">200.2</td>
+<td width="10%">200.2</td>
+<td width="12%">200.2</td>
+<td width="11%">200.2</td>
+<td width="12%">200.2</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">4</td>
+<td width="11%">0.037</td>
+<td width="11%">186</td>
+</tr>, <tr>
+<td width="4%">389</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=WMSHIPYARD">
+													WMSHIPYARD												</a>
+</td>
+<td width="10%">11.2</td>
+<td width="10%">11.2</td>
+<td width="12%">11</td>
+<td width="11%">11.2</td>
+<td width="12%">11</td>
+<td style="color: green" width="12%">0.2</td>
+<td width="11%">775</td>
+<td width="11%">32.318</td>
+<td width="11%">2,928,064</td>
+</tr>, <tr>
+<td width="4%">390</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=YPL">
+													YPL												</a>
+</td>
+<td width="10%">27.3</td>
+<td width="10%">28.4</td>
+<td width="12%">26.8</td>
+<td width="11%">27.3</td>
+<td width="12%">27.3</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">1,842</td>
+<td width="11%">98.502</td>
+<td width="11%">3,578,037</td>
+</tr>, <tr>
+<td width="4%">391</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ZAHEENSPIN">
+													ZAHEENSPIN												</a>
+</td>
+<td width="10%">11.4</td>
+<td width="10%">11.7</td>
+<td width="12%">10.5</td>
+<td width="11%">11.4</td>
+<td width="12%">10.7</td>
+<td style="color: green" width="12%">0.7</td>
+<td width="11%">2,083</td>
+<td width="11%">86.025</td>
+<td width="11%">7,534,866</td>
+</tr>, <tr>
+<td width="4%">392</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ZAHINTEX">
+													ZAHINTEX												</a>
+</td>
+<td width="10%">9</td>
+<td width="10%">9</td>
+<td width="12%">9</td>
+<td width="11%">9</td>
+<td width="12%">9</td>
+<td style="color: blue" width="12%">0</td>
+<td width="11%">221</td>
+<td width="11%">7.288</td>
+<td width="11%">809,825</td>
+</tr>, <tr>
+<td width="4%">393</td>
+<td width="15%">
+<a class="ab1" href="displayCompany.php?name=ZEALBANGLA">
+													ZEALBANGLA												</a>
+</td>
+<td width="10%">133.7</td>
+<td width="10%">134.1</td>
+<td width="12%">128.6</td>
+<td width="11%">132.3</td>
+<td width="12%">132.4</td>
+<td style="color: green" width="12%">1.3</td>
+<td width="11%">61</td>
+<td width="11%">0.763</td>
+<td width="11%">5,747</td>
+</tr>]
