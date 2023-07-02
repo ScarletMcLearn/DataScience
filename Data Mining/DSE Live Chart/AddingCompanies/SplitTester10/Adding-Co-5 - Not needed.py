@@ -1,6 +1,6 @@
 from Utils.Utilities import *
 from Utils.ColDataSource import *
-from CompanyList1 import *
+from CompanyList5 import *
 from Utils.Glyphs import generate_gly_dictionary
 
 ######################################################################
@@ -10,19 +10,21 @@ from Utils.Glyphs import generate_gly_dictionary
 #
 #
 ######################################################################
-def update_data(pickle_data=False):
-                if pickle_data==True:
-                    html_content = read_shared_data()
-                    soup = BeautifulSoup(html_content, 'html.parser')
-                    all_tr = soup.findAll('div', class_='table-responsive inner-scroll')[0].findAll('tr')
-                else:
-                    all_tr = get_all_data()
+def update_data():
+                
+                html_content = read_shared_data()
+                soup = BeautifulSoup(html_content, 'html.parser')
+
+                all_tr = soup.findAll('div', class_='table-responsive inner-scroll')[0].findAll('tr')
                 # stream_data = dict(x=[datetime.now()])
                 stream_data = dict(x=[datetime.now()])
                 for i in range(len(company_lst)):
                     stream_data.update(get_co_data(company_lst[i], all_tr))
-                    # time.sleep(3)         
+                    # time.sleep(3)
+                    
                 # new_data = stream_data
+
+    
                 source.stream(stream_data, #new_data, 
                               # 100
                               1000
@@ -40,15 +42,11 @@ def update_data(pickle_data=False):
 #
 #
 ######################################################################
-width=2150 
-height=10000    # 4000
-
 p = figure(x_axis_type='datetime', 
            # y_range=(-100, 100),
-           width=width, height=height,    # 950  1400 2000
+           width=2150, height=4000,    # 950  1400 2000
            title="Dhaka Stock Exchange Live Change",
-           output_backend="webgl",
-           lod_factor=20
+           output_backend="webgl"
           )
 
 y_range=(-100, 100)
@@ -72,8 +70,6 @@ p.xaxis.formatter = DatetimeTickFormatter(
                                          )
 
 curdoc().theme = 'dark_minimal'
-
-curdoc().title = "DSE Live Chart - Marico-Queensouth"
 
 # Get the script start time
 start_time = datetime.now()

@@ -1,6 +1,6 @@
 from Utils.Utilities import *
 from Utils.ColDataSource import *
-from CompanyList1 import *
+from CompanyList2 import *
 from Utils.Glyphs import generate_gly_dictionary
 
 ######################################################################
@@ -32,7 +32,6 @@ def update_data(pickle_data=False):
 
 
 
-
 ######################################################################
 #
 #
@@ -40,12 +39,9 @@ def update_data(pickle_data=False):
 #
 #
 ######################################################################
-width=2150 
-height=10000    # 4000
-
 p = figure(x_axis_type='datetime', 
            # y_range=(-100, 100),
-           width=width, height=height,    # 950  1400 2000
+           width=2150, height=4000,    # 950  1400 2000
            title="Dhaka Stock Exchange Live Change",
            output_backend="webgl",
            lod_factor=20
@@ -73,7 +69,7 @@ p.xaxis.formatter = DatetimeTickFormatter(
 
 curdoc().theme = 'dark_minimal'
 
-curdoc().title = "DSE Live Chart - Marico-Queensouth"
+curdoc().title = "DSE Live Chart - RELIANCE1-IBP"
 
 # Get the script start time
 start_time = datetime.now()
