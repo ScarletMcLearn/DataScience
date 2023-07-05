@@ -69,7 +69,7 @@ markupsafe==2.1.2
 python-json-logger==2.0.7
 mistune==2.0.5
 tomli==2.0.1
-grpcio==1.51.3
+grpcio==1.53.0
 urllib3==1.26.14
 numpy==1.24.2
 six==1.16.0
