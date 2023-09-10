@@ -1,0 +1,162 @@
+1694269115321	geckodriver	INFO	Listening on 127.0.0.1:45421
+1694269115880	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileO1Cr4r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1694269117503	Marionette	INFO	Marionette enabled
+1694269117655	Marionette	INFO	Listening on port 40187
+WebDriver BiDi listening on ws://127.0.0.1:42633
+Read port: 40187
+1694269117927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42633/devtools/browser/5e9feb15-e69c-4a9f-b013-ac5bfafa9a3f
+1694269122527	Marionette	INFO	Stopped listening on port 40187
+1694269172930	geckodriver	INFO	Listening on 127.0.0.1:35283
+1694269173503	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFifhYd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1694269174722	Marionette	INFO	Marionette enabled
+1694269174834	Marionette	INFO	Listening on port 42159
+WebDriver BiDi listening on ws://127.0.0.1:57717
+Read port: 42159
+1694269175046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57717/devtools/browser/615fcb04-d0c3-4d16-bc1c-68bb85872ab7
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yc/l/en_GB/JS56naCox55.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694269215407	Marionette	INFO	Stopped listening on port 42159
+1694269360280	geckodriver	INFO	Listening on 127.0.0.1:35645
+1694269360867	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepMPHyz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694269361438	Marionette	INFO	Marionette enabled
+1694269361523	Marionette	INFO	Listening on port 41363
+WebDriver BiDi listening on ws://127.0.0.1:34289
+Read port: 41363
+1694269361776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34289/devtools/browser/75f82c0f-c513-4073-aaf3-489f71109ada
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yc/l/en_GB/JS56naCox55.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1694330111103	geckodriver	INFO	Listening on 127.0.0.1:60301
+1694330111652	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3EWSte"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694330112494	Marionette	INFO	Marionette enabled
+1694330112645	Marionette	INFO	Listening on port 35123
+WebDriver BiDi listening on ws://127.0.0.1:34583
+Read port: 35123
+1694330112880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34583/devtools/browser/bb25d1fd-662d-44f6-bd63-e58efc2e34ef
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yc/l/en_GB/JS56naCox55.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81CWfJXVKlsu8MGYrMOugZJXbT_ZbGgEcWoW7e6PqgM.js line 2 > eval line 7226 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81CWfJXVKlsu8MGYrMOugZJXbT_ZbGgEcWoW7e6PqgM.js line 2 > eval line 2036 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+1694336704525	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81CWfJXVKlsu8MGYrMOugZJXbT_ZbGgEcWoW7e6PqgM.js line 2 > eval line 7447 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81CWfJXVKlsu8MGYrMOugZJXbT_ZbGgEcWoW7e6PqgM.js line 2 > eval line 1112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694338386128	Marionette	INFO	Stopped listening on port 35123
+1694338683430	geckodriver	INFO	Listening on 127.0.0.1:37593
+1694338683988	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 80" "--remote-debugging-port" "46171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewqdY1m"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694338684727	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -window-size\n"
+1694338684854	Marionette	INFO	Listening on port 42773
+WebDriver BiDi listening on ws://127.0.0.1:46171
+Read port: 42773
+1694338685150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46171/devtools/browser/f1562eb8-5b9b-4c67-b955-5520aa30a3ec
+1694338697297	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3m8HFB-ShPtDzcYempcQY_ASUwv-AHBHVawPPC3Nvm0.js line 2 > eval line 1952 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694338754695	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694338807030	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694338859594	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81CWfJXVKlsu8MGYrMOugZJXbT_ZbGgEcWoW7e6PqgM.js line 2 > eval line 1780 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3m8HFB-ShPtDzcYempcQY_ASUwv-AHBHVawPPC3Nvm0.js line 2 > eval line 4009 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yc/l/en_GB/JS56naCox55.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694339559326	geckodriver	INFO	Listening on 127.0.0.1:56415
+1694339559875	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 80" "--remote-debugging-port" "51805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekayf5A"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694339560597	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -window-size\n"
+1694339560747	Marionette	INFO	Listening on port 36289
+WebDriver BiDi listening on ws://127.0.0.1:51805
+Read port: 36289
+1694339560881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51805/devtools/browser/d4499b07-db1b-4e8b-b075-2b3585b561c0
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+1694339571796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1694339576705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1694339584294	Marionette	INFO	Stopped listening on port 36289
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694339715697	geckodriver	INFO	Listening on 127.0.0.1:41301
+1694339716260	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 80" "--remote-debugging-port" "42683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileul1GzD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694339716950	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -window-size\n"
+1694339717082	Marionette	INFO	Listening on port 39223
+WebDriver BiDi listening on ws://127.0.0.1:42683
+Read port: 39223
+1694339717410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42683/devtools/browser/f213d4a9-4933-4e78-889d-d7dbd276b54b
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694339780609	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: Object
+1694339814340	Marionette	INFO	Stopped listening on port 39223
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694339899914	geckodriver	INFO	Listening on 127.0.0.1:49861
+1694339900452	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 80" "--remote-debugging-port" "56327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaRZbiS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694339901127	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -window-size\n"
+1694339901251	Marionette	INFO	Listening on port 36131
+WebDriver BiDi listening on ws://127.0.0.1:56327
+Read port: 36131
+1694339901571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56327/devtools/browser/2ee37100-f602-4660-abda-b14bbeb8b7e2
+1694339909725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3m8HFB-ShPtDzcYempcQY_ASUwv-AHBHVawPPC3Nvm0.js line 2 > eval line 3807 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694339917648	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1694339921313	Marionette	INFO	Stopped listening on port 36131
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
