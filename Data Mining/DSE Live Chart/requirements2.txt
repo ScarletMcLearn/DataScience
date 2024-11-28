@@ -47,7 +47,7 @@ prompt-toolkit==3.0.37
 pyparsing==3.0.9
 charset-normalizer==3.0.1
 platformdirs==3.0.0
-requests==2.28.2
+requests==2.31.0
 pycparser==2.21
 jupyterlab-server==2.19.0
 fastjsonschema==2.16.3
